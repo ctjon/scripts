@@ -1,0 +1,22 @@
+# .bash_profile
+
+# Get the aliases and functions
+if [ -f ~/.bashrc ]; then
+	. ~/.bashrc
+fi
+
+# User specific environment and startup programs
+
+export PATH=$PATH:/sbin:/usr/sbin:$HOME/bin:/opt/cxoffice/bin:/usr/java/jdk1.5.0/bin:/usr/local/eclipse/bin
+export MANPATH=$MANPATH:/usr/local/bnetd/man:/usr/local/man
+
+unset USERNAME
+export PS1="`/usr/bin/whoami`@`/bin/hostname`:\$PWD> "
+alias ls="/bin/ls -FC"
+alias sc="cedega --managed -- TransGaming_Drive/Program\ Files/Starcraft/starcraft.exe"
+alias treich="/usr/bin/dosbox --config=/home/chris/dosbox/dosbox.conf"
+export ORACLE_HOME=/opt/ORACLE/product/10.1.0/apolloDB
+export PATH=$PATH:/usr/local/firefox:/usr/java/jdk1.5.0/bin:/usr/local/eclipse
+export ORACLE_SID=apolloDB
+export PATH=$PATH:$ORACLE_HOME/bin
+export LD_LIBRARY_PATH=/lib:/usr/lib:/usr/local/lib

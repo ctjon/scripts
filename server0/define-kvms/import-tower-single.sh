@@ -1,0 +1,12 @@
+virt-install \
+-n tower \
+--description "Ansible-Tower" \
+--os-type=Linux \
+--os-variant=rhel7 \
+--ram=4096 \
+--vcpus=2 \
+--disk path=/home/chris/kvm-vms/tower.qcow2,bus=virtio \
+--graphics vnc \
+--network type=direct,source=vmnet1
+--boot hd,network,menu=on \
+--import

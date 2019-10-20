@@ -1,0 +1,11 @@
+virt-install --import \
+-n tower-p51s \
+--description "Ansible Tower on p51s" \
+--os-type=linux \
+--os-variant=rhel7 \
+--ram=4096 \
+--vcpus=2 \
+--disk path=/home/chris/kvm-vms/TowerVM.qcow2,bus=virtio,size=20 \
+--graphics vnc \
+--network network=vnet_nat1,model=virtio \
+--boot hd,network,menu=on

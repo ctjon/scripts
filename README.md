@@ -1,2 +1,6 @@
 # scripts
-Random scripts to do potentially useful things
+
+Potentially Useful shell scripts
+
+THESE CAN VERY LIKELY BE BROKEN OR UNTESTED - DO NOT USE UNLESS YOU ARE AWARE
+

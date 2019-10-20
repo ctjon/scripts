@@ -1,0 +1,12 @@
+sudo virt-install \
+-n tower \
+--description "Ansible-Tower" \
+--os-type=Linux \
+--os-variant=rhel7.6 \
+--ram=4096 \
+--vcpus=4 \
+--disk path=/var/lib/libvirt/images/tower.x86_64.qcow2,bus=virtio,size=24 \
+--graphics vnc \
+--network type=bridge,source=br0 \
+--boot hd,network,menu=on \
+--pxe

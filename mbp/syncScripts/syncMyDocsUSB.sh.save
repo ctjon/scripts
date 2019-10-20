@@ -1,0 +1,58 @@
+#!/bin/bash
+echo "********************************************************************************"
+echo "syncing MyDocuments to USB"
+rsync -aHKz \
+--exclude=".*" \
+--exclude "lost+found" \
+--delete-excluded \
+--progress \
+~chris/MyDocuments/ /Volumes/DocumentsUSB/MyDocuments/
+
+echo "********************************************************************************"
+echo "syncing GoogleDrive to USB"
+rsync -aHKz \
+--exclude=".*" \
+--exclude "lost+found" \
+--delete-excluded \
+--progress \
+~chris/Google\ Drive/ /Volumes/DocumentsUSB/GoogleDrive/
+
+echo "********************************************************************************"
+echo "syncing Pictures to USB"
+rsync -aHKz \
+--exclude=".*" \
+--exclude "lost+found" \
+--delete-excluded \
+--progress \
+~chris/Pictures/ /Volumes/DocumentsUSB/Pictures/
+
+echo "********************************************************************************"
+echo "syncing Movies to USB"
+rsync -aHKz \
+--exclude=".*" \
+--exclude "lost+found" \
+--delete-excluded \
+--progress \
+~chris/Movies/ /Volumes/DocumentsUSB/Movies/
+
+echo "********************************************************************************"
+echo "syncing Music to USB"
+mkdir -p /Volumes/DocumentsUSB/iTunes\ Media/Music
+rsync -aHKz \
+--exclude=".*" \
+--exclude "lost+found" \
+--delete-excluded \
+--progress \
+~chris/Music/iTunes/iTunes\ Media/Music/ /Volumes/DocumentsUSB/iTunes\ Media/Music
+
+echo "********************************************************************************"
+echo "syncing Home Videos to USB"
+mkdir -p /Volumes/DocumentsUSB/iTunes\ Media/Home\ Videos
+rsync -aHKz \
+--exclude=".*" \
+--exclude "lost+found" \
+--delete-excluded \
+--progress \
+~chris/Music/iTunes/iTunes\ Media/Home\ Videos/ /Volumes/DocumentsUSB/iTunes\ Media/Home\ Videos
+
+echo "********************************************************************************"

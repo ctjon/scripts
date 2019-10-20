@@ -1,0 +1,11 @@
+virt-install --import \
+-n win10x64vm \
+--description "Windows10x64vm" \
+--os-type=windows \
+--os-variant=win8.1 \
+--ram=4096 \
+--vcpus=2 \
+--disk path=/var/lib/libvirt/images/win10x64.qcow2,bus=virtio,size=10 \
+--graphics vnc,listen=0.0.0.0 \
+--boot hd,network,menu=on \
+--network bridge:virbr0

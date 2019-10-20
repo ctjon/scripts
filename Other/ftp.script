@@ -1,0 +1,16 @@
+#!/bin/sh
+HOST='192.168.1.4'
+USER='chris'
+PASSWD='passwd'
+
+ftp -n $HOST <<END_SCRIPT
+quote USER $USER
+quote PASS $PASSWD
+dir
+cd array1/Scratch
+prompt
+hash
+mput linux-2.4.20.*
+quit
+END_SCRIPT
+exit 0

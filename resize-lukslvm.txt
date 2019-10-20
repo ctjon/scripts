@@ -1,0 +1,56 @@
+
+ Resize an luks encrypted /home filesystem adding 100gb
+
+
+ Run "lsblk" to get the mapping of luks to lvm devices
+
+# lsblk
+NAME                                            MAJ:MIN RM   SIZE RO TYPE  MOUNTPOINT
+sda                                               8:0    0   1.9T  0 disk  
+├─sda1                                            8:1    0   260M  0 part  
+├─sda2                                            8:2    0    16M  0 part  
+├─sda3                                            8:3    0   256G  0 part  
+├─sda4                                            8:4    0  1000M  0 part  
+├─sda5                                            8:5    0   256M  0 part  /boot/efi
+├─sda6                                            8:6    0   256M  0 part  /boot
+└─sda7                                            8:7    0   1.6T  0 part  
+  ├─p51s_vg-rootlv                              253:0    0     1G  0 lvm   
+  │ └─luks-fc9a387d-0b8c-4841-ac23-054a5f04eb40 253:5    0     1G  0 crypt /
+  ├─p51s_vg-swaplv                              253:1    0    32G  0 lvm   
+  │ └─luks-c70507ea-6f15-4fbb-86e4-d7241e609ec2 253:3    0    32G  0 crypt [SWAP]
+  ├─p51s_vg-usrlv                               253:2    0    12G  0 lvm   
+  │ └─luks-0e362ac9-5eeb-4830-8ed1-fcf1128ee527 253:4    0    12G  0 crypt /usr
+  ├─p51s_vg-exportlv                            253:6    0    36M  0 lvm   
+  │ └─luks-f45389c4-462c-4b1e-a036-23c0eb287387 253:16   0    34M  0 crypt /export
+  ├─p51s_vg-loglv                               253:7    0     1G  0 lvm   
+  │ └─luks-71440316-3021-4dab-bc59-7af7ceba19c4 253:21   0     1G  0 crypt /var/log
+  ├─p51s_vg-cachelv                             253:8    0     4G  0 lvm   
+  │ └─luks-c4316e56-8e48-4af9-854a-97bdabe5336b 253:15   0     4G  0 crypt /var/cache
+  ├─p51s_vg-tmplv                               253:9    0    10G  0 lvm   
+  │ └─luks-8b907969-e8a6-4809-9c31-4dd1b359215f 253:17   0    10G  0 crypt /tmp
+  ├─p51s_vg-homelv                              253:10   0   700G  0 lvm   
+  │ └─luks-d7c21f36-1631-48b0-9aa1-a9950f0b4d5f 253:20   0   700G  0 crypt /home
+  ├─p51s_vg-varlv                               253:11   0     3G  0 lvm   
+  │ └─luks-79fed7d6-abc4-452b-a6c4-0b2a49f8a8a9 253:18   0     3G  0 crypt /var
+  ├─p51s_vg-installlv                           253:12   0   600G  0 lvm   
+  │ └─luks-19692bf3-5067-40f6-b7aa-0829fc4bea63 253:19   0   600G  0 crypt /export/install
+  ├─p51s_vg-tftpbootlv                          253:13   0     1G  0 lvm   
+  │ └─luks-ac7a7b3d-83cb-42d6-9f4c-939557a5c80a 253:22   0  1022M  0 crypt /var/lib/tftpboot
+  └─p51s_vg-optlv                               253:14   0     1G  0 lvm   
+sdb                                               8:16   1 238.8G  0 disk  
+└─sdb1                                            8:17   1 238.8G  0 part  /export/archive
+
+ We will be resizing /home so we will need to focus on that info
+  ├─p51s_vg-homelv                              253:10   0   700G  0 lvm
+  │ └─luks-d7c21f36-1631-48b0-9aa1-a9950f0b4d5f 253:20   0   700G  0 crypt /home
+
+
+ Then run lvextend to resize the lv
+# lvextend -L +100g /dev/p51s_vg/homelv 
+
+ Then run cryptsetup to get the luks map resized
+# cryptsetup resize luks-d7c21f36-1631-48b0-9aa1-a9950f0b4d5f
+
+ Then resize the filesystem in the luks volume to enable the free diskspace
+# resize2fs /dev/mapper/luks-d7c21f36-1631-48b0-9aa1-a9950f0b4d5f
+

@@ -1,0 +1,15 @@
+server ns.internal.tjon.net
+zone internal.tjon.net
+update delete tivo-fr.internal.tjon.net. A
+update delete p5hmc.internal.tjon.net. A
+update add tivo-fr.internal.tjon.net. 0 A 10.51.50.4
+update add p5hmc.internal.tjon.net. 0 A 10.51.50.5
+show
+send
+zone 50.51.10.in-addr.arpa
+update delete 4.50.51.10.in-addr.arpa PTR
+update delete 5.50.51.10.in-addr.arpa PTR
+update add 4.50.51.10.in-addr.arpa 0 PTR tivo-fr.internal.tjon.net.
+update add 5.50.51.10.in-addr.arpa 0 PTR p5hmc.internal.tjon.net.
+show
+send
