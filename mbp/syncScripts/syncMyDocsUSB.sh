@@ -6,29 +6,62 @@ rsync -aHKz \
 --exclude "lost+found" \
 --delete-excluded \
 --progress \
-~chris/MyDocuments/ /Volumes/DocumentsUSB/MyDocuments/
-touch /Volumes/DocumentsUSB/MyDocuments/timestamp
+~chris/MyDocuments/ /Volumes/MyDocumentsUSB/MyDocuments/
+touch /Volumes/MyDocumentsUSB/MyDocuments/timestamp
 
 echo "********************************************************************************"
-echo "syncing Downloads to USB"
-mkdir -p /Volumes/DocumentsUSB/Downloads
+echo "syncing scripts to USB"
+mkdir -p /Volumes/MyDocumentsUSB/scripts
 rsync -e ssh -aHKz \
 --exclude=".*" \
 --exclude "lost+found" \
 --delete-excluded \
 --progress \
-~chris/Downloads/ /Volumes/DocumentsUSB/Downloads
-touch /Volumes/DocumentsUSB/Downloads/timestamp
+~chris/scripts/ /Volumes/MyDocumentsUSB/scripts
+touch /Volumes/MyDocumentsUSB/scripts/timestamp
 
 echo "********************************************************************************"
-echo "syncing GoogleDrive to USB"
-rsync -aHKz \
+echo "syncing playbooks to USB"
+mkdir -p /Volumes/MyDocumentsUSB/playbooks
+rsync -e ssh -aHKz \
 --exclude=".*" \
 --exclude "lost+found" \
 --delete-excluded \
 --progress \
-~chris/Google\ Drive/ /Volumes/DocumentsUSB/GoogleDrive/
-touch /Volumes/DocumentsUSB/GoogleDrive/timestamp
+~chris/playbooks/ /Volumes/MyDocumentsUSB/playbooks
+touch /Volumes/MyDocumentsUSB/playbooks/timestamp
+
+echo "********************************************************************************"
+echo "syncing RhDocuments to USB"
+mkdir -p /Volumes/MyDocumentsUSB/RhDocuments
+rsync -e ssh -aHKz \
+--exclude=".*" \
+--exclude "lost+found" \
+--delete-excluded \
+--progress \
+~chris/RhDocuments/ /Volumes/MyDocumentsUSB/RhDocuments
+touch /Volumes/MyDocumentsUSB/RhDocuments/timestamp
+
+echo "********************************************************************************"
+echo "syncing Downloads to USB"
+mkdir -p /Volumes/MyDocumentsUSB/Downloads
+rsync -e ssh -aHKz \
+--exclude=".*" \
+--exclude "lost+found" \
+--delete-excluded \
+--progress \
+~chris/Downloads/ /Volumes/MyDocumentsUSB/Downloads
+touch /Volumes/MyDocumentsUSB/Downloads/timestamp
+
+#echo "********************************************************************************"
+#echo "syncing GoogleDrive to USB"
+#rsync -aHKz \
+#--exclude=".*" \
+#--exclude "lost+found" \
+#--delete-excluded \
+#--progress \
+#~chris/Google\ Drive/ /Volumes/MyDocumentsUSB/GoogleDrive/
+#touch /Volumes/MyDocumentsUSB/GoogleDrive/timestamp
 
 echo "********************************************************************************"
 echo "syncing Pictures to USB"
@@ -37,39 +70,39 @@ rsync -aHKz \
 --exclude "lost+found" \
 --delete-excluded \
 --progress \
-~chris/Pictures/ /Volumes/DocumentsUSB/Pictures/
-touch /Volumes/DocumentsUSB/Pictures/timestamp
+~chris/Pictures/ /Volumes/MyDocumentsUSB/Pictures/
+touch /Volumes/MyDocumentsUSB/Pictures/timestamp
 
-echo "********************************************************************************"
-echo "syncing Movies to USB"
-rsync -aHKz \
---exclude=".*" \
---exclude "lost+found" \
---delete-excluded \
---progress \
-~chris/Movies/ /Volumes/DocumentsUSB/Movies/
+#echo "********************************************************************************"
+#echo "syncing Movies to USB"
+#rsync -aHKz \
+#--exclude=".*" \
+#--exclude "lost+found" \
+#--delete-excluded \
+#--progress \
+#~chris/Movies/ /Volumes/MyDocumentsUSB/Movies/
 
 echo "********************************************************************************"
 echo "syncing Music to USB"
-mkdir -p /Volumes/DocumentsUSB/iTunes\ Media/Music
+mkdir -p /Volumes/MyDocumentsUSB/Music
 rsync -aHKz \
 --exclude=".*" \
 --exclude "lost+found" \
 --delete-excluded \
 --progress \
-~chris/Music/iTunes/iTunes\ Media/Music/ /Volumes/DocumentsUSB/iTunes\ Media/Music
-touch /Volumes/DocumentsUSB/iTunes\ Media/Music/timestamp
+~chris/Music/Music/ /Volumes/MyDocumentsUSB/Music
+touch /Volumes/MyDocumentsUSB/Music/timestamp
 
 echo "********************************************************************************"
 echo "syncing Home Videos to USB"
-mkdir -p /Volumes/DocumentsUSB/iTunes\ Media/Home\ Videos
+mkdir -p /Volumes/MyDocumentsUSB/HomeVideos
 rsync -aHKz \
 --exclude=".*" \
 --exclude "lost+found" \
 --delete-excluded \
 --progress \
-~chris/Music/iTunes/iTunes\ Media/Home\ Videos/ /Volumes/DocumentsUSB/iTunes\ Media/Home\ Videos
-touch /Volumes/DocumentsUSB/iTunes\ Media/Home\ Videos/timestamp
+/Volumes/MediaLibrary/TV/Media/Home\ Videos/ /Volumes/MyDocumentsUSB/HomeVideos
+touch /Volumes/MyDocumentsUSB/HomeVideos/timestamp
 
 #echo "********************************************************************************"
 #echo "syncing Select VMs to USB"
@@ -80,6 +113,6 @@ touch /Volumes/DocumentsUSB/iTunes\ Media/Home\ Videos/timestamp
 #  --exclude "lost+found" \
 #  --delete-excluded \
 #  --progress \
-#  ~chris/VirtualMachines/$i /Volumes/DocumentsUSB/VirtualMachines/
+#  ~chris/VirtualMachines/$i /Volumes/MyDocumentsUSB/VirtualMachines/
 #done
 #echo "********************************************************************************"

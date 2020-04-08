@@ -1,9 +1,9 @@
 #!/bin/bash
 
-rsync -e ssh -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
-/ \
---exclude=/Volumes/ \
---delete-excluded \
-chris@server0:/export/mbp
-
+./sync-centos.sh
+./sync-epel.sh
+./sync-epel-archive.sh
+./sync-virtio-win.sh
+./sync-fedora.sh
+#./sync-openbsd.sh
 
