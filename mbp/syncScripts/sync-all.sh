@@ -5,5 +5,5 @@
 ./sync-epel-archive.sh
 ./sync-virtio-win.sh
 ./sync-fedora.sh
-#./sync-openbsd.sh
+./sync-openbsd.sh
 

@@ -27,6 +27,7 @@ do
 	--include='ppc' \
 	--include='ppc64' \
 	--include='ppc64le' \
+	--include='*.iso' \
 	--include='*.qcow2' \
 	--exclude='development' \
 	--exclude='updates/testing' \
@@ -41,7 +42,6 @@ do
 	--exclude='ia64' \
 	--exclude='s390' \
 	--exclude='s390x' \
-	--exclude='*.iso' \
 	--exclude='*.torrent' \
 	--exclude='*.box' \
 	--exclude='*.raw.xz' \
@@ -82,6 +82,7 @@ do
 	--include=ppc \
 	--include=ppc64 \
 	--include=ppc64le \
+	--include=*.iso \
 	--include=*.qcow2 \
 	--exclude=development \
 	--exclude=updates/testing \
@@ -96,7 +97,6 @@ do
 	--exclude=ia64 \
 	--exclude=s390 \
 	--exclude=s390x \
-	--exclude=*.iso \
 	--exclude=*.torrent \
 	--exclude=*.box \
 	--exclude=*.raw.xz \

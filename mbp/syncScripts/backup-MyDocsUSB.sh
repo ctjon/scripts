@@ -32,17 +32,6 @@ rsync -e ssh -aHKz \
 touch /Volumes/MyDocumentsUSB/playbooks/timestamp
 
 echo "********************************************************************************"
-echo "syncing RhDocuments to USB"
-mkdir -p /Volumes/MyDocumentsUSB/RhDocuments
-rsync -e ssh -aHKz \
---exclude=".*" \
---exclude "lost+found" \
---delete-excluded \
---progress \
-~chris/RhDocuments/ /Volumes/MyDocumentsUSB/RhDocuments
-touch /Volumes/MyDocumentsUSB/RhDocuments/timestamp
-
-echo "********************************************************************************"
 echo "syncing Downloads to USB"
 mkdir -p /Volumes/MyDocumentsUSB/Downloads
 rsync -e ssh -aHKz \
@@ -103,16 +92,3 @@ rsync -aHKz \
 --progress \
 /Volumes/MediaLibrary/TV/Media/Home\ Videos/ /Volumes/MyDocumentsUSB/HomeVideos
 touch /Volumes/MyDocumentsUSB/HomeVideos/timestamp
-
-#echo "********************************************************************************"
-#echo "syncing Select VMs to USB"
-#for i in trpc.vmwarevm Win10x64vm.vmwarevm
-#do 
-#  rsync -aHKz \
-#  --exclude=".*" \
-#  --exclude "lost+found" \
-#  --delete-excluded \
-#  --progress \
-#  ~chris/VirtualMachines/$i /Volumes/MyDocumentsUSB/VirtualMachines/
-#done
-#echo "********************************************************************************"
