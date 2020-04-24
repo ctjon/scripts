@@ -22,18 +22,20 @@ do
         --include 'x86_64' \
         --include 'source' \
         --include 'SRPMS' \
-        --include 'aarch64' \
-        --include 'ppc' \
-        --include 'ppc64' \
-        --include 'ppc64le' \
         --include '*.iso' \
         --include '*.qcow2' \
+        --include '*.vmdk' \
+        --include '*.raw.xz' \
         --exclude 'development' \
         --exclude 'updates/testing' \
         --exclude 'releases/test' \
         --exclude 'debug' \
         --exclude 'beta' \
         --exclude 'testing' \
+        --exclude 'aarch64' \
+        --exclude 'ppc' \
+        --exclude 'ppc64' \
+        --exclude 'ppc64le' \
         --exclude 'arm' \
         --exclude 'armhfp' \
         --exclude 'i386' \
@@ -43,7 +45,6 @@ do
         --exclude 's390x' \
         --exclude '*.torrent' \
         --exclude '*.box' \
-        --exclude '*.raw.xz' \
 	--exclude='2' \
 	--exclude='2.?' \
 	--exclude='3' \

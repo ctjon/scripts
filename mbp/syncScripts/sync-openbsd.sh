@@ -21,11 +21,11 @@ do
 	rsync -aHKvz --keep-dirlinks --delete-during \
 	--delete-excluded --progress \
         --include=amd64 \
-        --include=arm \
-        --include=armish \
-        --include=armv7 \
-        --include=arm64 \
-        --include=aarch64 \
+        --exclude=arm \
+        --exclude=armish \
+        --exclude=armv7 \
+        --exclude=arm64 \
+        --exclude=aarch64 \
         --exclude=alpha \
         --exclude=snapshots \
         --exclude=songs \

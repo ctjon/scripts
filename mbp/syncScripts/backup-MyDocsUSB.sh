@@ -8,6 +8,16 @@ rsync -aHKz \
 --progress \
 ~chris/MyDocuments/ /Volumes/MyDocumentsUSB/MyDocuments/
 touch /Volumes/MyDocumentsUSB/MyDocuments/timestamp
+echo "********************************************************************************"
+
+echo "syncing OneDrive to USB"
+rsync -aHKz \
+--exclude=".*" \
+--exclude "lost+found" \
+--delete-excluded \
+--progress \
+~chris/OneDrive\ -\ tjon.net/ /Volumes/MyDocumentsUSB/OneDrive\ -\ tjon.net//
+touch /Volumes/MyDocumentsUSB/OneDrive\ -\ tjon.net/timestamp
 
 echo "********************************************************************************"
 echo "syncing scripts to USB"

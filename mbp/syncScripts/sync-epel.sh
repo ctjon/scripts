@@ -22,10 +22,10 @@ do
         --include 'x86_64' \
         --include 'source' \
         --include 'SRPMS' \
-        --include 'aarch64' \
-        --include 'ppc' \
-        --include 'ppc64' \
-        --include 'ppc64le' \
+        --exclude 'aarch64' \
+        --exclude 'ppc' \
+        --exclude 'ppc64' \
+        --exclude 'ppc64le' \
         --include '*.iso' \
         --include '*.qcow2' \
         --exclude 'development' \

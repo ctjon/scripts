@@ -1,0 +1,1 @@
+0 0 * * * /home/chris/scripts/mail-ip.sh > /home/chris/logs/mail-ip.out 2>&1
