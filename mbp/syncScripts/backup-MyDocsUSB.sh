@@ -72,15 +72,6 @@ rsync -aHKz \
 ~chris/Pictures/ /Volumes/MyDocumentsUSB/Pictures/
 touch /Volumes/MyDocumentsUSB/Pictures/timestamp
 
-#echo "********************************************************************************"
-#echo "syncing Movies to USB"
-#rsync -aHKz \
-#--exclude=".*" \
-#--exclude "lost+found" \
-#--delete-excluded \
-#--progress \
-#~chris/Movies/ /Volumes/MyDocumentsUSB/Movies/
-
 echo "********************************************************************************"
 echo "syncing Music to USB"
 mkdir -p /Volumes/MyDocumentsUSB/Music
@@ -92,13 +83,3 @@ rsync -aHKz \
 ~chris/Music/Music/ /Volumes/MyDocumentsUSB/Music
 touch /Volumes/MyDocumentsUSB/Music/timestamp
 
-#echo "********************************************************************************"
-#echo "syncing Home Videos to USB"
-#mkdir -p /Volumes/MyDocumentsUSB/HomeVideos
-#rsync -aHKz \
-#--exclude=".*" \
-#--exclude "lost+found" \
-#--delete-excluded \
-#--progress \
-#/Volumes/MediaLibrary/TV/Media/Home\ Videos/ /Volumes/MyDocumentsUSB/HomeVideos
-#touch /Volumes/MyDocumentsUSB/HomeVideos/timestamp
