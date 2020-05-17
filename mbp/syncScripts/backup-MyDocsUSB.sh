@@ -92,13 +92,13 @@ rsync -aHKz \
 ~chris/Music/Music/ /Volumes/MyDocumentsUSB/Music
 touch /Volumes/MyDocumentsUSB/Music/timestamp
 
-echo "********************************************************************************"
-echo "syncing Home Videos to USB"
-mkdir -p /Volumes/MyDocumentsUSB/HomeVideos
-rsync -aHKz \
---exclude=".*" \
---exclude "lost+found" \
---delete-excluded \
---progress \
-/Volumes/MediaLibrary/TV/Media/Home\ Videos/ /Volumes/MyDocumentsUSB/HomeVideos
-touch /Volumes/MyDocumentsUSB/HomeVideos/timestamp
+#echo "********************************************************************************"
+#echo "syncing Home Videos to USB"
+#mkdir -p /Volumes/MyDocumentsUSB/HomeVideos
+#rsync -aHKz \
+#--exclude=".*" \
+#--exclude "lost+found" \
+#--delete-excluded \
+#--progress \
+#/Volumes/MediaLibrary/TV/Media/Home\ Videos/ /Volumes/MyDocumentsUSB/HomeVideos
+#touch /Volumes/MyDocumentsUSB/HomeVideos/timestamp
