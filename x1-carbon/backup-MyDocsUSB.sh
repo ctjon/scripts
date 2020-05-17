@@ -1,7 +1,7 @@
 #!/bin/bash
-export USBPATH=/run/media/chris/DocumentsUSB
+export USBPATH=/run/media/chris/MyDocumentsUSB
 
-grive -p ~/GoogleDrive
+#grive -p ~/GoogleDrive
 
 echo "********************************************************************************"
 echo "syncing Home Directory to USB"
