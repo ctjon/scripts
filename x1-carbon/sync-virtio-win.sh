@@ -1,7 +1,8 @@
 #!/bin/sh
 #
 export SRCDIR=rsync://repos.fedorapeople.org/groups/virt/
-export TGTDIR=/export/install/Linux/virtio-win
+#export TGTDIR=/export/install/Linux/virtio-win
+export TGTDIR=/run/media/chris/Backup/install/Linux/virtio-win
 
 mkdir -p $TGTDIR
 
@@ -14,6 +15,9 @@ do
 	date
 	rsync -aHKvz --keep-dirlinks --delete --delete-during \
 	--delete-excluded --progress \
+        --exclude='virt-preview/fedora-2[0-9]' \
+        --exclude='virt-preview/fedora-3[0-0]' \
+        --exclude='deprecated-isos' \
  	$SRCDIR $TGTDIR
 done
 

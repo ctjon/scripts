@@ -1,9 +1,7 @@
 #!/bin/bash
 
-./sync-centos.sh
-./sync-epel.sh
-./sync-epel-archive.sh
-./sync-virtio-win.sh
-./sync-fedora.sh
-./sync-openbsd.sh
-
+~/scripts/x1-carbon/sync-centos.sh
+~/scripts/x1-carbon/sync-epel.sh
+~/scripts/x1-carbon/sync-virtio-win.sh
+~/scripts/x1-carbon/sync-fedora.sh
+~/scripts/x1-carbon/sync-openbsd.sh

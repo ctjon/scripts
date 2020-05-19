@@ -21,11 +21,11 @@ do
 	rsync -aHKvz --keep-dirlinks --delete-during \
 	--delete-excluded --progress \
         --include=amd64 \
-        --include=arm \
-        --include=armish \
-        --include=armv7 \
-        --include=arm64 \
-        --include=aarch64 \
+        --exclude=arm \
+        --exclude=armish \
+        --exclude=armv7 \
+        --exclude=arm64 \
+        --exclude=aarch64 \
         --exclude=alpha \
         --exclude=snapshots \
         --exclude=songs \
@@ -58,11 +58,11 @@ do
 	--exclude='3.*' \
 	--exclude='4.*' \
 	--exclude='5.*' \
-	--exclude='6.[0-4]' \
+	--exclude='6.[0-6]' \
 	--exclude='patches/2.*' \
 	--exclude='patches/3.*' \
 	--exclude='patches/4.*' \
 	--exclude='patches/5.*' \
-	--exclude='patches/6.[0-4]*' \
+	--exclude='patches/6.[0-6]*' \
  	$SRCDIR $TGTDIR
 done
