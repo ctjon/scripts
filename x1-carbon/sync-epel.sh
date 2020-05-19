@@ -24,10 +24,10 @@ do
         --include 'x86_64' \
         --include 'source' \
         --include 'SRPMS' \
-        --include 'aarch64' \
-        --include 'ppc' \
-        --include 'ppc64' \
-        --include 'ppc64le' \
+        --exclude 'aarch64' \
+        --exclude 'ppc' \
+        --exclude 'ppc64' \
+        --exclude 'ppc64le' \
         --include '*.qcow2' \
         --exclude 'development' \
         --exclude 'updates/testing' \
@@ -51,5 +51,9 @@ do
 	--exclude='4ES' \
 	--exclude='4WS' \
 	--exclude='RPM-GPG-KEY-EPEL-4' \
+	--exclude='5' \
+	--exclude='5Server' \
+	--exclude='5Client' \
+	--exclude='RPM-GPG-KEY-EPEL-5' \
  	$SRCDIR $TGTDIR
 done
