@@ -1,9 +1,9 @@
 #!/bin/bash
 
-./sync-centos.sh
-./sync-epel.sh
-./sync-epel-archive.sh
-./sync-virtio-win.sh
-./sync-fedora.sh
-./sync-openbsd.sh
+~/scripts/mbp/syncscripts//sync-centos.sh
+~/scripts/mbp/syncscripts//sync-epel.sh
+~/scripts/mbp/syncscripts//sync-epel-archive.sh
+~/scripts/mbp/syncscripts//sync-virtio-win.sh
+~/scripts/mbp/syncscripts//sync-fedora.sh
+~/scripts/mbp/syncscripts//sync-openbsd.sh
 

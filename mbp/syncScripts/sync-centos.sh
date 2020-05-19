@@ -22,7 +22,7 @@ do
         --include 'x86_64' \
         --include 'source' \
         --include 'SRPMS' \
-        --include '*.iso' \
+        --exclude '*.iso' \
         --include '*.qcow2' \
         --include '*.vmdk' \
         --include '*.raw.xz' \
