@@ -5,8 +5,7 @@
 #
 
 export SRCDIR=rsync://mirrors.kernel.org/fedora/
-#export TGTDIR=/export/install/Linux/fedora
-export TGTDIR=/run/media/chris/Backup/install/Linux/fedora
+export TGTDIR=/opt/local/install/Linux/fedora
 
 echo "********************************************************************************"
 echo "* Syncing Fedora Repos                                                         *"
@@ -64,8 +63,7 @@ do
 done
 
 export SRCDIR=rsync://mirrors.kernel.org/fedora-secondary/
-#export TGTDIR=/export/install/Linux/fedora-secondary
-export TGTDIR=/run/media/chris/Backup/install/Linux/fedora-secondary
+export TGTDIR=/opt/local/install/Linux/fedora-secondary
 
 #echo "********************************************************************************"
 #echo "* Syncing Fedora Secondary Repos                                               *"

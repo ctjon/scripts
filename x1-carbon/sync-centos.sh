@@ -8,8 +8,7 @@ echo "**************************************************************************
 echo "* UPDATING CENTOS BINARIES                                                     *"
 echo "********************************************************************************"
 export SRCDIR=rsync://mirrors.kernel.org/centos/
-#export TGTDIR=/export/install/Linux/centos
-export TGTDIR=/run/media/chris/Backup/install/Linux/centos
+export TGTDIR=/opt/local/install/Linux/centos
 
 # set return code to be false to force first iteration of while loop ironically this give error because it is an error:-)
 $? = 1

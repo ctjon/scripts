@@ -5,8 +5,7 @@
 #
 
 export SRCDIR=rsync://ftp5.usa.openbsd.org/ftp
-#export TGTDIR=/export/install/OpenBSD
-export TGTDIR=/run/media/chris/Backup/install/OpenBSD
+export TGTDIR=/opt/local/install/OpenBSD
 
 echo "********************************************************************************"
 echo "* UPDATING OpenBSD BINARIES                                                    *"

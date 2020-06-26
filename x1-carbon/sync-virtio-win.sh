@@ -1,8 +1,7 @@
 #!/bin/sh
 #
 export SRCDIR=rsync://repos.fedorapeople.org/groups/virt/
-#export TGTDIR=/export/install/Linux/virtio-win
-export TGTDIR=/run/media/chris/Backup/install/Linux/virtio-win
+export TGTDIR=/opt/local/install/Linux/virtio-win
 
 mkdir -p $TGTDIR
 

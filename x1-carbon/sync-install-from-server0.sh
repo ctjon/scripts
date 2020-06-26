@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SRCDIR=/opt/local/install
-NETDIR=chris@server0.internal.tjon.net:/export/install
+NETDIR=/opt/local/install
+SRCDIR=chris@server0.internal.tjon.net:/export/install
 
 rsync -e ssh -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \

@@ -5,8 +5,7 @@
 #
 
 export SRCDIR=rsync://mirrors.kernel.org/fedora-epel/
-#export TGTDIR=/export/install/Linux/epel
-export TGTDIR=/run/media/chris/Backup/install/Linux/epel
+export TGTDIR=/opt/local/install/Linux/epel
 
 echo "********************************************************************************"
 echo "* UPDATING EPEL BINARIES                                                       *"
