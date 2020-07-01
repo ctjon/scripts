@@ -80,6 +80,6 @@ rsync -aHKz \
 --exclude "lost+found" \
 --delete-excluded \
 --progress \
-~chris/Music/Music/ /Volumes/MyDocumentsUSB/Music
+~chris/Music/ /Volumes/MyDocumentsUSB/Music
 touch /Volumes/MyDocumentsUSB/Music/timestamp
 
