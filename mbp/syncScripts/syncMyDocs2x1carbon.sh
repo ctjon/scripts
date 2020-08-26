@@ -9,7 +9,7 @@ rsync -e ssh -aHKz \
 --exclude "lost+found" \
 --delete-excluded \
 --progress \
-~chris/MyDocuments/ chri
+~chris/MyDocuments/ chris@$X1CARBONIP:~/MyDocuments
 
 echo "********************************************************************************"
 echo "syncing Downloads to x1carbon"
