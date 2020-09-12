@@ -10,13 +10,23 @@ rsync -aHKz \
 touch /Volumes/MyDocumentsUSB/MyDocuments/timestamp
 echo "********************************************************************************"
 
+echo "syncing iCloudDrive to USB"
+rsync -aHKz \
+--exclude=".*" \
+--exclude "lost+found" \
+--delete-excluded \
+--progress \
+~chris/Library/Mobile\ Documents/com~apple~CloudDocs/ /Volumes/MyDocumentsUSB/iCloudDrive/
+touch ~/Library/Mobile\ Documents/com~apple~CloudDocs/timestamp
+echo "********************************************************************************"
+
 echo "syncing OneDrive to USB"
 rsync -aHKz \
 --exclude=".*" \
 --exclude "lost+found" \
 --delete-excluded \
 --progress \
-~chris/OneDrive\ -\ tjon.net/ /Volumes/MyDocumentsUSB/OneDrive\ -\ tjon.net//
+~chris/OneDrive\ -\ tjon.net/ /Volumes/MyDocumentsUSB/OneDrive\ -\ tjon.net/
 touch /Volumes/MyDocumentsUSB/OneDrive\ -\ tjon.net/timestamp
 
 echo "********************************************************************************"
