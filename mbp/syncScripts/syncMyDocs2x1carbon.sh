@@ -60,18 +60,18 @@ rsync -e ssh -aHKz \
 --exclude "lost+found" \
 --delete-excluded \
 --progress \
-~chris/Music/iTunes/iTunes\ Media/Music/ chris@$X1CARBONIP:/home/chris/Music
+~chris/Music/Media/ chris@$X1CARBONIP:/home/chris/Music/Media
 
-echo "********************************************************************************"
-echo "syncing Home Videos to x1carbon"
-#mkdir -p /Volumes/DocumentsUSB/iTunes\ Media/Home\ Videos
-touch ~chris/Music/iTunes/iTunes\ Media/Home\ Videos/timestamp
-rsync -e ssh -aHKz \
---exclude=".*" \
---exclude "lost+found" \
---delete-excluded \
---progress \
-~chris/Music/iTunes/iTunes\ Media/Home\ Videos/ chris@$X1CARBONIP:/home/chris/HomeVideos
+#echo "********************************************************************************"
+#echo "syncing Home Videos to x1carbon"
+##mkdir -p /Volumes/DocumentsUSB/iTunes\ Media/Home\ Videos
+#touch ~chris/Music/iTunes/iTunes\ Media/Home\ Videos/timestamp
+#rsync -e ssh -aHKz \
+#--exclude=".*" \
+#--exclude "lost+found" \
+#--delete-excluded \
+#--progress \
+#~chris/Music/iTunes/iTunes\ Media/Home\ Videos/ chris@$X1CARBONIP:/home/chris/HomeVideos
 
 #echo "********************************************************************************"
 #echo "syncing Select VMs to x1carbon"
