@@ -46,6 +46,7 @@ do
         --exclude=mvme88k \
         --exclude=octeon \
         --exclude=powerpc \
+        --exclude=powerpc64 \
         --exclude=sgi \
         --exclude=socppc \
         --exclude=sparc \
@@ -57,11 +58,11 @@ do
 	--exclude='3.*' \
 	--exclude='4.*' \
 	--exclude='5.*' \
-	--exclude='6.[0-6]' \
+	--exclude='6.[0-7]' \
 	--exclude='patches/2.*' \
 	--exclude='patches/3.*' \
 	--exclude='patches/4.*' \
 	--exclude='patches/5.*' \
-	--exclude='patches/6.[0-6]*' \
+	--exclude='patches/6.[0-7]*' \
  	$SRCDIR $TGTDIR
 done
