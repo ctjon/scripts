@@ -5,6 +5,7 @@ export ip_address=172.16.1.2
 export netmask=24
 export default_gateway=172.16.1.1
 export nameserver=172.16.1.1
+export pinghost=www.google.com
 
 sudo nmcli connection show
 uuid=`sudo nmcli connection show|grep $default_interface |awk '{ print $2 }'`
@@ -17,3 +18,5 @@ sudo nmcli connection modify $bridge_name ipv4.gateway $default_gateway
 sudo nmcli connection modify $bridge_name ipv4.dns $nameserver
 sudo nmcli connection show
 sudo nmcli connection up $bridge_name
+
+ping -c 10 $pinghost
