@@ -4,7 +4,8 @@ sudo virt-install --name iTunesServer \
 --description 'iTunesServer' \
 --ram 4096 \
 --vcpus 4 \
---disk path=/var/lib/libvirt/images/iTunesServer.x86_64.qcow2,device=disk,bus=virtio,size=40 \
+--disk path=/var/lib/libvirt/images/iTunesServer.qcow2,device=disk,bus=virtio,size=40 \
+--disk path=/dev/sda1,device=disk,bus=virtio,size=40 \
 --disk path=/usr/share/virtio-win/virtio-win.iso,device=cdrom,bus=ide \
 --os-type windows \
 --os-variant win10 \
