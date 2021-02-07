@@ -1,8 +1,8 @@
 export LIBVIRT_DEFAULT_URI=qemu:///system
 sudo virt-install --name Tower \
 --description 'Tower' \
---ram 2048 \
---vcpus 2 \
+--ram 4096 \
+--vcpus 4 \
 --disk path=/var/lib/libvirt/images/Tower.qcow2 \
 --os-type linux \
 --os-variant rhel8.3 \
