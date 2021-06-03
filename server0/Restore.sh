@@ -1,10 +1,10 @@
 #!/bin/bash
 ################################################################################
 echo "********************************************************************************"
-echo " Backing Up /home/chris                                                        *"
+echo " Restoring /home/chris                                                         *"
 echo "********************************************************************************"
-SRCDIR=/home/chris
-TGTDIR=/run/media/chris/Backup/chris.home
+SRCDIR=/run/media/chris/Backup/chris.home
+TGTDIR=/home/chris
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=lost+found \
@@ -12,14 +12,13 @@ rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --delete-before \
 --delete-excluded \
 $SRCDIR/ $TGTDIR
-chmod 700 $TGTDIR
 
 ################################################################################
 echo "********************************************************************************"
-echo " Backing Up /var/lib/tftpboot                                                  *"
+echo " Restoring /var/lib/tftpboot                                                   *"
 echo "********************************************************************************"
-SRCDIR=/var/lib/tftpboot
-TGTDIR=/run/media/chris/Backup/tftpboot
+SRCDIR=/run/media/chris/Backup/tftpboot
+TGTDIR=/var/lib/tftpboot
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
@@ -27,14 +26,13 @@ rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --delete-before \
 --delete-excluded \
 $SRCDIR/{pxelinux.cfg,images} $TGTDIR
-chmod 700 $TGTDIR
 
 ################################################################################
 echo "********************************************************************************"
-echo " Backing Up /export/archive                                                    *"
+echo " Restoring /export/archive                                                     *"
 echo "********************************************************************************"
-SRCDIR=/export/archive
-TGTDIR=/run/media/chris/Backup/archive
+SRCDIR=/run/media/chris/Backup/archive
+TGTDIR=/export/archive
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
@@ -42,13 +40,12 @@ rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --delete-before \
 --delete-excluded \
 $SRCDIR/ $TGTDIR
-chmod 700 $TGTDIR
 
 echo "********************************************************************************"
-echo " Backing Up /export/install                                                    *"
+echo " Restoring /export/install                                                     *"
 echo "********************************************************************************"
-SRCDIR=/export/install
-TGTDIR=/run/media/chris/Backup/install
+SRCDIR=/run/media/chris/Backup/install
+TGTDIR=/export/install
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
@@ -57,15 +54,12 @@ rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --delete-excluded \
 --exclude=ubuntu-reposyncs \
 $SRCDIR/ $TGTDIR
-chmod 700 $TGTDIR
 
 echo "********************************************************************************"
-echo " Backing Up /var/lib/libvirt/images                                            *"
-# NEED CODE TO QUIESCE VMS IN THIS BLOCK
-# ALL VMS NEED TO BE IN A PROPER STATE FOR BACKUP - shutdown/paused
+echo " Restoring /var/lib/libvirt/images                                             *"
 echo "********************************************************************************"
-SRCDIR=/var/lib/libvirt/images
-TGTDIR=/run/media/chris/Backup/VirtualMachines
+SRCDIR=/run/media/chris/Backup/VirtualMachines
+TGTDIR=/var/lib/libvirt/images
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
