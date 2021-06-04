@@ -3,7 +3,7 @@
 echo "********************************************************************************"
 echo " Restoring /home/chris                                                         *"
 echo "********************************************************************************"
-SRCDIR=/run/media/chris/Backup/chris.home
+SRCDIR=/mnt/Backup/chris.home
 TGTDIR=/home/chris
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
@@ -17,7 +17,7 @@ $SRCDIR/ $TGTDIR
 echo "********************************************************************************"
 echo " Restoring /var/lib/tftpboot                                                   *"
 echo "********************************************************************************"
-SRCDIR=/run/media/chris/Backup/tftpboot
+SRCDIR=/mnt/Backup/tftpboot
 TGTDIR=/var/lib/tftpboot
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
@@ -31,7 +31,7 @@ $SRCDIR/{pxelinux.cfg,images} $TGTDIR
 echo "********************************************************************************"
 echo " Restoring /export/archive                                                     *"
 echo "********************************************************************************"
-SRCDIR=/run/media/chris/Backup/archive
+SRCDIR=/mnt/Backup/archive
 TGTDIR=/export/archive
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
@@ -44,7 +44,7 @@ $SRCDIR/ $TGTDIR
 echo "********************************************************************************"
 echo " Restoring /export/install                                                     *"
 echo "********************************************************************************"
-SRCDIR=/run/media/chris/Backup/install
+SRCDIR=/mnt/Backup/install
 TGTDIR=/export/install
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
@@ -58,10 +58,10 @@ $SRCDIR/ $TGTDIR
 echo "********************************************************************************"
 echo " Restoring /var/lib/libvirt/images                                             *"
 echo "********************************************************************************"
-SRCDIR=/run/media/chris/Backup/VirtualMachines
+SRCDIR=/mnt/Backup/VirtualMachines
 TGTDIR=/var/lib/libvirt/images
 
-rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
+sudo rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
 --exclude=lost+found \
 --delete-before \
