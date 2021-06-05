@@ -67,7 +67,7 @@ echo "**************************************************************************
 SRCDIR=/var/lib/libvirt/images
 TGTDIR=/mnt/Backup/VirtualMachines
 
-rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
+sudo rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
 --exclude=lost+found \
 --delete-before \
