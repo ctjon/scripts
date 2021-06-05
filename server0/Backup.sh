@@ -4,7 +4,7 @@ echo "**************************************************************************
 echo " Backing Up /home/chris                                                        *"
 echo "********************************************************************************"
 SRCDIR=/home/chris
-TGTDIR=/run/media/chris/Backup/chris.home
+TGTDIR=/mnt/Backup/chris.home
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=lost+found \
@@ -19,7 +19,7 @@ echo "**************************************************************************
 echo " Backing Up /var/lib/tftpboot                                                  *"
 echo "********************************************************************************"
 SRCDIR=/var/lib/tftpboot
-TGTDIR=/run/media/chris/Backup/tftpboot
+TGTDIR=/mnt/Backup/tftpboot
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
@@ -34,7 +34,7 @@ echo "**************************************************************************
 echo " Backing Up /export/archive                                                    *"
 echo "********************************************************************************"
 SRCDIR=/export/archive
-TGTDIR=/run/media/chris/Backup/archive
+TGTDIR=/mnt/Backup/archive
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
@@ -48,7 +48,7 @@ echo "**************************************************************************
 echo " Backing Up /export/install                                                    *"
 echo "********************************************************************************"
 SRCDIR=/export/install
-TGTDIR=/run/media/chris/Backup/install
+TGTDIR=/mnt/Backup/install
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
@@ -65,7 +65,7 @@ echo " Backing Up /var/lib/libvirt/images                                       
 # ALL VMS NEED TO BE IN A PROPER STATE FOR BACKUP - shutdown/paused
 echo "********************************************************************************"
 SRCDIR=/var/lib/libvirt/images
-TGTDIR=/run/media/chris/Backup/VirtualMachines
+TGTDIR=/mnt/Backup/VirtualMachines
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
