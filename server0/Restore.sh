@@ -25,8 +25,8 @@ rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --delete-excluded \
 $SRCDIR/{pxelinux.cfg,images} $TGTDIR
 
-mkdir $TGTDIR/lost+found
-chmod 700 $TGTDIR/lost+found
+sudo mkdir $TGTDIR/lost+found
+sudo chmod 700 $TGTDIR/lost+found
 sudo chown root:root $TGTDIR/lost+found
 
 ################################################################################
@@ -42,8 +42,8 @@ rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --delete-excluded \
 $SRCDIR/ $TGTDIR
 
-mkdir $TGTDIR/lost+found
-chmod 700 $TGTDIR/lost+found
+sudo mkdir $TGTDIR/lost+found
+sudo chmod 700 $TGTDIR/lost+found
 sudo chown root:root $TGTDIR/lost+found
 
 echo "********************************************************************************"
@@ -59,9 +59,8 @@ rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=ubuntu-reposyncs \
 $SRCDIR/ $TGTDIR
 
-
-mkdir $TGTDIR/lost+found
-chmod 700 $TGTDIR/lost+found
+sudo mkdir $TGTDIR/lost+found
+sudo chmod 700 $TGTDIR/lost+found
 sudo chown root:root $TGTDIR/lost+found
 
 echo "********************************************************************************"
