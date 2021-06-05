@@ -25,6 +25,10 @@ rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --delete-excluded \
 $SRCDIR/{pxelinux.cfg,images} $TGTDIR
 
+mkdir $TGTDIR/lost+found
+chmod 700 $TGTDIR/lost+found
+sudo chown root:root $TGTDIR/lost+found
+
 ################################################################################
 echo "********************************************************************************"
 echo " Restoring /export/archive                                                     *"
@@ -37,6 +41,10 @@ rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --delete-before \
 --delete-excluded \
 $SRCDIR/ $TGTDIR
+
+mkdir $TGTDIR/lost+found
+chmod 700 $TGTDIR/lost+found
+sudo chown root:root $TGTDIR/lost+found
 
 echo "********************************************************************************"
 echo " Restoring /export/install                                                     *"
@@ -51,6 +59,11 @@ rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=ubuntu-reposyncs \
 $SRCDIR/ $TGTDIR
 
+
+mkdir $TGTDIR/lost+found
+chmod 700 $TGTDIR/lost+found
+sudo chown root:root $TGTDIR/lost+found
+
 echo "********************************************************************************"
 echo " Restoring /var/lib/libvirt/images                                             *"
 echo "********************************************************************************"
@@ -64,5 +77,6 @@ sudo rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=ubuntu-reposyncs \
 $SRCDIR/ $TGTDIR
 
-sudo mkdir /var/lib/libvirt/images/lost+found
-sudo chmod 700 /var/lib/libvirt/images/lost+found
+mkdir $TGTDIR/lost+found
+chmod 700 $TGTDIR/lost+found
+sudo chown root:root $TGTDIR/lost+found
