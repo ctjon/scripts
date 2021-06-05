@@ -63,4 +63,6 @@ sudo rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --delete-excluded \
 --exclude=ubuntu-reposyncs \
 $SRCDIR/ $TGTDIR
-chmod 700 $TGTDIR
+
+sudo mkdir /var/lib/libvirt/images/lost+found
+sudo chmod 700 /var/lib/libvirt/images/lost+found
