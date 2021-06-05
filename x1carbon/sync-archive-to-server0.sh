@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SRCDIR=/opt/local/archive
-NETDIR=chris@server0.internal.tjon.net:/export/archive
+SRCDIR=~
+NETDIR=chris@server0.internal.tjon.net:~
 
 rsync -e ssh -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \

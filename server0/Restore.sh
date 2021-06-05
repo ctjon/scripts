@@ -7,7 +7,6 @@ SRCDIR=/mnt/Backup/chris.home
 TGTDIR=/home/chris
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
---exclude=lost+found \
 --exclude=VirtualMachines \
 --delete-before \
 --delete-excluded \
@@ -22,7 +21,6 @@ TGTDIR=/var/lib/tftpboot
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
---exclude=lost+found \
 --delete-before \
 --delete-excluded \
 $SRCDIR/{pxelinux.cfg,images} $TGTDIR
@@ -36,7 +34,6 @@ TGTDIR=/export/archive
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
---exclude=lost+found \
 --delete-before \
 --delete-excluded \
 $SRCDIR/ $TGTDIR
@@ -49,7 +46,6 @@ TGTDIR=/export/install
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
---exclude=lost+found \
 --delete-before \
 --delete-excluded \
 --exclude=ubuntu-reposyncs \
@@ -63,7 +59,6 @@ TGTDIR=/var/lib/libvirt/images
 
 sudo rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
---exclude=lost+found \
 --delete-before \
 --delete-excluded \
 --exclude=ubuntu-reposyncs \
