@@ -1,13 +1,28 @@
 #!/bin/bash
 echo "********************************************************************************"
-echo "syncing MyDocuments to USB"
+echo "syncing pCloud Drive to USB"
+rsync -aHKz \
+--exclude=".*" \
+--exclude="Automatic Upload" \
+--exclude="pCloud Backup" \
+--exclude="pCloud Save" \
+--exclude="System Volume Information" \
+--exclude "lost+found" \
+--delete-excluded \
+--progress \
+~chris/pCloud\ Drive/ /Volumes/MyDocumentsUSB/pCloud\ Drive/
+touch /Volumes/MyDocumentsUSB/pCloud\ Drive/timestamp
+echo "********************************************************************************"
+
+echo "********************************************************************************"
+echo "syncing MiscMedia to USB"
 rsync -aHKz \
 --exclude=".*" \
 --exclude "lost+found" \
 --delete-excluded \
 --progress \
-~chris/MyDocuments/ /Volumes/MyDocumentsUSB/MyDocuments/
-touch /Volumes/MyDocumentsUSB/MyDocuments/timestamp
+~chris/MiscMedia/ /Volumes/MyDocumentsUSB/MiscMedia/
+touch /Volumes/MyDocumentsUSB/MiscMedia/timestamp
 echo "********************************************************************************"
 
 echo "syncing OneDrive to USB"
