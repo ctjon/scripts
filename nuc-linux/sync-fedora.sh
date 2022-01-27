@@ -51,13 +51,13 @@ do
 	--exclude='releases/9/' \
 	--exclude='releases/1[0-9]/' \
 	--exclude='releases/2[0-9]/' \
-	--exclude='releases/3[0-2]*/' \
+	--exclude='releases/3[0-3]*/' \
 	--exclude='updates/7/' \
 	--exclude='updates/8/' \
 	--exclude='updates/9/' \
 	--exclude='updates/1[0-9]/' \
 	--exclude='updates/2[0-9]/' \
-	--exclude='updates/3[0-2]*/' \
+	--exclude='updates/3[0-3]*/' \
  	$SRCDIR $TGTDIR
 done
 
@@ -107,12 +107,12 @@ do
 	--exclude='releases/9/' \
 	--exclude='releases/1[0-9]/' \
 	--exclude='releases/2[0-9]/' \
-	--exclude='releases/3[0-2]*/' \
+	--exclude='releases/3[0-3]*/' \
 	--exclude='updates/7/' \
 	--exclude='updates/8/' \
 	--exclude='updates/9/' \
 	--exclude='updates/1[0-9]/' \
 	--exclude='updates/2[0-9]/' \
-	--exclude='updates/3[0-2]*/' \
+	--exclude='updates/3[0-3]*/' \
  	$SRCDIR $TGTDIR
 done

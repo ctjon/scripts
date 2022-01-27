@@ -1,1 +1,0 @@
-pip list --format=columns

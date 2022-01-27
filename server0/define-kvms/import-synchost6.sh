@@ -3,7 +3,7 @@ sudo virt-install --name synchost6 \
 --description 'RHEL6-Synchost' \
 --ram 1024 \
 --vcpus 2 \
---disk path=/var/lib/libvirt/images/synchost6.qcow2 \
+--disk path=~/VirtualMachines/synchost6.qcow2 \
 --os-type linux \
 --os-variant rhel6.10 \
 --graphics vnc \

@@ -1,10 +1,10 @@
 #!/bin/bash
 
-SRCDIR=/home/chris/VirtualMachines/
-TGTDIR=/run/media/chris/vm-Backups/VirtualMachines
+SRCDIR=/home/ctjon/VirtualMachines/
+TGTDIR=/run/media/ctjon/MyBackupUSB/VirtualMachines
 
-echo "syncing vmware to $TGTDIR"
-rsync -e ssh -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
+echo "syncing VirtualMachines to $TGTDIR"
+rsync -e ssh -aHKv --no-o --no-g --keep-dirlinks --progress \
 --exclude=.* \
 --delete-excluded \
 $SRCDIR/ $TGTDIR

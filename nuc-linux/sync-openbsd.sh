@@ -58,11 +58,15 @@ do
 	--exclude='3.*' \
 	--exclude='4.*' \
 	--exclude='5.*' \
-	--exclude='6.[0-8]*' \
+	--exclude='6.*' \
 	--exclude='patches/2.*' \
 	--exclude='patches/3.*' \
 	--exclude='patches/4.*' \
 	--exclude='patches/5.*' \
-	--exclude='patches/6.[0-8]*' \
+	--exclude='patches/6.[0-9]*' \
  	$SRCDIR $TGTDIR
 done
+
+
+# save for when not 7.0 release
+#	--exclude='7.[0-9]*' \
