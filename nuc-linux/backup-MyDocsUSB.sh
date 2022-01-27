@@ -12,12 +12,11 @@ rsync -aHKz \
 --exclude="mbp" \
 --exclude="VirtualMachines" \
 --exclude="kvm-vms" \
---exclude "lost+found" \
---exclude ".cache" \
---exclude "*.crdownload" \
---exclude ".ccache" \
---exclude ".local/share/Trash" \
---exclude "RhDocuments/.trash" \
+--exclude="lost+found" \
+--exclude="*.crdownload" \
+--exclude=".*" \
+--include=".ssh" \
+--include=".thinkorswim" \
 --delete-excluded \
 --delete --delete-during --progress \
 ~chris/ $USBPATH
