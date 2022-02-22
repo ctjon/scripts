@@ -1,5 +1,5 @@
 #!/bin/bash
-export USBPATH=/run/media/chris/DocumentsUSB
+export USBPATH=/run/media/chris/MyBackupUSB/homedir
 export TFTPBOOT_BKUP=/home/chris/MyDocuments/TechStuff/Config-Backups/tftpboot
 export KSCONFIGS_BKUP=/home/chris/MyDocuments/TechStuff/Config-Backups/ks-configs
 

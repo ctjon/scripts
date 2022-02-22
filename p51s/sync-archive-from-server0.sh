@@ -1,7 +1,7 @@
 #!/bin/bash
 
-SRCDIR=/run/media/ctjon/Backup/archive/
-NETDIR=chris@server0.internal.tjon.net:/export/archive
+SRCDIR=chris@server0.internal.tjon.net:/export/archive/
+NETDIR=/run/media/chris/Archive
 
 rsync -e ssh -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
