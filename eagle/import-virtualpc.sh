@@ -3,7 +3,7 @@ sudo virt-install --name Win11x64kvm \
 --description 'Windows11 x64 KVM' \
 --ram 4096 \
 --vcpus 4 \
---disk path=/home/chris/VirtualMachines/Win11x64kvm.qcow2 \
+--disk path=/var/lib/libvirt/images/Win11x64kvm.qcow2 \
 --disk path=/usr/share/virtio-win/virtio-win.iso,device=cdrom,bus=sata \
 --os-type windows \
 --os-variant win10 \
