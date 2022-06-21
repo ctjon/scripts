@@ -5,7 +5,7 @@ virt-install \
 --os-variant=rhel7 \
 --ram=4096 \
 --vcpus=4 \
---disk path=/home/chris/kvm-vms/tower-nodeA.qcow2,bus=virtio,size-20 \
+--disk path=/home/chris/kvm-vms/tower-nodeA.qcow2,bus=virtio,size=20 \
 --graphics vnc \
 --network type=direct,source=vmnet1
 --boot hd,network,menu=on \
