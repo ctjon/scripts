@@ -1,9 +1,7 @@
 #!/bin/bash
 
-sudo mount /mnt/Backup
-
 SRCDIR=/var/lib/libvirt/images
-USBDIR=/mnt/Backup/kvm-vms
+USBDIR=/export/backup/server0/kvm-vms
 
 echo "syncing kvm-vms to $USBDIR"
 sudo rsync -e ssh -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
@@ -16,4 +14,3 @@ sudo rsync -e ssh -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --delete-excluded \
 $SRCDIR/ $USBDIR
 
-sudo umount /mnt/Backup

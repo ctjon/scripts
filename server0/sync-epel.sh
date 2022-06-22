@@ -17,33 +17,33 @@ while [ "$?" -ne "0" ]
 do
         sleep 10
 	date
-	rsync -aHvz --keep-dirlinks --delete-during --delete-excluded \
-	--progress \
+	rsync -aHKvz --keep-dirlinks --delete --delete-during --delete-excluded --progress \
         --include 'x86_64' \
         --include 'source' \
         --include 'SRPMS' \
+        --include 'aarch64' \
+        --include 'armhfp' \
+        --include 'ppc' \
+        --include 'ppc64' \
+        --include 'ppc64le' \
+        --include '*.iso' \
+        --include '*.qcow2' \
+        --include '*.raw.xz' \
+        --include 'testing' \
+        --include 'updates/testing' \
         --exclude 'development' \
-        --exclude 'updates/testing' \
         --exclude 'releases/test' \
         --exclude 'debug' \
         --exclude 'beta' \
-        --exclude 'testing' \
-        --exclude 'aarch64' \
-        --exclude 'ppc' \
-        --exclude 'ppc64' \
-        --exclude 'ppc64le' \
+        --exclude 'debug' \
         --exclude 'arm' \
-        --exclude 'armhfp' \
         --exclude 'alpha' \
         --exclude 'ia64' \
         --exclude 'i386' \
         --exclude 's390' \
         --exclude 's390x' \
-        --exclude '*.iso' \
-        --exclude '*.qcow2' \
         --exclude '*.torrent' \
         --exclude '*.box' \
-        --exclude '*.raw.xz' \
 	--exclude='4' \
 	--exclude='4AS' \
 	--exclude='4ES' \
@@ -60,3 +60,4 @@ do
 	--exclude='playground' \
  	$SRCDIR $TGTDIR
 done
+date

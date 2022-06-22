@@ -12,8 +12,11 @@ while [ "$?" -ne "0" ]
 do
 	sleep 10
 	date
-	rsync -aHKvz --keep-dirlinks --delete --delete-during \
-	--delete-excluded --progress \
+	rsync -aHKvz --keep-dirlinks --delete --delete-during --delete-excluded --progress \
+        --exclude=.htaccess \
+	--exclude=virt-preview \
+	--exclude=deprecated-isos \
  	$SRCDIR $TGTDIR
 done
 
+date

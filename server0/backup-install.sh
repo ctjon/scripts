@@ -4,7 +4,7 @@
 # Backup /var/lib/tftpboot/images                                              #
 ################################################################################
 SRCDIR=/var/lib/tftpboot/images
-DESTDIR=/mnt/Backup/tftpboot/images
+DESTDIR=/export/backup/server0/tftpboot/images
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
@@ -14,8 +14,8 @@ $SRCDIR/ $DESTDIR
 ################################################################################
 # Backup /var/lib/tftpboot/pxelinux.cfg                                        #
 ################################################################################
-DESTDIR=/mnt/Backup/tftpboot/pxelinux.cfg
 SRCDIR=/var/lib/tftpboot/pxelinux.cfg
+DESTDIR=/export/backup/server0/tftpboot/pxelinux.cfg
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
@@ -26,7 +26,7 @@ $SRCDIR/ $DESTDIR
 # Backup /export/install                                                       #
 ################################################################################
 SRCDIR=/export/install
-DESTDIR=/mnt/Backup/install
+DESTDIR=/export/backup/server0/install
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \

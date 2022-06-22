@@ -1,6 +1,6 @@
 #!/bin/bash
 
-SRCDIR=/mnt/Backup/kvm-vms
+SRCDIR=/export/backup/server0/kvm-vms
 DESTDIR=/var/lib/libvirt/images
 
 #rsync -e ssh -aHKv --no-o --no-g --keep-dirlinks --progress --delete \

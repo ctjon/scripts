@@ -1,7 +1,7 @@
 #!/bin/bash
 
 SRCDIR=/export/archive
-DESTDIR=/mnt/Backup/archive
+DESTDIR=/export/backup/server0/archive
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
