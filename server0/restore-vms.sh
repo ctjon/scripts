@@ -10,4 +10,4 @@ sudo rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --delete-excluded \
 $SRCDIR/ $DESTDIR
 
-restorecon -RFv $DESTDIR
+sudo restorecon -RFv $DESTDIR
