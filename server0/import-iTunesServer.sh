@@ -10,6 +10,6 @@ sudo virt-install --name iTunesServer \
 --sound ich9 \
 --boot uefi \
 --network bridge=br0,model=virtio \
---import
+--import --noautoconsole
 
 #--boot hd,network,menu=on \
