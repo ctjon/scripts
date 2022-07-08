@@ -4,12 +4,14 @@ sudo virt-install --name iTunesServer \
 --ram 4096 \
 --vcpus 4 \
 --disk path=/var/lib/libvirt/images/iTunesServer.qcow2 \
---disk path=/dev/raid10vg/ituneslv \
+--disk path=/dev/sda2 \
 --os-variant win10 \
 --graphics spice \
 --sound ich9 \
 --boot uefi \
---network bridge=br0,model=virtio \
+--network type=direct,source=eth0,source_mode=bridge,model=virtio \
+--network bridge=virbr0,model=virtio \
 --import --noautoconsole
 
 #--boot hd,network,menu=on \
+#--network bridge=br0,model=virtio \

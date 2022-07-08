@@ -6,7 +6,7 @@
 SRCDIR=/export/backup/server0/tftpboot/images
 DESTDIR=/var/lib/tftpboot/images
 
-rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
+sudo rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
 --delete-excluded \
 $SRCDIR/ $DESTDIR
@@ -17,7 +17,7 @@ $SRCDIR/ $DESTDIR
 SRCDIR=/export/backup/server0/tftpboot/pxelinux.cfg
 DESTDIR=/var/lib/tftpboot/pxelinux.cfg
 
-rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
+sudo rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
 --exclude=.* \
 --delete-excluded \
 $SRCDIR/ $DESTDIR

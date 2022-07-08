@@ -9,8 +9,9 @@ sudo virt-install --name VirtualPC \
 --os-variant win10 \
 --graphics spice \
 --boot uefi \
---network bridge=br0,model=virtio \
+--network type=direct,source=eth0,source_mode=bridge,model=virtio \
+--network bridge=virbr0,model=virtio \
 --sound ich9 \
 --import --noautoconsole
 
-
+#--network bridge=br0,model=virtio \
