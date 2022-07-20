@@ -4,7 +4,7 @@ sudo virt-install --name iTunesServer \
 --ram 4096 \
 --vcpus 4 \
 --disk path=/var/lib/libvirt/images/iTunesServer.qcow2 \
---disk path=/dev/sda2 \
+--disk path=/dev/mediavg/ituneslv \
 --os-variant win10 \
 --graphics spice \
 --sound ich9 \
