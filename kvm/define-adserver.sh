@@ -1,0 +1,14 @@
+sudo virt-install  \
+-n adserver \
+--description "adserver" \
+--os-type=windows \
+--os-variant=win2k12 \
+--ram=4096 \
+--vcpus=2 \
+--disk path=/var/lib/libvirt/images/adserver.x86_64.qcow2,size=20 \
+--disk path=/var/lib/libvirt/images/adserver-wsus.x86_64.qcow2,size=50 \
+--disk path=/export/archive/Windows/Microsoft/Server2012/en_windows_server_2012_x64_dvd_915478.iso,device=cdrom \
+--disk path=/usr/share/virtio-win/virtio-win.iso,device=cdrom \
+--graphics vnc,listen=0.0.0.0 \
+--boot hd,cdrom,menu=on \
+--network bridge:vnet_nat1,model=e1000
