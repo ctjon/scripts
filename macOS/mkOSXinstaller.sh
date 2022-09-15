@@ -1,5 +1,6 @@
 #!/bin/sh
-SRCDIR=/Applications
+SRCDIR=/Volumes/4TB-NVMe/Archive/MacOSX/Apple/12.6-macOS-Monterey
+#SRCDIR=/Applications
 #SRCDIR=/Users/chris/Downloads
 DEST=/Volumes/Untitled
 
