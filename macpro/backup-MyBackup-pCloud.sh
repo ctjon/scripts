@@ -1,19 +1,21 @@
 #!/bin/bash
 echo "********************************************************************************"
-export BACKUP_PATH=/Users/chris/pCloud\ Drive
-echo "Backup Up to pCloud"
-touch $BACKUP_PATH/timestamp
-rsync -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/MyDocuments/ $BACKUP_PATH/Crypto\Folder/MyDocuments
+export BACKUP_TARGET=/Users/chris/pCloud\ Drive
+echo "Backup Up to $BACKUP_TARGET"
+
+touch "$BACKUP_TARGET/timestamp"
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/playbooks/ $BACKUP_PATH/playbooks
+~/MyDocuments/ "$BACKUP_TARGET/Crypto Folder/MyDocuments.backup"
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/scripts/ $BACKUP_PATH/scripts
+~/playbooks/ "$BACKUP_TARGET/playbooks"
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/scripts.old/ $BACKUP_PATH/scripts.old
+~/scripts/ "$BACKUP_TARGET/scripts"
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/Pictures/ $BACKUP_PATH/Pictures
+~/scripts.old/ "$BACKUP_TARGET/scripts.old"
+
+#rsync -aHKvz --delete --delete-excluded --delete-during --progress \
+#~/Pictures/ "$BACKUP_TARGET/Pictures"
