@@ -18,3 +18,6 @@ rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 ~chris/Books.backup/ $USBPATH/homedir/Books.backup
+
+rsync -aHKvz --delete --delete-excluded --delete-during --progress \
+~chris/Pictures/ $USBPATH/homedir/Pictures
