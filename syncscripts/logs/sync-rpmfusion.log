@@ -1,0 +1,12 @@
+********************************************************************************
+* Syncing RPM Fusion                                                           *
+********************************************************************************
+/home/chris/syncscripts/scripts/sync-rpmfusion.sh: line 15: 0: command not found
+Tue Jan  3 03:30:11 AM MST 2023
+receiving incremental file list
+
+sent 2,816 bytes  received 1,343,035 bytes  69,018.00 bytes/sec
+total size is 85,873,092,612  speedup is 63,805.79
+Tue Jan  3 03:30:30 AM MST 2023
+flock: getting lock took 0.000002 seconds
+flock: executing /home/chris/syncscripts/scripts/sync-rpmfusion.sh

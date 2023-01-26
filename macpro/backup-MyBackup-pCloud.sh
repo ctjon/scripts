@@ -17,5 +17,5 @@ rsync -aHKvz --delete --delete-excluded --delete-during --progress --no-times \
 rsync -aHKvz --delete --delete-excluded --delete-during --progress --no-times \
 ~/scripts.old/ "$BACKUP_TARGET/scripts.old"
 
-#rsync -aHKvz --delete --delete-excluded --delete-during --progress --no-times \
-#~/Pictures/ "$BACKUP_TARGET/Pictures"
+rsync -aHKvz --delete --delete-excluded --delete-during --progress --no-times \
+~/Pictures/ "$BACKUP_TARGET/Pictures"

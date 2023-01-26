@@ -1,0 +1,1992 @@
+********************************************************************************
+* UPDATING OpenBSD BINARIES                                                    *
+********************************************************************************
+/home/chris/syncscripts/scripts/sync-openbsd.sh: line 14: 0: command not found
+receiving incremental file list
+./
+ftplist
+              0   0%    0.00kB/s    0:00:00            4,758 100%    4.54MB/s    0:00:00 (xfr#1, ir-chk=1710/1712)
+timestamp
+              0   0%    0.00kB/s    0:00:00               11 100%   10.74kB/s    0:00:00 (xfr#2, ir-chk=1709/1712)
+7.1/packages-stable/amd64/index.txt
+              0   0%    0.00kB/s    0:00:00              700   0%    0.61kB/s    0:03:00          110,433 100%   95.95kB/s    0:00:01 (xfr#3, ir-chk=10927/11958)
+7.2/packages-stable/
+7.2/packages-stable/aarch64/
+7.2/packages-stable/aarch64/SHA256
+              0   0%    0.00kB/s    0:00:00           74,500 100%   71.05MB/s    0:00:00 (xfr#4, ir-chk=11360/33861)
+7.2/packages-stable/aarch64/SHA256.sig
+              0   0%    0.00kB/s    0:00:00           74,651 100%   71.19MB/s    0:00:00 (xfr#5, ir-chk=11359/33861)
+7.2/packages-stable/aarch64/adobe-source-code-pro-2.038.tgz
+              0   0%    0.00kB/s    0:00:00        2,095,168 100%  999.05MB/s    0:00:00 (xfr#6, ir-chk=11358/33861)
+7.2/packages-stable/aarch64/asterisk-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00        9,454,588 100%    1.10GB/s    0:00:00 (xfr#7, ir-chk=11357/33861)
+7.2/packages-stable/aarch64/asterisk-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00        9,606,398 100%   19.49MB/s    0:00:00 (xfr#8, ir-chk=11356/33861)
+7.2/packages-stable/aarch64/asterisk-calendar-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00           78,823 100%  163.43kB/s    0:00:00 (xfr#9, ir-chk=11355/33861)
+7.2/packages-stable/aarch64/asterisk-calendar-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00           78,499 100%  162.76kB/s    0:00:00 (xfr#10, ir-chk=11354/33861)
+7.2/packages-stable/aarch64/asterisk-http_post-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00            9,022 100%   18.71kB/s    0:00:00 (xfr#11, ir-chk=11353/33861)
+7.2/packages-stable/aarch64/asterisk-http_post-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00            9,029 100%   18.72kB/s    0:00:00 (xfr#12, ir-chk=11352/33861)
+7.2/packages-stable/aarch64/asterisk-kqueue-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00            6,724 100%   13.94kB/s    0:00:00 (xfr#13, ir-chk=11351/33861)
+7.2/packages-stable/aarch64/asterisk-kqueue-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00            6,734 100%   13.93kB/s    0:00:00 (xfr#14, ir-chk=11350/33861)
+7.2/packages-stable/aarch64/asterisk-ldap-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00           28,225 100%   58.40kB/s    0:00:00 (xfr#15, ir-chk=11349/33861)
+7.2/packages-stable/aarch64/asterisk-ldap-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00           28,237 100%   58.42kB/s    0:00:00 (xfr#16, ir-chk=11348/33861)
+7.2/packages-stable/aarch64/asterisk-lua-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00           17,995 100%   37.23kB/s    0:00:00 (xfr#17, ir-chk=11347/33861)
+7.2/packages-stable/aarch64/asterisk-lua-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00           18,010 100%   37.26kB/s    0:00:00 (xfr#18, ir-chk=11346/33861)
+7.2/packages-stable/aarch64/asterisk-odbc-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00          101,403 100%  209.80kB/s    0:00:00 (xfr#19, ir-chk=11345/33861)
+7.2/packages-stable/aarch64/asterisk-odbc-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00          101,272 100%  209.09kB/s    0:00:00 (xfr#20, ir-chk=11344/33861)
+7.2/packages-stable/aarch64/asterisk-pgsql-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00           55,662 100%  114.92kB/s    0:00:00 (xfr#21, ir-chk=11343/33861)
+7.2/packages-stable/aarch64/asterisk-pgsql-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00           55,668 100%  114.93kB/s    0:00:00 (xfr#22, ir-chk=11342/33861)
+7.2/packages-stable/aarch64/asterisk-snmp-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00           13,807 100%   28.51kB/s    0:00:00 (xfr#23, ir-chk=11341/33861)
+7.2/packages-stable/aarch64/asterisk-snmp-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00           13,767 100%   28.42kB/s    0:00:00 (xfr#24, ir-chk=11340/33861)
+7.2/packages-stable/aarch64/asterisk-speex-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00           19,443 100%   40.14kB/s    0:00:00 (xfr#25, ir-chk=11339/33861)
+7.2/packages-stable/aarch64/asterisk-speex-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00           19,464 100%   40.19kB/s    0:00:00 (xfr#26, ir-chk=11338/33861)
+7.2/packages-stable/aarch64/asterisk-tds-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00           16,867 100%   34.82kB/s    0:00:00 (xfr#27, ir-chk=11337/33861)
+7.2/packages-stable/aarch64/asterisk-tds-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00           16,879 100%   34.85kB/s    0:00:00 (xfr#28, ir-chk=11336/33861)
+7.2/packages-stable/aarch64/asterisk-vm_imap-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00          119,890 100%  247.53kB/s    0:00:00 (xfr#29, ir-chk=11335/33861)
+7.2/packages-stable/aarch64/asterisk-vm_odbc-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00          105,744 100%  217.86kB/s    0:00:00 (xfr#30, ir-chk=11334/33861)
+7.2/packages-stable/aarch64/borgbackup-1.1.18p2.tgz
+              0   0%    0.00kB/s    0:00:00        2,312,161 100%    4.64MB/s    0:00:00 (xfr#31, ir-chk=11333/33861)
+7.2/packages-stable/aarch64/borgbackup-1.2.2p2.tgz
+              0   0%    0.00kB/s    0:00:00        2,572,759 100%    4.29MB/s    0:00:00 (xfr#32, ir-chk=11332/33861)
+7.2/packages-stable/aarch64/chicken-5.3.0p0.tgz
+              0   0%    0.00kB/s    0:00:00        5,130,460 100%    8.51MB/s    0:00:00 (xfr#33, ir-chk=11331/33861)
+7.2/packages-stable/aarch64/clamav-0.105.1pl2.tgz
+              0   0%    0.00kB/s    0:00:00        7,730,788 100%   10.44MB/s    0:00:00 (xfr#34, ir-chk=11330/33861)
+7.2/packages-stable/aarch64/clamav-0.105.1pl3.tgz
+              0   0%    0.00kB/s    0:00:00        7,871,252 100%   10.56MB/s    0:00:00 (xfr#35, ir-chk=11329/33861)
+7.2/packages-stable/aarch64/curl-7.86.0.tgz
+              0   0%    0.00kB/s    0:00:00        3,582,085 100%    3.84MB/s    0:00:00 (xfr#36, ir-chk=11328/33861)
+7.2/packages-stable/aarch64/curl-7.86.0p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,578,348 100%    3.83MB/s    0:00:00 (xfr#37, ir-chk=11327/33861)
+7.2/packages-stable/aarch64/curl-7.87.0.tgz
+              0   0%    0.00kB/s    0:00:00        3,609,817 100%    3.86MB/s    0:00:00 (xfr#38, ir-chk=11326/33861)
+7.2/packages-stable/aarch64/dbus-1.14.0p0v0.tgz
+              0   0%    0.00kB/s    0:00:00        1,231,286 100%    1.31MB/s    0:00:00 (xfr#39, ir-chk=11325/33861)
+7.2/packages-stable/aarch64/dbus-daemon-launch-helper-1.14.0.tgz
+              0   0%    0.00kB/s    0:00:00           27,528 100%   30.04kB/s    0:00:00 (xfr#40, ir-chk=11324/33861)
+7.2/packages-stable/aarch64/easy-rsa-3.1.1.tgz
+              0   0%    0.00kB/s    0:00:00           71,588 100%   78.11kB/s    0:00:00 (xfr#41, ir-chk=11323/33861)
+7.2/packages-stable/aarch64/firefox-106.0.2.tgz
+              0   0%    0.00kB/s    0:00:00            8,984   0%    7.26kB/s    3:05:30       80,845,457 100%   59.95MB/s    0:00:01 (xfr#42, ir-chk=11322/33861)
+7.2/packages-stable/aarch64/firefox-107.0.1.tgz
+              0   0%    0.00kB/s    0:00:00       81,037,930 100%  205.00MB/s    0:00:00 (xfr#43, ir-chk=11321/33861)
+7.2/packages-stable/aarch64/firefox-107.0.tgz
+              0   0%    0.00kB/s    0:00:00        3,663,000   4%    3.49MB/s    0:00:21       81,030,230 100%   60.90MB/s    0:00:01 (xfr#44, ir-chk=11320/33861)
+7.2/packages-stable/aarch64/firefox-107.0p0.tgz
+              0   0%    0.00kB/s    0:00:00       81,024,831 100%  144.97MB/s    0:00:00 (xfr#45, ir-chk=11319/33861)
+7.2/packages-stable/aarch64/firefox-108.0.1.tgz
+              0   0%    0.00kB/s    0:00:00       81,101,455 100%   83.98MB/s    0:00:00 (xfr#46, ir-chk=11318/33861)
+7.2/packages-stable/aarch64/firefox-108.0.tgz
+              0   0%    0.00kB/s    0:00:00            9,000   0%    6.60kB/s    3:24:43       81,122,848 100%   55.90MB/s    0:00:01 (xfr#47, ir-chk=11317/33861)
+7.2/packages-stable/aarch64/firefox-esr-102.4.0.tgz
+              0   0%    0.00kB/s    0:00:00       79,129,428 100%  225.26MB/s    0:00:00 (xfr#48, ir-chk=11316/33861)
+7.2/packages-stable/aarch64/firefox-esr-102.5.0.tgz
+              0   0%    0.00kB/s    0:00:00       79,131,917 100%  127.26MB/s    0:00:00 (xfr#49, ir-chk=11315/33861)
+7.2/packages-stable/aarch64/firefox-esr-102.6.0.tgz
+              0   0%    0.00kB/s    0:00:00       79,177,558 100%   85.23MB/s    0:00:00 (xfr#50, ir-chk=11314/33861)
+7.2/packages-stable/aarch64/freerdp-2.8.1.tgz
+              0   0%    0.00kB/s    0:00:00            1,376   0%    1.19kB/s    0:26:28        1,895,568 100%    1.60MB/s    0:00:01 (xfr#51, ir-chk=11313/33861)
+7.2/packages-stable/aarch64/gdk-pixbuf-2.42.9p0.tgz
+              0   0%    0.00kB/s    0:00:00          805,571 100%  768.25MB/s    0:00:00 (xfr#52, ir-chk=11312/33861)
+7.2/packages-stable/aarch64/glib2-2.72.4p0.tgz
+              0   0%    0.00kB/s    0:00:00        5,123,302 100%    6.85MB/s    0:00:00 (xfr#53, ir-chk=11311/33861)
+7.2/packages-stable/aarch64/glib2-2.72.4p1.tgz
+              0   0%    0.00kB/s    0:00:00        5,122,359 100%    6.82MB/s    0:00:00 (xfr#54, ir-chk=11310/33861)
+7.2/packages-stable/aarch64/glib2-2.72.4p2.tgz
+              0   0%    0.00kB/s    0:00:00        5,123,455 100%    6.79MB/s    0:00:00 (xfr#55, ir-chk=11309/33861)
+7.2/packages-stable/aarch64/gmid-1.8.6.tgz
+              0   0%    0.00kB/s    0:00:00           60,073 100%   81.48kB/s    0:00:00 (xfr#56, ir-chk=11308/33861)
+7.2/packages-stable/aarch64/gnome-control-center-42.4.tgz
+              0   0%    0.00kB/s    0:00:00        8,429,538 100%    9.32MB/s    0:00:00 (xfr#57, ir-chk=11307/33861)
+7.2/packages-stable/aarch64/heimdal-7.7.1.tgz
+              0   0%    0.00kB/s    0:00:00          348,945 100%  394.41kB/s    0:00:00 (xfr#58, ir-chk=11306/33861)
+7.2/packages-stable/aarch64/heimdal-devel-docs-7.7.1.tgz
+              0   0%    0.00kB/s    0:00:00          199,500 100%  225.49kB/s    0:00:00 (xfr#59, ir-chk=11305/33861)
+7.2/packages-stable/aarch64/heimdal-libs-7.7.1.tgz
+              0   0%    0.00kB/s    0:00:00        4,690,304 100%    4.49MB/s    0:00:00 (xfr#60, ir-chk=11304/33861)
+7.2/packages-stable/aarch64/icinga-web2-2.11.3.tgz
+              0   0%    0.00kB/s    0:00:00        3,670,416  31%    3.50MB/s    0:00:02       11,663,586 100%   11.09MB/s    0:00:01 (xfr#61, ir-chk=11303/33861)
+7.2/packages-stable/aarch64/index.txt
+              0   0%    0.00kB/s    0:00:00           70,015 100%   13.35MB/s    0:00:00 (xfr#62, ir-chk=11302/33861)
+7.2/packages-stable/aarch64/influxdb-1.8.10p0.tgz
+              0   0%    0.00kB/s    0:00:00       64,468,209 100%  209.12MB/s    0:00:00 (xfr#63, ir-chk=11301/33861)
+7.2/packages-stable/aarch64/isc-bind-9.18.10v3-geoip.tgz
+              0   0%    0.00kB/s    0:00:00        2,557,231 100%    6.76MB/s    0:00:00 (xfr#64, ir-chk=11300/33861)
+7.2/packages-stable/aarch64/isc-bind-9.18.10v3.tgz
+              0   0%    0.00kB/s    0:00:00        2,552,191 100%    6.71MB/s    0:00:00 (xfr#65, ir-chk=11299/33861)
+7.2/packages-stable/aarch64/isc-dhcp-client-4.4.3pl1.tgz
+              0   0%    0.00kB/s    0:00:00        1,205,352 100%    2.39MB/s    0:00:00 (xfr#66, ir-chk=11298/33861)
+7.2/packages-stable/aarch64/isc-dhcp-omapi-4.4.3pl1.tgz
+              0   0%    0.00kB/s    0:00:00        1,465,497 100%    2.91MB/s    0:00:00 (xfr#67, ir-chk=11297/33861)
+7.2/packages-stable/aarch64/isc-dhcp-server-4.4.3pl1.tgz
+              0   0%    0.00kB/s    0:00:00        2,610,078 100%    5.15MB/s    0:00:00 (xfr#68, ir-chk=11296/33861)
+7.2/packages-stable/aarch64/jenkins-2.361.2.tgz
+              0   0%    0.00kB/s    0:00:00            9,656   0%    8.82kB/s    2:56:21       93,351,725 100%   78.85MB/s    0:00:01 (xfr#69, ir-chk=11295/33861)
+7.2/packages-stable/aarch64/jenkins-2.375.1.tgz
+              0   0%    0.00kB/s    0:00:00       93,414,661 100%  203.40MB/s    0:00:00 (xfr#70, ir-chk=11294/33861)
+7.2/packages-stable/aarch64/jenkins-2.375.tgz
+              0   0%    0.00kB/s    0:00:00       93,412,015 100%  119.26MB/s    0:00:00 (xfr#71, ir-chk=11293/33861)
+7.2/packages-stable/aarch64/jenkins-2.382.tgz
+              0   0%    0.00kB/s    0:00:00            9,944   0%    8.68kB/s    3:10:08       99,012,829 100%   79.82MB/s    0:00:01 (xfr#72, ir-chk=11292/33861)
+7.2/packages-stable/aarch64/libksba-1.6.2.tgz
+              0   0%    0.00kB/s    0:00:00          311,310 100%    4.43MB/s    0:00:00 (xfr#73, ir-chk=11291/33861)
+7.2/packages-stable/aarch64/libksba-1.6.3.tgz
+              0   0%    0.00kB/s    0:00:00          311,389 100%    3.71MB/s    0:00:00 (xfr#74, ir-chk=11290/33861)
+7.2/packages-stable/aarch64/libmilter-8.17.1.22.tgz
+              0   0%    0.00kB/s    0:00:00          173,339 100%    2.07MB/s    0:00:00 (xfr#75, ir-chk=11289/33861)
+7.2/packages-stable/aarch64/libxml-2.10.3.tgz
+              0   0%    0.00kB/s    0:00:00        3,677,286 100%   16.46MB/s    0:00:00 (xfr#76, ir-chk=11288/33861)
+7.2/packages-stable/aarch64/lucee-5.3.9.166.tgz
+              0   0%    0.00kB/s    0:00:00        7,263,280   9%    6.93MB/s    0:00:10       79,507,840 100%   71.67MB/s    0:00:01 (xfr#77, ir-chk=11287/33861)
+7.2/packages-stable/aarch64/menulibre-2.3.0p1.tgz
+              0   0%    0.00kB/s    0:00:00          366,201 100%    5.63MB/s    0:00:00 (xfr#78, ir-chk=11286/33861)
+7.2/packages-stable/aarch64/nextcloud-24.0.8.tgz
+              0   0%    0.00kB/s    0:00:00        6,732,564   4%    5.63MB/s    0:00:22        9,164,145   6%    3.84MB/s    0:00:32       13,702,131  10%    3.94MB/s    0:00:30       19,796,466  14%    4.33MB/s    0:00:26       26,555,998  19%    4.48MB/s    0:00:24       34,272,214  25%    5.83MB/s    0:00:17       43,266,274  31%    6.84MB/s    0:00:13       52,145,659  38%    7.54MB/s    0:00:10       60,610,563  44%    7.84MB/s    0:00:09       69,326,121  50%    8.02MB/s    0:00:08       78,828,042  57%    8.25MB/s    0:00:06       87,537,653  64%    8.25MB/s    0:00:05       96,274,978  70%    8.41MB/s    0:00:04      104,605,480  76%    8.32MB/s    0:00:03      113,157,211  82%    8.09MB/s    0:00:02      120,562,159  88%    7.74MB/s    0:00:02      130,728,507  95%    8.06MB/s    0:00:00      136,724,338 100%    7.11MB/s    0:00:18 (xfr#79, ir-chk=11285/33861)
+7.2/packages-stable/aarch64/nheko-0.10.2.tgz
+              0   0%    0.00kB/s    0:00:00        3,306,706 100%    4.42MB/s    0:00:00 (xfr#80, ir-chk=11284/33861)
+7.2/packages-stable/aarch64/nostromo-2.0.tgz
+              0   0%    0.00kB/s    0:00:00           49,376 100%   67.53kB/s    0:00:00 (xfr#81, ir-chk=11283/33861)
+7.2/packages-stable/aarch64/obsdfreqd-1.1.1.tgz
+              0   0%    0.00kB/s    0:00:00           10,095 100%   13.79kB/s    0:00:00 (xfr#82, ir-chk=11282/33861)
+7.2/packages-stable/aarch64/openldap-client-2.6.3p0v0-gssapi.tgz
+              0   0%    0.00kB/s    0:00:00        1,569,890 100%    2.09MB/s    0:00:00 (xfr#83, ir-chk=11281/33861)
+7.2/packages-stable/aarch64/openldap-client-2.6.3p0v0.tgz
+              0   0%    0.00kB/s    0:00:00        1,569,299 100%    2.09MB/s    0:00:00 (xfr#84, ir-chk=11280/33861)
+7.2/packages-stable/aarch64/openldap-server-2.6.3v0-aci-gssapi.tgz
+              0   0%    0.00kB/s    0:00:00        1,556,882 100%    2.02MB/s    0:00:00 (xfr#85, ir-chk=11279/33861)
+7.2/packages-stable/aarch64/openldap-server-2.6.3v0-aci.tgz
+              0   0%    0.00kB/s    0:00:00        1,559,049 100%    2.02MB/s    0:00:00 (xfr#86, ir-chk=11278/33861)
+7.2/packages-stable/aarch64/openldap-server-2.6.3v0-gssapi.tgz
+              0   0%    0.00kB/s    0:00:00        1,549,704 100%    1.91MB/s    0:00:00 (xfr#87, ir-chk=11277/33861)
+7.2/packages-stable/aarch64/openldap-server-2.6.3v0.tgz
+              0   0%    0.00kB/s    0:00:00        1,547,094 100%    1.90MB/s    0:00:00 (xfr#88, ir-chk=11276/33861)
+7.2/packages-stable/aarch64/openssl-3.0.7.tgz
+              0   0%    0.00kB/s    0:00:00       13,387,965 100%   14.00MB/s    0:00:00 (xfr#89, ir-chk=11275/33861)
+7.2/packages-stable/aarch64/openssl-3.0.7p0.tgz
+              0   0%    0.00kB/s    0:00:00            3,656   0%    3.43kB/s    1:04:58       13,387,737 100%   12.18MB/s    0:00:01 (xfr#90, ir-chk=11274/33861)
+7.2/packages-stable/aarch64/php-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00        7,969,104 100%  584.61MB/s    0:00:00 (xfr#91, ir-chk=11273/33861)
+7.2/packages-stable/aarch64/php-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00        7,969,792 100%   33.34MB/s    0:00:00 (xfr#92, ir-chk=11272/33861)
+7.2/packages-stable/aarch64/php-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00        8,192,667 100%   33.53MB/s    0:00:00 (xfr#93, ir-chk=11271/33861)
+7.2/packages-stable/aarch64/php-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00        8,195,017 100%   21.89MB/s    0:00:00 (xfr#94, ir-chk=11270/33861)
+7.2/packages-stable/aarch64/php-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00        8,195,165 100%   21.59MB/s    0:00:00 (xfr#95, ir-chk=11269/33861)
+7.2/packages-stable/aarch64/php-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00        8,191,546 100%   16.66MB/s    0:00:00 (xfr#96, ir-chk=11268/33861)
+7.2/packages-stable/aarch64/php-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00        9,008,580 100%   14.51MB/s    0:00:00 (xfr#97, ir-chk=11267/33861)
+7.2/packages-stable/aarch64/php-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00        9,009,968 100%   14.37MB/s    0:00:00 (xfr#98, ir-chk=11266/33861)
+7.2/packages-stable/aarch64/php-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00        9,008,916 100%   11.59MB/s    0:00:00 (xfr#99, ir-chk=11265/33861)
+7.2/packages-stable/aarch64/php-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00        9,011,150 100%   11.52MB/s    0:00:00 (xfr#100, ir-chk=11264/33861)
+7.2/packages-stable/aarch64/php-apache-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,346,377 100%    3.50MB/s    0:00:00 (xfr#101, ir-chk=11263/33861)
+7.2/packages-stable/aarch64/php-apache-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00        3,346,199 100%    3.49MB/s    0:00:00 (xfr#102, ir-chk=11262/33861)
+7.2/packages-stable/aarch64/php-apache-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00        3,429,917 100%    3.57MB/s    0:00:00 (xfr#103, ir-chk=11261/33861)
+7.2/packages-stable/aarch64/php-apache-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00            1,848   0%    1.72kB/s    0:33:08        3,429,915 100%    3.12MB/s    0:00:01 (xfr#104, ir-chk=11260/33861)
+7.2/packages-stable/aarch64/php-apache-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00        3,430,616 100%  654.34MB/s    0:00:00 (xfr#105, ir-chk=11259/33861)
+7.2/packages-stable/aarch64/php-apache-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00        3,426,560 100%  408.48MB/s    0:00:00 (xfr#106, ir-chk=11258/33861)
+7.2/packages-stable/aarch64/php-apache-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00        3,657,750 100%   35.96MB/s    0:00:00 (xfr#107, ir-chk=11257/33861)
+7.2/packages-stable/aarch64/php-apache-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,657,752 100%   35.24MB/s    0:00:00 (xfr#108, ir-chk=11256/33861)
+7.2/packages-stable/aarch64/php-apache-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00        3,657,385 100%   34.53MB/s    0:00:00 (xfr#109, ir-chk=11255/33861)
+7.2/packages-stable/aarch64/php-apache-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00        3,659,274 100%    7.18MB/s    0:00:00 (xfr#110, ir-chk=11254/33861)
+7.2/packages-stable/aarch64/php-bz2-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           11,119 100%   22.34kB/s    0:00:00 (xfr#111, ir-chk=11253/33861)
+7.2/packages-stable/aarch64/php-bz2-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           11,120 100%   22.34kB/s    0:00:00 (xfr#112, ir-chk=11252/33861)
+7.2/packages-stable/aarch64/php-bz2-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           11,307 100%   22.72kB/s    0:00:00 (xfr#113, ir-chk=11251/33861)
+7.2/packages-stable/aarch64/php-bz2-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           11,306 100%   22.67kB/s    0:00:00 (xfr#114, ir-chk=11250/33861)
+7.2/packages-stable/aarch64/php-bz2-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           11,302 100%   22.66kB/s    0:00:00 (xfr#115, ir-chk=11249/33861)
+7.2/packages-stable/aarch64/php-bz2-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           11,311 100%   22.64kB/s    0:00:00 (xfr#116, ir-chk=11248/33861)
+7.2/packages-stable/aarch64/php-bz2-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           11,281 100%   22.58kB/s    0:00:00 (xfr#117, ir-chk=11247/33861)
+7.2/packages-stable/aarch64/php-bz2-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           11,281 100%   22.58kB/s    0:00:00 (xfr#118, ir-chk=11246/33861)
+7.2/packages-stable/aarch64/php-bz2-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           11,289 100%   22.59kB/s    0:00:00 (xfr#119, ir-chk=11245/33861)
+7.2/packages-stable/aarch64/php-bz2-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           11,286 100%   22.59kB/s    0:00:00 (xfr#120, ir-chk=11244/33861)
+7.2/packages-stable/aarch64/php-cgi-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,358,580 100%    6.54MB/s    0:00:00 (xfr#121, ir-chk=11243/33861)
+7.2/packages-stable/aarch64/php-cgi-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00        3,358,943 100%    6.51MB/s    0:00:00 (xfr#122, ir-chk=11242/33861)
+7.2/packages-stable/aarch64/php-cgi-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00        3,445,543 100%    5.58MB/s    0:00:00 (xfr#123, ir-chk=11241/33861)
+7.2/packages-stable/aarch64/php-cgi-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,445,666 100%    5.56MB/s    0:00:00 (xfr#124, ir-chk=11240/33861)
+7.2/packages-stable/aarch64/php-cgi-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00        3,445,771 100%    5.54MB/s    0:00:00 (xfr#125, ir-chk=11239/33861)
+7.2/packages-stable/aarch64/php-cgi-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00        3,443,996 100%    4.29MB/s    0:00:00 (xfr#126, ir-chk=11238/33861)
+7.2/packages-stable/aarch64/php-cgi-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00        3,676,675 100%    4.57MB/s    0:00:00 (xfr#127, ir-chk=11237/33861)
+7.2/packages-stable/aarch64/php-cgi-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,676,678 100%    4.55MB/s    0:00:00 (xfr#128, ir-chk=11236/33861)
+7.2/packages-stable/aarch64/php-cgi-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00            1,912   0%    1.60kB/s    0:38:16        3,675,916 100%    3.00MB/s    0:00:01 (xfr#129, ir-chk=11235/33861)
+7.2/packages-stable/aarch64/php-cgi-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00        3,678,249 100%  876.96MB/s    0:00:00 (xfr#130, ir-chk=11234/33861)
+7.2/packages-stable/aarch64/php-curl-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           38,435 100%    7.33MB/s    0:00:00 (xfr#131, ir-chk=11233/33861)
+7.2/packages-stable/aarch64/php-curl-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           38,436 100%    7.33MB/s    0:00:00 (xfr#132, ir-chk=11232/33861)
+7.2/packages-stable/aarch64/php-curl-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           42,148 100%    8.04MB/s    0:00:00 (xfr#133, ir-chk=11231/33861)
+7.2/packages-stable/aarch64/php-curl-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           42,149 100%    8.04MB/s    0:00:00 (xfr#134, ir-chk=11230/33861)
+7.2/packages-stable/aarch64/php-curl-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           42,181 100%    8.05MB/s    0:00:00 (xfr#135, ir-chk=11229/33861)
+7.2/packages-stable/aarch64/php-curl-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           42,136 100%    8.04MB/s    0:00:00 (xfr#136, ir-chk=11228/33861)
+7.2/packages-stable/aarch64/php-curl-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           43,172 100%    6.86MB/s    0:00:00 (xfr#137, ir-chk=11227/33861)
+7.2/packages-stable/aarch64/php-curl-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           43,170 100%    6.86MB/s    0:00:00 (xfr#138, ir-chk=11226/33861)
+7.2/packages-stable/aarch64/php-curl-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           43,181 100%    6.86MB/s    0:00:00 (xfr#139, ir-chk=11225/33861)
+7.2/packages-stable/aarch64/php-curl-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           43,117 100%    6.85MB/s    0:00:00 (xfr#140, ir-chk=11224/33861)
+7.2/packages-stable/aarch64/php-dba-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           25,569 100%    4.06MB/s    0:00:00 (xfr#141, ir-chk=11223/33861)
+7.2/packages-stable/aarch64/php-dba-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           25,562 100%    3.48MB/s    0:00:00 (xfr#142, ir-chk=11222/33861)
+7.2/packages-stable/aarch64/php-dba-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           25,531 100%    3.48MB/s    0:00:00 (xfr#143, ir-chk=11221/33861)
+7.2/packages-stable/aarch64/php-dba-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           25,529 100%    3.48MB/s    0:00:00 (xfr#144, ir-chk=11220/33861)
+7.2/packages-stable/aarch64/php-dba-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           25,512 100%    3.48MB/s    0:00:00 (xfr#145, ir-chk=11219/33861)
+7.2/packages-stable/aarch64/php-dba-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           25,482 100%    3.47MB/s    0:00:00 (xfr#146, ir-chk=11218/33861)
+7.2/packages-stable/aarch64/php-dba-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           25,487 100%    3.47MB/s    0:00:00 (xfr#147, ir-chk=11217/33861)
+7.2/packages-stable/aarch64/php-dba-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           25,488 100%    3.47MB/s    0:00:00 (xfr#148, ir-chk=11216/33861)
+7.2/packages-stable/aarch64/php-dba-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           25,481 100%    3.47MB/s    0:00:00 (xfr#149, ir-chk=11215/33861)
+7.2/packages-stable/aarch64/php-dba-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           25,468 100%    3.04MB/s    0:00:00 (xfr#150, ir-chk=11214/33861)
+7.2/packages-stable/aarch64/php-dbg-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,462,439 100%    6.01MB/s    0:00:00 (xfr#151, ir-chk=11213/33861)
+7.2/packages-stable/aarch64/php-dbg-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00        3,462,505 100%    5.98MB/s    0:00:00 (xfr#152, ir-chk=11212/33861)
+7.2/packages-stable/aarch64/php-dbg-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00        3,544,307 100%    6.10MB/s    0:00:00 (xfr#153, ir-chk=11211/33861)
+7.2/packages-stable/aarch64/php-dbg-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00            1,880   0%    1.82kB/s    0:32:28        3,544,250 100%    3.34MB/s    0:00:01 (xfr#154, ir-chk=11210/33861)
+7.2/packages-stable/aarch64/php-dbg-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00        3,545,285 100%  845.26MB/s    0:00:00 (xfr#155, ir-chk=11209/33861)
+7.2/packages-stable/aarch64/php-dbg-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00        3,542,454 100%  563.06MB/s    0:00:00 (xfr#156, ir-chk=11208/33861)
+7.2/packages-stable/aarch64/php-dbg-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00        3,749,137 100%    9.59MB/s    0:00:00 (xfr#157, ir-chk=11207/33861)
+7.2/packages-stable/aarch64/php-dbg-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,749,202 100%    9.51MB/s    0:00:00 (xfr#158, ir-chk=11206/33861)
+7.2/packages-stable/aarch64/php-dbg-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00        3,749,173 100%    9.43MB/s    0:00:00 (xfr#159, ir-chk=11205/33861)
+7.2/packages-stable/aarch64/php-dbg-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00        3,750,665 100%    7.01MB/s    0:00:00 (xfr#160, ir-chk=11204/33861)
+7.2/packages-stable/aarch64/php-embed-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,337,231 100%    6.22MB/s    0:00:00 (xfr#161, ir-chk=11203/33861)
+7.2/packages-stable/aarch64/php-embed-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00        3,336,799 100%    6.19MB/s    0:00:00 (xfr#162, ir-chk=11202/33861)
+7.2/packages-stable/aarch64/php-embed-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00        3,419,995 100%    4.75MB/s    0:00:00 (xfr#163, ir-chk=11201/33861)
+7.2/packages-stable/aarch64/php-embed-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,420,010 100%    4.73MB/s    0:00:00 (xfr#164, ir-chk=11200/33861)
+7.2/packages-stable/aarch64/php-embed-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00        3,420,028 100%    4.72MB/s    0:00:00 (xfr#165, ir-chk=11199/33861)
+7.2/packages-stable/aarch64/php-embed-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00        3,417,195 100%    4.70MB/s    0:00:00 (xfr#166, ir-chk=11198/33861)
+7.2/packages-stable/aarch64/php-embed-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00        3,649,126 100%    4.81MB/s    0:00:00 (xfr#167, ir-chk=11197/33861)
+7.2/packages-stable/aarch64/php-embed-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00            1,904   0%    1.51kB/s    0:40:10        3,649,142 100%    2.82MB/s    0:00:01 (xfr#168, ir-chk=11196/33861)
+7.2/packages-stable/aarch64/php-embed-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00        3,649,752 100%  870.17MB/s    0:00:00 (xfr#169, ir-chk=11195/33861)
+7.2/packages-stable/aarch64/php-embed-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00        3,650,706 100%  497.37MB/s    0:00:00 (xfr#170, ir-chk=11194/33861)
+7.2/packages-stable/aarch64/php-enchant-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00            9,896 100%    1.35MB/s    0:00:00 (xfr#171, ir-chk=11193/33861)
+7.2/packages-stable/aarch64/php-enchant-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00            9,898 100%    1.35MB/s    0:00:00 (xfr#172, ir-chk=11192/33861)
+7.2/packages-stable/aarch64/php-enchant-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           10,433 100%    1.42MB/s    0:00:00 (xfr#173, ir-chk=11191/33861)
+7.2/packages-stable/aarch64/php-enchant-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           10,439 100%    1.42MB/s    0:00:00 (xfr#174, ir-chk=11190/33861)
+7.2/packages-stable/aarch64/php-enchant-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           10,438 100%    1.24MB/s    0:00:00 (xfr#175, ir-chk=11189/33861)
+7.2/packages-stable/aarch64/php-enchant-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           10,425 100%    1.24MB/s    0:00:00 (xfr#176, ir-chk=11188/33861)
+7.2/packages-stable/aarch64/php-enchant-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           10,359 100%    1.23MB/s    0:00:00 (xfr#177, ir-chk=11187/33861)
+7.2/packages-stable/aarch64/php-enchant-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           10,361 100%    1.24MB/s    0:00:00 (xfr#178, ir-chk=11186/33861)
+7.2/packages-stable/aarch64/php-enchant-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           10,357 100%    1.23MB/s    0:00:00 (xfr#179, ir-chk=11185/33861)
+7.2/packages-stable/aarch64/php-enchant-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           10,353 100%    1.23MB/s    0:00:00 (xfr#180, ir-chk=11184/33861)
+7.2/packages-stable/aarch64/php-gd-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           40,911 100%    4.88MB/s    0:00:00 (xfr#181, ir-chk=11183/33861)
+7.2/packages-stable/aarch64/php-gd-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           40,941 100%    4.88MB/s    0:00:00 (xfr#182, ir-chk=11182/33861)
+7.2/packages-stable/aarch64/php-gd-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           43,904 100%    5.23MB/s    0:00:00 (xfr#183, ir-chk=11181/33861)
+7.2/packages-stable/aarch64/php-gd-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           43,902 100%    5.23MB/s    0:00:00 (xfr#184, ir-chk=11180/33861)
+7.2/packages-stable/aarch64/php-gd-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           43,905 100%    4.65MB/s    0:00:00 (xfr#185, ir-chk=11179/33861)
+7.2/packages-stable/aarch64/php-gd-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           43,930 100%    4.65MB/s    0:00:00 (xfr#186, ir-chk=11178/33861)
+7.2/packages-stable/aarch64/php-gd-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           45,237 100%    4.79MB/s    0:00:00 (xfr#187, ir-chk=11177/33861)
+7.2/packages-stable/aarch64/php-gd-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           45,240 100%    4.79MB/s    0:00:00 (xfr#188, ir-chk=11176/33861)
+7.2/packages-stable/aarch64/php-gd-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           45,197 100%    4.79MB/s    0:00:00 (xfr#189, ir-chk=11175/33861)
+7.2/packages-stable/aarch64/php-gd-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           45,256 100%    4.80MB/s    0:00:00 (xfr#190, ir-chk=11174/33861)
+7.2/packages-stable/aarch64/php-gmp-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           23,929 100%    2.54MB/s    0:00:00 (xfr#191, ir-chk=11173/33861)
+7.2/packages-stable/aarch64/php-gmp-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           23,964 100%    2.54MB/s    0:00:00 (xfr#192, ir-chk=11172/33861)
+7.2/packages-stable/aarch64/php-gmp-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           25,111 100%    2.66MB/s    0:00:00 (xfr#193, ir-chk=11171/33861)
+7.2/packages-stable/aarch64/php-gmp-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           25,106 100%    2.39MB/s    0:00:00 (xfr#194, ir-chk=11170/33861)
+7.2/packages-stable/aarch64/php-gmp-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           25,156 100%    2.40MB/s    0:00:00 (xfr#195, ir-chk=11169/33861)
+7.2/packages-stable/aarch64/php-gmp-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           25,169 100%    2.40MB/s    0:00:00 (xfr#196, ir-chk=11168/33861)
+7.2/packages-stable/aarch64/php-gmp-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           25,832 100%    2.46MB/s    0:00:00 (xfr#197, ir-chk=11167/33861)
+7.2/packages-stable/aarch64/php-gmp-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           25,830 100%    2.46MB/s    0:00:00 (xfr#198, ir-chk=11166/33861)
+7.2/packages-stable/aarch64/php-gmp-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           25,869 100%    2.47MB/s    0:00:00 (xfr#199, ir-chk=11165/33861)
+7.2/packages-stable/aarch64/php-gmp-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           25,856 100%    2.47MB/s    0:00:00 (xfr#200, ir-chk=11164/33861)
+7.2/packages-stable/aarch64/php-imap-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           38,247 100%    3.65MB/s    0:00:00 (xfr#201, ir-chk=11163/33861)
+7.2/packages-stable/aarch64/php-imap-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           38,283 100%    3.65MB/s    0:00:00 (xfr#202, ir-chk=11162/33861)
+7.2/packages-stable/aarch64/php-imap-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           38,331 100%    3.32MB/s    0:00:00 (xfr#203, ir-chk=11161/33861)
+7.2/packages-stable/aarch64/php-imap-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           38,330 100%    3.32MB/s    0:00:00 (xfr#204, ir-chk=11160/33861)
+7.2/packages-stable/aarch64/php-imap-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           38,339 100%   74.58kB/s    0:00:00 (xfr#205, ir-chk=11159/33861)
+7.2/packages-stable/aarch64/php-imap-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           38,330 100%   74.57kB/s    0:00:00 (xfr#206, ir-chk=11158/33861)
+7.2/packages-stable/aarch64/php-imap-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           39,438 100%   76.72kB/s    0:00:00 (xfr#207, ir-chk=11157/33861)
+7.2/packages-stable/aarch64/php-imap-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           39,438 100%   76.72kB/s    0:00:00 (xfr#208, ir-chk=11156/33861)
+7.2/packages-stable/aarch64/php-imap-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           39,446 100%   76.58kB/s    0:00:00 (xfr#209, ir-chk=11155/33861)
+7.2/packages-stable/aarch64/php-imap-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           39,408 100%   76.51kB/s    0:00:00 (xfr#210, ir-chk=11154/33861)
+7.2/packages-stable/aarch64/php-intl-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00          172,895 100%  335.67kB/s    0:00:00 (xfr#211, ir-chk=11153/33861)
+7.2/packages-stable/aarch64/php-intl-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00          172,851 100%  334.92kB/s    0:00:00 (xfr#212, ir-chk=11152/33861)
+7.2/packages-stable/aarch64/php-intl-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00          172,866 100%  334.95kB/s    0:00:00 (xfr#213, ir-chk=11151/33861)
+7.2/packages-stable/aarch64/php-intl-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00          172,864 100%  334.95kB/s    0:00:00 (xfr#214, ir-chk=11150/33861)
+7.2/packages-stable/aarch64/php-intl-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00          172,936 100%  335.08kB/s    0:00:00 (xfr#215, ir-chk=11149/33861)
+7.2/packages-stable/aarch64/php-intl-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00          172,852 100%  334.92kB/s    0:00:00 (xfr#216, ir-chk=11148/33861)
+7.2/packages-stable/aarch64/php-intl-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00          176,309 100%  340.94kB/s    0:00:00 (xfr#217, ir-chk=11147/33861)
+7.2/packages-stable/aarch64/php-intl-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00          176,313 100%  340.95kB/s    0:00:00 (xfr#218, ir-chk=11146/33861)
+7.2/packages-stable/aarch64/php-intl-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00          176,143 100%  340.62kB/s    0:00:00 (xfr#219, ir-chk=11145/33861)
+7.2/packages-stable/aarch64/php-intl-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00          176,294 100%  340.92kB/s    0:00:00 (xfr#220, ir-chk=11144/33861)
+7.2/packages-stable/aarch64/php-ldap-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           34,740 100%   67.05kB/s    0:00:00 (xfr#221, ir-chk=11143/33861)
+7.2/packages-stable/aarch64/php-ldap-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           34,748 100%   67.06kB/s    0:00:00 (xfr#222, ir-chk=11142/33861)
+7.2/packages-stable/aarch64/php-ldap-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           33,996 100%   65.61kB/s    0:00:00 (xfr#223, ir-chk=11141/33861)
+7.2/packages-stable/aarch64/php-ldap-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           34,000 100%   65.62kB/s    0:00:00 (xfr#224, ir-chk=11140/33861)
+7.2/packages-stable/aarch64/php-ldap-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           33,952 100%   65.53kB/s    0:00:00 (xfr#225, ir-chk=11139/33861)
+7.2/packages-stable/aarch64/php-ldap-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           33,998 100%   65.61kB/s    0:00:00 (xfr#226, ir-chk=11138/33861)
+7.2/packages-stable/aarch64/php-ldap-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           35,858 100%   69.20kB/s    0:00:00 (xfr#227, ir-chk=11137/33861)
+7.2/packages-stable/aarch64/php-ldap-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           35,857 100%   69.20kB/s    0:00:00 (xfr#228, ir-chk=11136/33861)
+7.2/packages-stable/aarch64/php-ldap-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           35,863 100%   69.21kB/s    0:00:00 (xfr#229, ir-chk=11135/33861)
+7.2/packages-stable/aarch64/php-ldap-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           35,850 100%   69.19kB/s    0:00:00 (xfr#230, ir-chk=11134/33861)
+7.2/packages-stable/aarch64/php-mysqli-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           51,333 100%   98.88kB/s    0:00:00 (xfr#231, ir-chk=11133/33861)
+7.2/packages-stable/aarch64/php-mysqli-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           51,341 100%   98.89kB/s    0:00:00 (xfr#232, ir-chk=11132/33861)
+7.2/packages-stable/aarch64/php-mysqli-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           51,568 100%   99.33kB/s    0:00:00 (xfr#233, ir-chk=11131/33861)
+7.2/packages-stable/aarch64/php-mysqli-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           51,571 100%   99.33kB/s    0:00:00 (xfr#234, ir-chk=11130/33861)
+7.2/packages-stable/aarch64/php-mysqli-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           51,631 100%   99.45kB/s    0:00:00 (xfr#235, ir-chk=11129/33861)
+7.2/packages-stable/aarch64/php-mysqli-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           51,691 100%   99.57kB/s    0:00:00 (xfr#236, ir-chk=11128/33861)
+7.2/packages-stable/aarch64/php-mysqli-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           54,665 100%  105.29kB/s    0:00:00 (xfr#237, ir-chk=11127/33861)
+7.2/packages-stable/aarch64/php-mysqli-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           54,670 100%  105.10kB/s    0:00:00 (xfr#238, ir-chk=11126/33861)
+7.2/packages-stable/aarch64/php-mysqli-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           54,688 100%  105.13kB/s    0:00:00 (xfr#239, ir-chk=11125/33861)
+7.2/packages-stable/aarch64/php-mysqli-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           54,681 100%  105.12kB/s    0:00:00 (xfr#240, ir-chk=11124/33861)
+7.2/packages-stable/aarch64/php-odbc-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           28,505 100%   54.80kB/s    0:00:00 (xfr#241, ir-chk=11123/33861)
+7.2/packages-stable/aarch64/php-odbc-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           28,436 100%   54.66kB/s    0:00:00 (xfr#242, ir-chk=11122/33861)
+7.2/packages-stable/aarch64/php-odbc-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           28,174 100%   54.16kB/s    0:00:00 (xfr#243, ir-chk=11121/33861)
+7.2/packages-stable/aarch64/php-odbc-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           28,173 100%   54.05kB/s    0:00:00 (xfr#244, ir-chk=11120/33861)
+7.2/packages-stable/aarch64/php-odbc-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           28,181 100%   54.07kB/s    0:00:00 (xfr#245, ir-chk=11119/33861)
+7.2/packages-stable/aarch64/php-odbc-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           28,135 100%   53.98kB/s    0:00:00 (xfr#246, ir-chk=11118/33861)
+7.2/packages-stable/aarch64/php-odbc-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           28,164 100%   54.04kB/s    0:00:00 (xfr#247, ir-chk=11117/33861)
+7.2/packages-stable/aarch64/php-odbc-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           28,167 100%   53.93kB/s    0:00:00 (xfr#248, ir-chk=11116/33861)
+7.2/packages-stable/aarch64/php-odbc-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           28,153 100%   53.91kB/s    0:00:00 (xfr#249, ir-chk=11115/33861)
+7.2/packages-stable/aarch64/php-odbc-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           28,172 100%   53.94kB/s    0:00:00 (xfr#250, ir-chk=11114/33861)
+7.2/packages-stable/aarch64/php-pcntl-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           13,297 100%   25.46kB/s    0:00:00 (xfr#251, ir-chk=11113/33861)
+7.2/packages-stable/aarch64/php-pcntl-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           13,296 100%   25.46kB/s    0:00:00 (xfr#252, ir-chk=11112/33861)
+7.2/packages-stable/aarch64/php-pcntl-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           13,589 100%   26.02kB/s    0:00:00 (xfr#253, ir-chk=11111/33861)
+7.2/packages-stable/aarch64/php-pcntl-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           13,586 100%   26.01kB/s    0:00:00 (xfr#254, ir-chk=11110/33861)
+7.2/packages-stable/aarch64/php-pcntl-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           13,615 100%   26.07kB/s    0:00:00 (xfr#255, ir-chk=11109/33861)
+7.2/packages-stable/aarch64/php-pcntl-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           13,612 100%   26.06kB/s    0:00:00 (xfr#256, ir-chk=11108/33861)
+7.2/packages-stable/aarch64/php-pcntl-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           13,749 100%   26.33kB/s    0:00:00 (xfr#257, ir-chk=11107/33861)
+7.2/packages-stable/aarch64/php-pcntl-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           13,757 100%   26.29kB/s    0:00:00 (xfr#258, ir-chk=11106/33861)
+7.2/packages-stable/aarch64/php-pcntl-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           13,751 100%   26.28kB/s    0:00:00 (xfr#259, ir-chk=11105/33861)
+7.2/packages-stable/aarch64/php-pcntl-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           13,750 100%   26.28kB/s    0:00:00 (xfr#260, ir-chk=11104/33861)
+7.2/packages-stable/aarch64/php-pdo_dblib-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           13,654 100%   26.09kB/s    0:00:00 (xfr#261, ir-chk=11103/33861)
+7.2/packages-stable/aarch64/php-pdo_dblib-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           13,645 100%   26.08kB/s    0:00:00 (xfr#262, ir-chk=11102/33861)
+7.2/packages-stable/aarch64/php-pdo_dblib-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           13,587 100%   25.97kB/s    0:00:00 (xfr#263, ir-chk=11101/33861)
+7.2/packages-stable/aarch64/php-pdo_dblib-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           13,584 100%   25.96kB/s    0:00:00 (xfr#264, ir-chk=11100/33861)
+7.2/packages-stable/aarch64/php-pdo_dblib-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           13,605 100%   26.00kB/s    0:00:00 (xfr#265, ir-chk=11099/33861)
+7.2/packages-stable/aarch64/php-pdo_dblib-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           13,608 100%   26.01kB/s    0:00:00 (xfr#266, ir-chk=11098/33861)
+7.2/packages-stable/aarch64/php-pdo_dblib-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           13,709 100%   26.20kB/s    0:00:00 (xfr#267, ir-chk=11097/33861)
+7.2/packages-stable/aarch64/php-pdo_dblib-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           13,712 100%   26.20kB/s    0:00:00 (xfr#268, ir-chk=11096/33861)
+7.2/packages-stable/aarch64/php-pdo_dblib-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           13,702 100%   26.13kB/s    0:00:00 (xfr#269, ir-chk=11095/33861)
+7.2/packages-stable/aarch64/php-pdo_dblib-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           13,707 100%   26.14kB/s    0:00:00 (xfr#270, ir-chk=11094/33861)
+7.2/packages-stable/aarch64/php-pdo_mysql-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           13,755 100%   26.24kB/s    0:00:00 (xfr#271, ir-chk=11093/33861)
+7.2/packages-stable/aarch64/php-pdo_mysql-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           13,758 100%   26.24kB/s    0:00:00 (xfr#272, ir-chk=11092/33861)
+7.2/packages-stable/aarch64/php-pdo_mysql-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           13,816 100%   26.35kB/s    0:00:00 (xfr#273, ir-chk=11091/33861)
+7.2/packages-stable/aarch64/php-pdo_mysql-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           13,816 100%   26.35kB/s    0:00:00 (xfr#274, ir-chk=11090/33861)
+7.2/packages-stable/aarch64/php-pdo_mysql-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           13,798 100%   26.32kB/s    0:00:00 (xfr#275, ir-chk=11089/33861)
+7.2/packages-stable/aarch64/php-pdo_mysql-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           13,826 100%   26.37kB/s    0:00:00 (xfr#276, ir-chk=11088/33861)
+7.2/packages-stable/aarch64/php-pdo_mysql-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           14,900 100%   28.42kB/s    0:00:00 (xfr#277, ir-chk=11087/33861)
+7.2/packages-stable/aarch64/php-pdo_mysql-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           14,898 100%   28.42kB/s    0:00:00 (xfr#278, ir-chk=11086/33861)
+7.2/packages-stable/aarch64/php-pdo_mysql-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           14,891 100%   28.40kB/s    0:00:00 (xfr#279, ir-chk=11085/33861)
+7.2/packages-stable/aarch64/php-pdo_mysql-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           14,900 100%   28.36kB/s    0:00:00 (xfr#280, ir-chk=11084/33861)
+7.2/packages-stable/aarch64/php-pdo_odbc-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           12,905 100%   24.57kB/s    0:00:00 (xfr#281, ir-chk=11083/33861)
+7.2/packages-stable/aarch64/php-pdo_odbc-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           12,907 100%   24.57kB/s    0:00:00 (xfr#282, ir-chk=11082/33861)
+7.2/packages-stable/aarch64/php-pdo_odbc-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           12,781 100%   24.33kB/s    0:00:00 (xfr#283, ir-chk=11081/33861)
+7.2/packages-stable/aarch64/php-pdo_odbc-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           12,786 100%   24.34kB/s    0:00:00 (xfr#284, ir-chk=11080/33861)
+7.2/packages-stable/aarch64/php-pdo_odbc-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           12,783 100%   24.33kB/s    0:00:00 (xfr#285, ir-chk=11079/33861)
+7.2/packages-stable/aarch64/php-pdo_odbc-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           12,785 100%   24.34kB/s    0:00:00 (xfr#286, ir-chk=11078/33861)
+7.2/packages-stable/aarch64/php-pdo_odbc-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00              700   5%    0.65kB/s    0:00:19           13,606 100%   12.71kB/s    0:00:01 (xfr#287, ir-chk=11077/33861)
+7.2/packages-stable/aarch64/php-pdo_odbc-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           13,604 100%   12.97MB/s    0:00:00 (xfr#288, ir-chk=11076/33861)
+7.2/packages-stable/aarch64/php-pdo_odbc-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           13,606 100%   12.98MB/s    0:00:00 (xfr#289, ir-chk=11075/33861)
+7.2/packages-stable/aarch64/php-pdo_odbc-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           13,598 100%   12.97MB/s    0:00:00 (xfr#290, ir-chk=11074/33861)
+7.2/packages-stable/aarch64/php-pdo_pgsql-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           20,516 100%   19.57MB/s    0:00:00 (xfr#291, ir-chk=11073/33861)
+7.2/packages-stable/aarch64/php-pdo_pgsql-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           20,519 100%   19.57MB/s    0:00:00 (xfr#292, ir-chk=11072/33861)
+7.2/packages-stable/aarch64/php-pdo_pgsql-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           21,841 100%   20.83MB/s    0:00:00 (xfr#293, ir-chk=11071/33861)
+7.2/packages-stable/aarch64/php-pdo_pgsql-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           21,842 100%   20.83MB/s    0:00:00 (xfr#294, ir-chk=11070/33861)
+7.2/packages-stable/aarch64/php-pdo_pgsql-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           21,835 100%   20.82MB/s    0:00:00 (xfr#295, ir-chk=11069/33861)
+7.2/packages-stable/aarch64/php-pdo_pgsql-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           21,845 100%   20.83MB/s    0:00:00 (xfr#296, ir-chk=11068/33861)
+7.2/packages-stable/aarch64/php-pdo_pgsql-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           21,849 100%   20.84MB/s    0:00:00 (xfr#297, ir-chk=11067/33861)
+7.2/packages-stable/aarch64/php-pdo_pgsql-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           21,847 100%   20.83MB/s    0:00:00 (xfr#298, ir-chk=11066/33861)
+7.2/packages-stable/aarch64/php-pdo_pgsql-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           21,841 100%   20.83MB/s    0:00:00 (xfr#299, ir-chk=11065/33861)
+7.2/packages-stable/aarch64/php-pdo_pgsql-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           21,830 100%   20.82MB/s    0:00:00 (xfr#300, ir-chk=11064/33861)
+7.2/packages-stable/aarch64/php-pdo_sqlite-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           14,781 100%   14.10MB/s    0:00:00 (xfr#301, ir-chk=11063/33861)
+7.2/packages-stable/aarch64/php-pdo_sqlite-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           14,781 100%   14.10MB/s    0:00:00 (xfr#302, ir-chk=11062/33861)
+7.2/packages-stable/aarch64/php-pdo_sqlite-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           14,928 100%    7.12MB/s    0:00:00 (xfr#303, ir-chk=11061/33861)
+7.2/packages-stable/aarch64/php-pdo_sqlite-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           14,929 100%    7.12MB/s    0:00:00 (xfr#304, ir-chk=11060/33861)
+7.2/packages-stable/aarch64/php-pdo_sqlite-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           14,922 100%    7.12MB/s    0:00:00 (xfr#305, ir-chk=11059/33861)
+7.2/packages-stable/aarch64/php-pdo_sqlite-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           14,931 100%    7.12MB/s    0:00:00 (xfr#306, ir-chk=11058/33861)
+7.2/packages-stable/aarch64/php-pdo_sqlite-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           15,679 100%    7.48MB/s    0:00:00 (xfr#307, ir-chk=11057/33861)
+7.2/packages-stable/aarch64/php-pdo_sqlite-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           15,680 100%    7.48MB/s    0:00:00 (xfr#308, ir-chk=11056/33861)
+7.2/packages-stable/aarch64/php-pdo_sqlite-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           15,682 100%    7.48MB/s    0:00:00 (xfr#309, ir-chk=11055/33861)
+7.2/packages-stable/aarch64/php-pdo_sqlite-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           15,666 100%    7.47MB/s    0:00:00 (xfr#310, ir-chk=11054/33861)
+7.2/packages-stable/aarch64/php-pgsql-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           50,447 100%   24.06MB/s    0:00:00 (xfr#311, ir-chk=11053/33861)
+7.2/packages-stable/aarch64/php-pgsql-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           50,448 100%   24.06MB/s    0:00:00 (xfr#312, ir-chk=11052/33861)
+7.2/packages-stable/aarch64/php-pgsql-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           49,972 100%   15.89MB/s    0:00:00 (xfr#313, ir-chk=11051/33861)
+7.2/packages-stable/aarch64/php-pgsql-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           49,973 100%   15.89MB/s    0:00:00 (xfr#314, ir-chk=11050/33861)
+7.2/packages-stable/aarch64/php-pgsql-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           49,896 100%   15.86MB/s    0:00:00 (xfr#315, ir-chk=11049/33861)
+7.2/packages-stable/aarch64/php-pgsql-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           49,987 100%   15.89MB/s    0:00:00 (xfr#316, ir-chk=11048/33861)
+7.2/packages-stable/aarch64/php-pgsql-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           51,294 100%   16.31MB/s    0:00:00 (xfr#317, ir-chk=11047/33861)
+7.2/packages-stable/aarch64/php-pgsql-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           51,296 100%   16.31MB/s    0:00:00 (xfr#318, ir-chk=11046/33861)
+7.2/packages-stable/aarch64/php-pgsql-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           51,286 100%   16.30MB/s    0:00:00 (xfr#319, ir-chk=11045/33861)
+7.2/packages-stable/aarch64/php-pgsql-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           51,330 100%   16.32MB/s    0:00:00 (xfr#320, ir-chk=11044/33861)
+7.2/packages-stable/aarch64/php-pspell-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00            8,799 100%    2.80MB/s    0:00:00 (xfr#321, ir-chk=11043/33861)
+7.2/packages-stable/aarch64/php-pspell-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00            8,795 100%    2.10MB/s    0:00:00 (xfr#322, ir-chk=11042/33861)
+7.2/packages-stable/aarch64/php-pspell-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00            8,982 100%    2.14MB/s    0:00:00 (xfr#323, ir-chk=11041/33861)
+7.2/packages-stable/aarch64/php-pspell-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00            8,993 100%    2.14MB/s    0:00:00 (xfr#324, ir-chk=11040/33861)
+7.2/packages-stable/aarch64/php-pspell-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00            8,990 100%    2.14MB/s    0:00:00 (xfr#325, ir-chk=11039/33861)
+7.2/packages-stable/aarch64/php-pspell-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00            8,990 100%    2.14MB/s    0:00:00 (xfr#326, ir-chk=11038/33861)
+7.2/packages-stable/aarch64/php-pspell-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00            9,451 100%    2.25MB/s    0:00:00 (xfr#327, ir-chk=11037/33861)
+7.2/packages-stable/aarch64/php-pspell-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00            9,455 100%    2.25MB/s    0:00:00 (xfr#328, ir-chk=11036/33861)
+7.2/packages-stable/aarch64/php-pspell-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00            9,452 100%    2.25MB/s    0:00:00 (xfr#329, ir-chk=11035/33861)
+7.2/packages-stable/aarch64/php-pspell-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00            9,454 100%    2.25MB/s    0:00:00 (xfr#330, ir-chk=11034/33861)
+7.2/packages-stable/aarch64/php-shmop-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00            5,939 100%    1.42MB/s    0:00:00 (xfr#331, ir-chk=11033/33861)
+7.2/packages-stable/aarch64/php-shmop-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00            5,926 100%    1.41MB/s    0:00:00 (xfr#332, ir-chk=11032/33861)
+7.2/packages-stable/aarch64/php-shmop-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00            6,633 100%    1.58MB/s    0:00:00 (xfr#333, ir-chk=11031/33861)
+7.2/packages-stable/aarch64/php-shmop-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00            6,631 100%    1.26MB/s    0:00:00 (xfr#334, ir-chk=11030/33861)
+7.2/packages-stable/aarch64/php-shmop-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00            6,628 100%    1.26MB/s    0:00:00 (xfr#335, ir-chk=11029/33861)
+7.2/packages-stable/aarch64/php-shmop-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00            6,622 100%    1.26MB/s    0:00:00 (xfr#336, ir-chk=11028/33861)
+7.2/packages-stable/aarch64/php-shmop-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00            6,555 100%    1.25MB/s    0:00:00 (xfr#337, ir-chk=11027/33861)
+7.2/packages-stable/aarch64/php-shmop-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00            6,556 100%    1.25MB/s    0:00:00 (xfr#338, ir-chk=11026/33861)
+7.2/packages-stable/aarch64/php-shmop-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00            6,551 100%    1.25MB/s    0:00:00 (xfr#339, ir-chk=11025/33861)
+7.2/packages-stable/aarch64/php-shmop-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00            6,552 100%    1.25MB/s    0:00:00 (xfr#340, ir-chk=11024/33861)
+7.2/packages-stable/aarch64/php-snmp-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           22,486 100%    4.29MB/s    0:00:00 (xfr#341, ir-chk=11023/33861)
+7.2/packages-stable/aarch64/php-snmp-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           22,455 100%    4.28MB/s    0:00:00 (xfr#342, ir-chk=11022/33861)
+7.2/packages-stable/aarch64/php-snmp-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           23,901 100%    4.56MB/s    0:00:00 (xfr#343, ir-chk=11021/33861)
+7.2/packages-stable/aarch64/php-snmp-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           23,906 100%    3.80MB/s    0:00:00 (xfr#344, ir-chk=11020/33861)
+7.2/packages-stable/aarch64/php-snmp-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           23,905 100%    3.80MB/s    0:00:00 (xfr#345, ir-chk=11019/33861)
+7.2/packages-stable/aarch64/php-snmp-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           23,918 100%    3.80MB/s    0:00:00 (xfr#346, ir-chk=11018/33861)
+7.2/packages-stable/aarch64/php-snmp-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           24,935 100%    3.96MB/s    0:00:00 (xfr#347, ir-chk=11017/33861)
+7.2/packages-stable/aarch64/php-snmp-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           24,938 100%    3.40MB/s    0:00:00 (xfr#348, ir-chk=11016/33861)
+7.2/packages-stable/aarch64/php-snmp-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           24,948 100%    3.40MB/s    0:00:00 (xfr#349, ir-chk=11015/33861)
+7.2/packages-stable/aarch64/php-snmp-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           24,952 100%    3.40MB/s    0:00:00 (xfr#350, ir-chk=11014/33861)
+7.2/packages-stable/aarch64/php-soap-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00          127,394 100%   17.36MB/s    0:00:00 (xfr#351, ir-chk=11013/33861)
+7.2/packages-stable/aarch64/php-soap-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00          127,484 100%   17.37MB/s    0:00:00 (xfr#352, ir-chk=11012/33861)
+7.2/packages-stable/aarch64/php-soap-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00          127,936 100%   17.43MB/s    0:00:00 (xfr#353, ir-chk=11011/33861)
+7.2/packages-stable/aarch64/php-soap-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00          127,941 100%   15.25MB/s    0:00:00 (xfr#354, ir-chk=11010/33861)
+7.2/packages-stable/aarch64/php-soap-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00          127,950 100%   15.25MB/s    0:00:00 (xfr#355, ir-chk=11009/33861)
+7.2/packages-stable/aarch64/php-soap-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00          127,978 100%   15.26MB/s    0:00:00 (xfr#356, ir-chk=11008/33861)
+7.2/packages-stable/aarch64/php-soap-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00          133,009 100%   15.86MB/s    0:00:00 (xfr#357, ir-chk=11007/33861)
+7.2/packages-stable/aarch64/php-soap-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00          133,011 100%   15.86MB/s    0:00:00 (xfr#358, ir-chk=11006/33861)
+7.2/packages-stable/aarch64/php-soap-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00          132,988 100%   14.09MB/s    0:00:00 (xfr#359, ir-chk=11005/33861)
+7.2/packages-stable/aarch64/php-soap-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00          133,159 100%   14.11MB/s    0:00:00 (xfr#360, ir-chk=11004/33861)
+7.2/packages-stable/aarch64/php-sqlite3-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           23,556 100%    2.50MB/s    0:00:00 (xfr#361, ir-chk=11003/33861)
+7.2/packages-stable/aarch64/php-sqlite3-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           23,579 100%    2.50MB/s    0:00:00 (xfr#362, ir-chk=11002/33861)
+7.2/packages-stable/aarch64/php-sqlite3-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           25,280 100%    2.68MB/s    0:00:00 (xfr#363, ir-chk=11001/33861)
+7.2/packages-stable/aarch64/php-sqlite3-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           25,280 100%    2.68MB/s    0:00:00 (xfr#364, ir-chk=11000/33861)
+7.2/packages-stable/aarch64/php-sqlite3-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           25,272 100%    2.68MB/s    0:00:00 (xfr#365, ir-chk=10999/33861)
+7.2/packages-stable/aarch64/php-sqlite3-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           25,294 100%    2.68MB/s    0:00:00 (xfr#366, ir-chk=10998/33861)
+7.2/packages-stable/aarch64/php-sqlite3-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           25,689 100%    2.45MB/s    0:00:00 (xfr#367, ir-chk=10997/33861)
+7.2/packages-stable/aarch64/php-sqlite3-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           25,694 100%    2.45MB/s    0:00:00 (xfr#368, ir-chk=10996/33861)
+7.2/packages-stable/aarch64/php-sqlite3-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           25,651 100%    2.45MB/s    0:00:00 (xfr#369, ir-chk=10995/33861)
+7.2/packages-stable/aarch64/php-sqlite3-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           25,659 100%    2.45MB/s    0:00:00 (xfr#370, ir-chk=10994/33861)
+7.2/packages-stable/aarch64/php-tidy-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           21,299 100%    2.03MB/s    0:00:00 (xfr#371, ir-chk=10993/33861)
+7.2/packages-stable/aarch64/php-tidy-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           21,316 100%    2.03MB/s    0:00:00 (xfr#372, ir-chk=10992/33861)
+7.2/packages-stable/aarch64/php-tidy-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           22,904 100%    2.18MB/s    0:00:00 (xfr#373, ir-chk=10991/33861)
+7.2/packages-stable/aarch64/php-tidy-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           22,911 100%    2.18MB/s    0:00:00 (xfr#374, ir-chk=10990/33861)
+7.2/packages-stable/aarch64/php-tidy-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           22,903 100%    2.18MB/s    0:00:00 (xfr#375, ir-chk=10989/33861)
+7.2/packages-stable/aarch64/php-tidy-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           22,889 100%    2.18MB/s    0:00:00 (xfr#376, ir-chk=10988/33861)
+7.2/packages-stable/aarch64/php-tidy-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           23,024 100%    2.00MB/s    0:00:00 (xfr#377, ir-chk=10987/33861)
+7.2/packages-stable/aarch64/php-tidy-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           23,025 100%    2.00MB/s    0:00:00 (xfr#378, ir-chk=10986/33861)
+7.2/packages-stable/aarch64/php-tidy-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           23,025 100%    2.00MB/s    0:00:00 (xfr#379, ir-chk=10985/33861)
+7.2/packages-stable/aarch64/php-tidy-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           23,033 100%    2.00MB/s    0:00:00 (xfr#380, ir-chk=10984/33861)
+7.2/packages-stable/aarch64/php-xmlrpc-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           42,728 100%    3.70MB/s    0:00:00 (xfr#381, ir-chk=10983/33861)
+7.2/packages-stable/aarch64/php-xmlrpc-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           42,693 100%    3.70MB/s    0:00:00 (xfr#382, ir-chk=10982/33861)
+7.2/packages-stable/aarch64/php-xsl-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           14,937 100%    1.30MB/s    0:00:00 (xfr#383, ir-chk=10981/33861)
+7.2/packages-stable/aarch64/php-xsl-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           14,932 100%    1.29MB/s    0:00:00 (xfr#384, ir-chk=10980/33861)
+7.2/packages-stable/aarch64/php-xsl-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           15,476 100%    1.34MB/s    0:00:00 (xfr#385, ir-chk=10979/33861)
+7.2/packages-stable/aarch64/php-xsl-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           15,479 100%    1.34MB/s    0:00:00 (xfr#386, ir-chk=10978/33861)
+7.2/packages-stable/aarch64/php-xsl-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           15,507 100%    1.23MB/s    0:00:00 (xfr#387, ir-chk=10977/33861)
+7.2/packages-stable/aarch64/php-xsl-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           15,504 100%    1.23MB/s    0:00:00 (xfr#388, ir-chk=10976/33861)
+7.2/packages-stable/aarch64/php-xsl-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           15,576 100%    1.24MB/s    0:00:00 (xfr#389, ir-chk=10975/33861)
+7.2/packages-stable/aarch64/php-xsl-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           15,586 100%    1.24MB/s    0:00:00 (xfr#390, ir-chk=10974/33861)
+7.2/packages-stable/aarch64/php-xsl-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           15,591 100%    1.24MB/s    0:00:00 (xfr#391, ir-chk=10973/33861)
+7.2/packages-stable/aarch64/php-xsl-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           15,595 100%    1.24MB/s    0:00:00 (xfr#392, ir-chk=10972/33861)
+7.2/packages-stable/aarch64/php-zip-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           26,713 100%    2.12MB/s    0:00:00 (xfr#393, ir-chk=10971/33861)
+7.2/packages-stable/aarch64/php-zip-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           26,753 100%    2.13MB/s    0:00:00 (xfr#394, ir-chk=10970/33861)
+7.2/packages-stable/aarch64/php-zip-8.0.24.tgz
+              0   0%    0.00kB/s    0:00:00           29,995 100%    2.38MB/s    0:00:00 (xfr#395, ir-chk=10969/33861)
+7.2/packages-stable/aarch64/php-zip-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           29,992 100%    2.38MB/s    0:00:00 (xfr#396, ir-chk=10968/33861)
+7.2/packages-stable/aarch64/php-zip-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           30,001 100%    2.38MB/s    0:00:00 (xfr#397, ir-chk=10967/33861)
+7.2/packages-stable/aarch64/php-zip-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           29,985 100%    2.20MB/s    0:00:00 (xfr#398, ir-chk=10966/33861)
+7.2/packages-stable/aarch64/php-zip-8.1.11.tgz
+              0   0%    0.00kB/s    0:00:00           30,654 100%    2.25MB/s    0:00:00 (xfr#399, ir-chk=10965/33861)
+7.2/packages-stable/aarch64/php-zip-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           30,656 100%    2.25MB/s    0:00:00 (xfr#400, ir-chk=10964/33861)
+7.2/packages-stable/aarch64/php-zip-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           30,713 100%    2.25MB/s    0:00:00 (xfr#401, ir-chk=10963/33861)
+7.2/packages-stable/aarch64/php-zip-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           30,694 100%    2.25MB/s    0:00:00 (xfr#402, ir-chk=10962/33861)
+7.2/packages-stable/aarch64/pjsip-2.13.tgz
+              0   0%    0.00kB/s    0:00:00        1,998,416 100%  136.13MB/s    0:00:00 (xfr#403, ir-chk=10961/33861)
+7.2/packages-stable/aarch64/pjsua-2.13.tgz
+              0   0%    0.00kB/s    0:00:00           51,340 100%    3.26MB/s    0:00:00 (xfr#404, ir-chk=10960/33861)
+7.2/packages-stable/aarch64/postfix-3.5.17p0-ldap.tgz
+              0   0%    0.00kB/s    0:00:00        8,206,497 100%  411.91MB/s    0:00:00 (xfr#405, ir-chk=10959/33861)
+7.2/packages-stable/aarch64/postfix-3.5.17p0-mysql.tgz
+              0   0%    0.00kB/s    0:00:00        8,028,429 100%  319.02MB/s    0:00:00 (xfr#406, ir-chk=10958/33861)
+7.2/packages-stable/aarch64/postfix-3.5.17p0-pgsql.tgz
+              0   0%    0.00kB/s    0:00:00        8,005,359 100%  177.55MB/s    0:00:00 (xfr#407, ir-chk=10957/33861)
+7.2/packages-stable/aarch64/postfix-3.5.17p0-sasl2-ldap.tgz
+              0   0%    0.00kB/s    0:00:00        8,217,425 100%   42.59MB/s    0:00:00 (xfr#408, ir-chk=10956/33861)
+7.2/packages-stable/aarch64/postfix-3.5.17p0-sasl2-mysql.tgz
+              0   0%    0.00kB/s    0:00:00        8,040,676 100%   40.79MB/s    0:00:00 (xfr#409, ir-chk=10955/33861)
+7.2/packages-stable/aarch64/postfix-3.5.17p0-sasl2-pgsql.tgz
+              0   0%    0.00kB/s    0:00:00        8,015,808 100%   23.31MB/s    0:00:00 (xfr#410, ir-chk=10954/33861)
+7.2/packages-stable/aarch64/postfix-3.5.17p0-sasl2.tgz
+              0   0%    0.00kB/s    0:00:00        7,907,054 100%   22.64MB/s    0:00:00 (xfr#411, ir-chk=10953/33861)
+7.2/packages-stable/aarch64/postfix-3.5.17p0.tgz
+              0   0%    0.00kB/s    0:00:00        7,895,452 100%   20.80MB/s    0:00:00 (xfr#412, ir-chk=10952/33861)
+7.2/packages-stable/aarch64/postfix-3.7.2p2-ldap.tgz
+              0   0%    0.00kB/s    0:00:00           14,080   0%   10.73kB/s    5:07:59      198,364,486 100%  136.98MB/s    0:00:01 (xfr#413, ir-chk=10951/33861)
+7.2/packages-stable/aarch64/postfix-3.7.2p2-mysql.tgz
+              0   0%    0.00kB/s    0:00:00      198,010,640 100%  192.10MB/s    0:00:00 (xfr#414, ir-chk=10950/33861)
+7.2/packages-stable/aarch64/postfix-3.7.2p2-pgsql.tgz
+              0   0%    0.00kB/s    0:00:00      198,007,140 100%  886.55MB/s    0:00:00 (xfr#415, ir-chk=10949/33861)
+7.2/packages-stable/aarch64/postfix-3.7.2p2-sasl2-ldap.tgz
+              0   0%    0.00kB/s    0:00:00       77,073,920  38%   73.50MB/s    0:00:01      198,375,117 100%  177.97MB/s    0:00:01 (xfr#416, ir-chk=10948/33861)
+7.2/packages-stable/aarch64/postfix-3.7.2p2-sasl2-mysql.tgz
+              0   0%    0.00kB/s    0:00:00      198,029,764 100%  263.03MB/s    0:00:00 (xfr#417, ir-chk=10947/33861)
+7.2/packages-stable/aarch64/postfix-3.7.2p2-sasl2-pgsql.tgz
+              0   0%    0.00kB/s    0:00:00           14,072   0%    9.58kB/s    5:44:36      198,024,208 100%  122.71MB/s    0:00:01 (xfr#418, ir-chk=10946/33861)
+7.2/packages-stable/aarch64/postfix-3.7.2p2-sasl2.tgz
+              0   0%    0.00kB/s    0:00:00       33,198,099 100%  187.34MB/s    0:00:00 (xfr#419, ir-chk=10945/33861)
+7.2/packages-stable/aarch64/postfix-3.7.2p2.tgz
+              0   0%    0.00kB/s    0:00:00       33,187,575 100%   95.33MB/s    0:00:00 (xfr#420, ir-chk=10944/33861)
+7.2/packages-stable/aarch64/postfix-3.8.20220816p0-ldap.tgz
+              0   0%    0.00kB/s    0:00:00      198,427,804 100%    1.87GB/s    0:00:00 (xfr#421, ir-chk=10943/33861)
+7.2/packages-stable/aarch64/postfix-3.8.20220816p0-mysql.tgz
+              0   0%    0.00kB/s    0:00:00      198,064,310 100%  847.04MB/s    0:00:00 (xfr#422, ir-chk=10942/33861)
+7.2/packages-stable/aarch64/postfix-3.8.20220816p0-pgsql.tgz
+              0   0%    0.00kB/s    0:00:00        6,557,552   3%    6.25MB/s    0:00:29      198,068,320 100%  172.66MB/s    0:00:01 (xfr#423, ir-chk=10941/33861)
+7.2/packages-stable/aarch64/postfix-3.8.20220816p0-sasl2-ldap.tgz
+              0   0%    0.00kB/s    0:00:00      198,439,950 100%  267.68MB/s    0:00:00 (xfr#424, ir-chk=10940/33861)
+7.2/packages-stable/aarch64/postfix-3.8.20220816p0-sasl2-mysql.tgz
+              0   0%    0.00kB/s    0:00:00      198,080,282 100%    1.25GB/s    0:00:00 (xfr#425, ir-chk=10939/33861)
+7.2/packages-stable/aarch64/postfix-3.8.20220816p0-sasl2-pgsql.tgz
+              0   0%    0.00kB/s    0:00:00           14,072   0%    9.52kB/s    5:46:39      198,090,873 100%  121.18MB/s    0:00:01 (xfr#426, ir-chk=10938/33861)
+7.2/packages-stable/aarch64/postfix-3.8.20220816p0-sasl2.tgz
+              0   0%    0.00kB/s    0:00:00       33,248,291 100%  122.42MB/s    0:00:00 (xfr#427, ir-chk=10937/33861)
+7.2/packages-stable/aarch64/postfix-3.8.20220816p0.tgz
+              0   0%    0.00kB/s    0:00:00       33,236,723 100%   53.63MB/s    0:00:00 (xfr#428, ir-chk=10936/33861)
+7.2/packages-stable/aarch64/pounce-3.0p0.tgz
+              0   0%    0.00kB/s    0:00:00           44,998 100%   74.10kB/s    0:00:00 (xfr#429, ir-chk=10935/33861)
+7.2/packages-stable/aarch64/prosody-0.12.2.tgz
+              0   0%    0.00kB/s    0:00:00          495,305 100%  815.68kB/s    0:00:00 (xfr#430, ir-chk=10934/33861)
+7.2/packages-stable/aarch64/protobuf-3.21.6.tgz
+              0   0%    0.00kB/s    0:00:00        7,020,189 100%   11.20MB/s    0:00:00 (xfr#431, ir-chk=10933/33861)
+7.2/packages-stable/aarch64/py3-libxml-2.10.3.tgz
+              0   0%    0.00kB/s    0:00:00          814,552 100%    1.30MB/s    0:00:00 (xfr#432, ir-chk=10932/33861)
+7.2/packages-stable/aarch64/py3-msgpack-1.0.4p1v0.tgz
+              0   0%    0.00kB/s    0:00:00          217,423 100%  354.47kB/s    0:00:00 (xfr#433, ir-chk=10931/33861)
+7.2/packages-stable/aarch64/py3-protobuf-4.21.6.tgz
+              0   0%    0.00kB/s    0:00:00          289,787 100%  465.45kB/s    0:00:00 (xfr#434, ir-chk=10930/33861)
+7.2/packages-stable/aarch64/python-3.10.8.tgz
+              0   0%    0.00kB/s    0:00:00       33,600,194 100%   42.72MB/s    0:00:00 (xfr#435, ir-chk=10929/33861)
+7.2/packages-stable/aarch64/python-3.10.8p0.tgz
+              0   0%    0.00kB/s    0:00:00       33,610,513 100%   34.21MB/s    0:00:00 (xfr#436, ir-chk=10928/33861)
+7.2/packages-stable/aarch64/python-3.10.9.tgz
+              0   0%    0.00kB/s    0:00:00            5,800   0%    5.26kB/s    1:46:38       33,685,094 100%   29.36MB/s    0:00:01 (xfr#437, ir-chk=10927/33861)
+7.2/packages-stable/aarch64/python-3.10.9p0.tgz
+              0   0%    0.00kB/s    0:00:00       33,651,639 100%  142.00MB/s    0:00:00 (xfr#438, ir-chk=10926/33861)
+7.2/packages-stable/aarch64/python-3.9.15.tgz
+              0   0%    0.00kB/s    0:00:00       26,638,999 100%   58.94MB/s    0:00:00 (xfr#439, ir-chk=10925/33861)
+7.2/packages-stable/aarch64/python-3.9.15p0.tgz
+              0   0%    0.00kB/s    0:00:00       26,702,620 100%   42.30MB/s    0:00:00 (xfr#440, ir-chk=10924/33861)
+7.2/packages-stable/aarch64/python-3.9.16.tgz
+              0   0%    0.00kB/s    0:00:00       26,678,546 100%   31.61MB/s    0:00:00 (xfr#441, ir-chk=10923/33861)
+7.2/packages-stable/aarch64/python-gdbm-3.10.8.tgz
+              0   0%    0.00kB/s    0:00:00           11,862 100%   14.35kB/s    0:00:00 (xfr#442, ir-chk=10922/33861)
+7.2/packages-stable/aarch64/python-gdbm-3.10.9.tgz
+              0   0%    0.00kB/s    0:00:00           11,863 100%   14.36kB/s    0:00:00 (xfr#443, ir-chk=10921/33861)
+7.2/packages-stable/aarch64/python-gdbm-3.9.15.tgz
+              0   0%    0.00kB/s    0:00:00           11,177 100%   13.53kB/s    0:00:00 (xfr#444, ir-chk=10920/33861)
+7.2/packages-stable/aarch64/python-gdbm-3.9.16.tgz
+              0   0%    0.00kB/s    0:00:00           11,178 100%   13.53kB/s    0:00:00 (xfr#445, ir-chk=10919/33861)
+7.2/packages-stable/aarch64/python-idle-3.10.8.tgz
+              0   0%    0.00kB/s    0:00:00            1,120   0%    1.07kB/s    0:19:38        1,257,187 100%    1.17MB/s    0:00:01 (xfr#446, ir-chk=10918/33861)
+7.2/packages-stable/aarch64/python-idle-3.10.9.tgz
+              0   0%    0.00kB/s    0:00:00        1,248,613 100%    1.16GB/s    0:00:00 (xfr#447, ir-chk=10917/33861)
+7.2/packages-stable/aarch64/python-idle-3.9.15.tgz
+              0   0%    0.00kB/s    0:00:00        1,182,486 100%  563.85MB/s    0:00:00 (xfr#448, ir-chk=10916/33861)
+7.2/packages-stable/aarch64/python-idle-3.9.16.tgz
+              0   0%    0.00kB/s    0:00:00        1,187,983 100%  377.65MB/s    0:00:00 (xfr#449, ir-chk=10915/33861)
+7.2/packages-stable/aarch64/python-tests-3.10.8.tgz
+              0   0%    0.00kB/s    0:00:00       17,023,480 100%  127.83MB/s    0:00:00 (xfr#450, ir-chk=10914/33861)
+7.2/packages-stable/aarch64/python-tests-3.10.9.tgz
+              0   0%    0.00kB/s    0:00:00       16,958,700 100%   49.61MB/s    0:00:00 (xfr#451, ir-chk=10913/33861)
+7.2/packages-stable/aarch64/python-tests-3.9.15.tgz
+              0   0%    0.00kB/s    0:00:00       16,285,383 100%   46.36MB/s    0:00:00 (xfr#452, ir-chk=10912/33861)
+7.2/packages-stable/aarch64/python-tests-3.9.16.tgz
+              0   0%    0.00kB/s    0:00:00       16,271,654 100%   31.16MB/s    0:00:00 (xfr#453, ir-chk=10911/33861)
+7.2/packages-stable/aarch64/python-tkinter-3.10.8.tgz
+              0   0%    0.00kB/s    0:00:00          509,626 100%  997.36kB/s    0:00:00 (xfr#454, ir-chk=10910/33861)
+7.2/packages-stable/aarch64/python-tkinter-3.10.8p0.tgz
+              0   0%    0.00kB/s    0:00:00          500,642 100%  979.78kB/s    0:00:00 (xfr#455, ir-chk=10909/33861)
+7.2/packages-stable/aarch64/python-tkinter-3.10.9.tgz
+              0   0%    0.00kB/s    0:00:00          509,299 100%  764.00kB/s    0:00:00 (xfr#456, ir-chk=10908/33861)
+7.2/packages-stable/aarch64/python-tkinter-3.9.15.tgz
+              0   0%    0.00kB/s    0:00:00          501,471 100%  752.25kB/s    0:00:00 (xfr#457, ir-chk=10907/33861)
+7.2/packages-stable/aarch64/python-tkinter-3.9.15p0.tgz
+              0   0%    0.00kB/s    0:00:00          492,823 100%  738.15kB/s    0:00:00 (xfr#458, ir-chk=10906/33861)
+7.2/packages-stable/aarch64/python-tkinter-3.9.16.tgz
+              0   0%    0.00kB/s    0:00:00          499,678 100%  748.42kB/s    0:00:00 (xfr#459, ir-chk=10905/33861)
+7.2/packages-stable/aarch64/quirks-6.42.tgz
+              0   0%    0.00kB/s    0:00:00          822,668 100%  872.30kB/s    0:00:00 (xfr#460, ir-chk=10904/33861)
+7.2/packages-stable/aarch64/rt-5.0.3.tgz
+              0   0%    0.00kB/s    0:00:00       17,881,700 100%   18.30MB/s    0:00:00 (xfr#461, ir-chk=10903/33861)
+7.2/packages-stable/aarch64/ruby-2.7.7.tgz
+              0   0%    0.00kB/s    0:00:00        6,927,147 100%    7.06MB/s    0:00:00 (xfr#462, ir-chk=10902/33861)
+7.2/packages-stable/aarch64/ruby-3.0.5.tgz
+              0   0%    0.00kB/s    0:00:00            3,072   0%    2.97kB/s    0:53:02        9,464,959 100%    8.91MB/s    0:00:01 (xfr#463, ir-chk=10901/33861)
+7.2/packages-stable/aarch64/ruby-3.1.3.tgz
+              0   0%    0.00kB/s    0:00:00       10,002,425 100%   52.41MB/s    0:00:00 (xfr#464, ir-chk=10900/33861)
+7.2/packages-stable/aarch64/ruby27-gdbm-2.7.7.tgz
+              0   0%    0.00kB/s    0:00:00           29,411 100%  156.95kB/s    0:00:00 (xfr#465, ir-chk=10899/33861)
+7.2/packages-stable/aarch64/ruby27-ri_docs-2.7.7.tgz
+              0   0%    0.00kB/s    0:00:00        3,885,400 100%   20.03MB/s    0:00:00 (xfr#466, ir-chk=10898/33861)
+7.2/packages-stable/aarch64/ruby30-gdbm-3.0.5.tgz
+              0   0%    0.00kB/s    0:00:00           37,982 100%  199.42kB/s    0:00:00 (xfr#467, ir-chk=10897/33861)
+7.2/packages-stable/aarch64/ruby30-ri_docs-3.0.5.tgz
+              0   0%    0.00kB/s    0:00:00        3,163,612 100%   14.51MB/s    0:00:00 (xfr#468, ir-chk=10896/33861)
+7.2/packages-stable/aarch64/ruby31-ri_docs-3.1.3.tgz
+              0   0%    0.00kB/s    0:00:00        3,195,128 100%    4.22MB/s    0:00:00 (xfr#469, ir-chk=10895/33861)
+7.2/packages-stable/aarch64/samba-4.16.4p1v0.tgz
+              0   0%    0.00kB/s    0:00:00       23,182,946 100%   30.08MB/s    0:00:00 (xfr#470, ir-chk=10894/33861)
+7.2/packages-stable/aarch64/samba-4.16.6v0.tgz
+              0   0%    0.00kB/s    0:00:00       23,188,192 100%   25.27MB/s    0:00:00 (xfr#471, ir-chk=10893/33861)
+7.2/packages-stable/aarch64/samba-4.16.7v0.tgz
+              0   0%    0.00kB/s    0:00:00       23,189,003 100%   24.04MB/s    0:00:00 (xfr#472, ir-chk=10892/33861)
+7.2/packages-stable/aarch64/samba-4.16.8v0.tgz
+              0   0%    0.00kB/s    0:00:00            4,816   0%    3.83kB/s    1:41:06       23,238,712 100%   17.86MB/s    0:00:01 (xfr#473, ir-chk=10891/33861)
+7.2/packages-stable/aarch64/samba-docs-4.16.4v0.tgz
+              0   0%    0.00kB/s    0:00:00          207,090 100%   15.19MB/s    0:00:00 (xfr#474, ir-chk=10890/33861)
+7.2/packages-stable/aarch64/samba-docs-4.16.6v0.tgz
+              0   0%    0.00kB/s    0:00:00          205,145 100%   15.05MB/s    0:00:00 (xfr#475, ir-chk=10889/33861)
+7.2/packages-stable/aarch64/samba-docs-4.16.7v0.tgz
+              0   0%    0.00kB/s    0:00:00          206,000 100%   15.11MB/s    0:00:00 (xfr#476, ir-chk=10888/33861)
+7.2/packages-stable/aarch64/samba-docs-4.16.8v0.tgz
+              0   0%    0.00kB/s    0:00:00          206,000 100%   15.11MB/s    0:00:00 (xfr#477, ir-chk=10887/33861)
+7.2/packages-stable/aarch64/sendmail-8.17.1.22-ldap-sasl.tgz
+              0   0%    0.00kB/s    0:00:00        1,986,587 100%    9.82MB/s    0:00:00 (xfr#478, ir-chk=10886/33861)
+7.2/packages-stable/aarch64/sendmail-8.17.1.22-ldap.tgz
+              0   0%    0.00kB/s    0:00:00        1,972,879 100%    9.70MB/s    0:00:00 (xfr#479, ir-chk=10885/33861)
+7.2/packages-stable/aarch64/sendmail-8.17.1.22-sasl.tgz
+              0   0%    0.00kB/s    0:00:00        1,971,679 100%    9.64MB/s    0:00:00 (xfr#480, ir-chk=10884/33861)
+7.2/packages-stable/aarch64/sendmail-8.17.1.22.tgz
+              0   0%    0.00kB/s    0:00:00        1,958,629 100%    9.48MB/s    0:00:00 (xfr#481, ir-chk=10883/33861)
+7.2/packages-stable/aarch64/snowflake_proxy-2.3.1.tgz
+              0   0%    0.00kB/s    0:00:00        6,781,767 100%   17.06MB/s    0:00:00 (xfr#482, ir-chk=10882/33861)
+7.2/packages-stable/aarch64/synapse-1.67.0p0.tgz
+              0   0%    0.00kB/s    0:00:00        4,150,733 100%   10.36MB/s    0:00:00 (xfr#483, ir-chk=10881/33861)
+7.2/packages-stable/aarch64/tb-noscript-11.4.12.tgz
+              0   0%    0.00kB/s    0:00:00          926,408 100%    2.31MB/s    0:00:00 (xfr#484, ir-chk=10880/33861)
+7.2/packages-stable/aarch64/telegraf-1.22.4p0.tgz
+              0   0%    0.00kB/s    0:00:00       68,634,414 100%   72.01MB/s    0:00:00 (xfr#485, ir-chk=10879/33861)
+7.2/packages-stable/aarch64/thunderbird-102.4.0.tgz
+              0   0%    0.00kB/s    0:00:00            9,192   0%    8.21kB/s    2:51:35       84,567,110 100%   70.93MB/s    0:00:01 (xfr#486, ir-chk=10878/33861)
+7.2/packages-stable/aarch64/thunderbird-102.4.1.tgz
+              0   0%    0.00kB/s    0:00:00       84,577,417 100%  207.35MB/s    0:00:00 (xfr#487, ir-chk=10877/33861)
+7.2/packages-stable/aarch64/thunderbird-102.4.2.tgz
+              0   0%    0.00kB/s    0:00:00            9,192   0%    7.73kB/s    3:02:26       84,574,461 100%   66.77MB/s    0:00:01 (xfr#488, ir-chk=10876/33861)
+7.2/packages-stable/aarch64/thunderbird-102.5.0.tgz
+              0   0%    0.00kB/s    0:00:00       84,596,066 100%  201.69MB/s    0:00:00 (xfr#489, ir-chk=10875/33861)
+7.2/packages-stable/aarch64/thunderbird-102.5.1.tgz
+              0   0%    0.00kB/s    0:00:00       84,599,136 100%   98.51MB/s    0:00:00 (xfr#490, ir-chk=10874/33861)
+7.2/packages-stable/aarch64/thunderbird-102.6.0.tgz
+              0   0%    0.00kB/s    0:00:00            9,200   0%    6.23kB/s    3:46:24       84,645,908 100%   54.18MB/s    0:00:01 (xfr#491, ir-chk=10873/33861)
+7.2/packages-stable/aarch64/thunderbird-102.6.1.tgz
+              0   0%    0.00kB/s    0:00:00       84,652,951 100%  155.25MB/s    0:00:00 (xfr#492, ir-chk=10872/33861)
+7.2/packages-stable/aarch64/tiff-4.4.0p2.tgz
+              0   0%    0.00kB/s    0:00:00        1,289,507 100%    1.38MB/s    0:00:00 (xfr#493, ir-chk=10871/33861)
+7.2/packages-stable/aarch64/tomcat-10.0.27.tgz
+              0   0%    0.00kB/s    0:00:00       10,679,154 100%   11.39MB/s    0:00:00 (xfr#494, ir-chk=10870/33861)
+7.2/packages-stable/aarch64/tomcat-8.5.83.tgz
+              0   0%    0.00kB/s    0:00:00            3,040   0%    2.37kB/s    1:04:57        9,253,135 100%    7.03MB/s    0:00:01 (xfr#495, ir-chk=10869/33861)
+7.2/packages-stable/aarch64/tomcat-9.0.68.tgz
+              0   0%    0.00kB/s    0:00:00       10,199,111 100%  884.24MB/s    0:00:00 (xfr#496, ir-chk=10868/33861)
+7.2/packages-stable/aarch64/tomcat-examples-10.0.27.tgz
+              0   0%    0.00kB/s    0:00:00       10,163,462 100%  149.12MB/s    0:00:00 (xfr#497, ir-chk=10867/33861)
+7.2/packages-stable/aarch64/tomcat-examples-8.5.83.tgz
+              0   0%    0.00kB/s    0:00:00       10,095,519 100%   46.51MB/s    0:00:00 (xfr#498, ir-chk=10866/33861)
+7.2/packages-stable/aarch64/tomcat-examples-9.0.68.tgz
+              0   0%    0.00kB/s    0:00:00       10,336,200 100%   46.28MB/s    0:00:00 (xfr#499, ir-chk=10865/33861)
+7.2/packages-stable/aarch64/tor-0.4.7.11.tgz
+              0   0%    0.00kB/s    0:00:00        4,051,035 100%   14.05MB/s    0:00:00 (xfr#500, ir-chk=10864/33861)
+7.2/packages-stable/aarch64/trac-1.5.4pre17604.tgz
+              0   0%    0.00kB/s    0:00:00        3,862,436 100%   13.25MB/s    0:00:00 (xfr#501, ir-chk=10863/33861)
+7.2/packages-stable/aarch64/tshark-3.6.10.tgz
+              0   0%    0.00kB/s    0:00:00       32,068,449 100%   60.44MB/s    0:00:00 (xfr#502, ir-chk=10862/33861)
+7.2/packages-stable/aarch64/tshark-3.6.9.tgz
+              0   0%    0.00kB/s    0:00:00       32,056,863 100%   45.43MB/s    0:00:00 (xfr#503, ir-chk=10861/33861)
+7.2/packages-stable/aarch64/webkitgtk40-2.38.1.tgz
+              0   0%    0.00kB/s    0:00:00       41,283,119 100%   46.76MB/s    0:00:00 (xfr#504, ir-chk=10860/33861)
+7.2/packages-stable/aarch64/webkitgtk40-2.38.2.tgz
+              0   0%    0.00kB/s    0:00:00            6,360   0%    5.88kB/s    1:54:44       40,496,214 100%   35.89MB/s    0:00:01 (xfr#505, ir-chk=10859/33861)
+7.2/packages-stable/aarch64/webkitgtk40-2.38.3.tgz
+              0   0%    0.00kB/s    0:00:00       40,496,123 100%  115.28MB/s    0:00:00 (xfr#506, ir-chk=10858/33861)
+7.2/packages-stable/aarch64/webkitgtk41-2.38.1.tgz
+              0   0%    0.00kB/s    0:00:00       41,289,425 100%   76.31MB/s    0:00:00 (xfr#507, ir-chk=10857/33861)
+7.2/packages-stable/aarch64/webkitgtk41-2.38.2.tgz
+              0   0%    0.00kB/s    0:00:00       40,502,297 100%   46.88MB/s    0:00:00 (xfr#508, ir-chk=10856/33861)
+7.2/packages-stable/aarch64/webkitgtk41-2.38.3.tgz
+              0   0%    0.00kB/s    0:00:00            6,360   0%    4.96kB/s    2:15:56       40,501,425 100%   30.39MB/s    0:00:01 (xfr#509, ir-chk=10855/33861)
+7.2/packages-stable/aarch64/webkitgtk50-2.38.1.tgz
+              0   0%    0.00kB/s    0:00:00       41,830,247 100%  140.96MB/s    0:00:00 (xfr#510, ir-chk=10854/33861)
+7.2/packages-stable/aarch64/webkitgtk50-2.38.2.tgz
+              0   0%    0.00kB/s    0:00:00       41,043,451 100%   86.41MB/s    0:00:00 (xfr#511, ir-chk=10853/33861)
+7.2/packages-stable/aarch64/webkitgtk50-2.38.3.tgz
+              0   0%    0.00kB/s    0:00:00       41,042,521 100%   55.13MB/s    0:00:00 (xfr#512, ir-chk=10852/33861)
+7.2/packages-stable/aarch64/wireshark-3.6.10.tgz
+              0   0%    0.00kB/s    0:00:00        5,077,700 100%    5.64MB/s    0:00:00 (xfr#513, ir-chk=10851/33861)
+7.2/packages-stable/aarch64/wireshark-3.6.9.tgz
+              0   0%    0.00kB/s    0:00:00        5,078,663 100%    5.62MB/s    0:00:00 (xfr#514, ir-chk=10850/33861)
+7.2/packages-stable/aarch64/xfce4-settings-4.16.4.tgz
+              0   0%    0.00kB/s    0:00:00        1,634,983 100%    1.80MB/s    0:00:00 (xfr#515, ir-chk=10849/33861)
+7.2/packages-stable/aarch64/xfce4-settings-4.16.5.tgz
+              0   0%    0.00kB/s    0:00:00        1,634,350 100%    1.63MB/s    0:00:00 (xfr#516, ir-chk=10848/33861)
+7.2/packages-stable/aarch64/zeek-5.0.3.tgz
+              0   0%    0.00kB/s    0:00:00            9,168   0%    6.64kB/s    3:31:13       84,181,881 100%   55.91MB/s    0:00:01 (xfr#517, ir-chk=10847/33861)
+7.2/packages-stable/aarch64/zeek-5.0.4.tgz
+              0   0%    0.00kB/s    0:00:00       84,037,685 100%  198.87MB/s    0:00:00 (xfr#518, ir-chk=10846/33861)
+7.2/packages-stable/amd64/
+7.2/packages-stable/amd64/SHA256
+              0   0%    0.00kB/s    0:00:00           65,534 100%  149.88kB/s    0:00:00 (xfr#519, ir-chk=10845/33861)
+7.2/packages-stable/amd64/SHA256.sig
+              0   0%    0.00kB/s    0:00:00           65,685 100%  148.14kB/s    0:00:00 (xfr#520, ir-chk=10844/33861)
+7.2/packages-stable/amd64/adobe-source-code-pro-2.038.tgz
+              0   0%    0.00kB/s    0:00:00        2,095,169 100%    4.35MB/s    0:00:00 (xfr#521, ir-chk=10843/33861)
+7.2/packages-stable/amd64/asterisk-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00        9,806,876 100%   20.11MB/s    0:00:00 (xfr#522, ir-chk=10842/33861)
+7.2/packages-stable/amd64/asterisk-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00            3,152   0%    2.70kB/s    1:01:29        9,947,561 100%    8.27MB/s    0:00:01 (xfr#523, ir-chk=10841/33861)
+7.2/packages-stable/amd64/asterisk-calendar-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00           85,681 100%   13.62MB/s    0:00:00 (xfr#524, ir-chk=10840/33861)
+7.2/packages-stable/amd64/asterisk-calendar-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00           85,300 100%   13.56MB/s    0:00:00 (xfr#525, ir-chk=10839/33861)
+7.2/packages-stable/amd64/asterisk-http_post-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00            9,493 100%    1.13MB/s    0:00:00 (xfr#526, ir-chk=10838/33861)
+7.2/packages-stable/amd64/asterisk-http_post-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00            9,504 100%    1.13MB/s    0:00:00 (xfr#527, ir-chk=10837/33861)
+7.2/packages-stable/amd64/asterisk-kqueue-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00            6,881 100%  839.97kB/s    0:00:00 (xfr#528, ir-chk=10836/33861)
+7.2/packages-stable/amd64/asterisk-kqueue-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00            6,892 100%  841.31kB/s    0:00:00 (xfr#529, ir-chk=10835/33861)
+7.2/packages-stable/amd64/asterisk-ldap-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00           29,705 100%    3.54MB/s    0:00:00 (xfr#530, ir-chk=10834/33861)
+7.2/packages-stable/amd64/asterisk-ldap-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00           29,719 100%    3.54MB/s    0:00:00 (xfr#531, ir-chk=10833/33861)
+7.2/packages-stable/amd64/asterisk-lua-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00           18,902 100%    2.25MB/s    0:00:00 (xfr#532, ir-chk=10832/33861)
+7.2/packages-stable/amd64/asterisk-lua-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00           18,911 100%    2.25MB/s    0:00:00 (xfr#533, ir-chk=10831/33861)
+7.2/packages-stable/amd64/asterisk-odbc-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00          110,669 100%   13.19MB/s    0:00:00 (xfr#534, ir-chk=10830/33861)
+7.2/packages-stable/amd64/asterisk-odbc-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00          110,486 100%   13.17MB/s    0:00:00 (xfr#535, ir-chk=10829/33861)
+7.2/packages-stable/amd64/asterisk-pgsql-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00           62,313 100%    5.94MB/s    0:00:00 (xfr#536, ir-chk=10828/33861)
+7.2/packages-stable/amd64/asterisk-pgsql-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00           62,312 100%    5.94MB/s    0:00:00 (xfr#537, ir-chk=10827/33861)
+7.2/packages-stable/amd64/asterisk-snmp-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00           15,132 100%    1.44MB/s    0:00:00 (xfr#538, ir-chk=10826/33861)
+7.2/packages-stable/amd64/asterisk-snmp-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00           15,062 100%    1.44MB/s    0:00:00 (xfr#539, ir-chk=10825/33861)
+7.2/packages-stable/amd64/asterisk-speex-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00           20,239 100%    1.93MB/s    0:00:00 (xfr#540, ir-chk=10824/33861)
+7.2/packages-stable/amd64/asterisk-speex-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00           20,279 100%    1.93MB/s    0:00:00 (xfr#541, ir-chk=10823/33861)
+7.2/packages-stable/amd64/asterisk-tds-16.29.1.tgz
+              0   0%    0.00kB/s    0:00:00           18,776 100%    1.79MB/s    0:00:00 (xfr#542, ir-chk=10822/33861)
+7.2/packages-stable/amd64/asterisk-tds-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00           18,784 100%    1.63MB/s    0:00:00 (xfr#543, ir-chk=10821/33861)
+7.2/packages-stable/amd64/asterisk-vm_imap-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00          129,825 100%   11.26MB/s    0:00:00 (xfr#544, ir-chk=10820/33861)
+7.2/packages-stable/amd64/asterisk-vm_odbc-18.15.1.tgz
+              0   0%    0.00kB/s    0:00:00          114,548 100%    9.93MB/s    0:00:00 (xfr#545, ir-chk=10819/33861)
+7.2/packages-stable/amd64/borgbackup-1.1.18p2.tgz
+              0   0%    0.00kB/s    0:00:00        2,362,533 100%   19.59MB/s    0:00:00 (xfr#546, ir-chk=10818/33861)
+7.2/packages-stable/amd64/borgbackup-1.2.2p2.tgz
+              0   0%    0.00kB/s    0:00:00        2,644,834 100%   21.56MB/s    0:00:00 (xfr#547, ir-chk=10817/33861)
+7.2/packages-stable/amd64/chicken-5.3.0p0.tgz
+              0   0%    0.00kB/s    0:00:00        4,994,954 100%   39.70MB/s    0:00:00 (xfr#548, ir-chk=10816/33861)
+7.2/packages-stable/amd64/clamav-0.105.1pl2.tgz
+              0   0%    0.00kB/s    0:00:00        8,008,408 100%   39.17MB/s    0:00:00 (xfr#549, ir-chk=10815/33861)
+7.2/packages-stable/amd64/clamav-0.105.1pl3.tgz
+              0   0%    0.00kB/s    0:00:00        8,044,664 100%   38.36MB/s    0:00:00 (xfr#550, ir-chk=10814/33861)
+7.2/packages-stable/amd64/curl-7.86.0.tgz
+              0   0%    0.00kB/s    0:00:00        3,617,869 100%   14.68MB/s    0:00:00 (xfr#551, ir-chk=10813/33861)
+7.2/packages-stable/amd64/curl-7.86.0p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,614,559 100%   14.48MB/s    0:00:00 (xfr#552, ir-chk=10812/33861)
+7.2/packages-stable/amd64/curl-7.87.0.tgz
+              0   0%    0.00kB/s    0:00:00        3,644,364 100%   14.48MB/s    0:00:00 (xfr#553, ir-chk=10811/33861)
+7.2/packages-stable/amd64/dbus-1.14.0p0v0.tgz
+              0   0%    0.00kB/s    0:00:00        1,248,798 100%    3.35MB/s    0:00:00 (xfr#554, ir-chk=10810/33861)
+7.2/packages-stable/amd64/dbus-daemon-launch-helper-1.14.0.tgz
+              0   0%    0.00kB/s    0:00:00           29,518 100%   81.20kB/s    0:00:00 (xfr#555, ir-chk=10809/33861)
+7.2/packages-stable/amd64/easy-rsa-3.1.1.tgz
+              0   0%    0.00kB/s    0:00:00           71,584 100%  196.92kB/s    0:00:00 (xfr#556, ir-chk=10808/33861)
+7.2/packages-stable/amd64/firefox-106.0.2.tgz
+              0   0%    0.00kB/s    0:00:00       84,831,987 100%   88.61MB/s    0:00:00 (xfr#557, ir-chk=10807/33861)
+7.2/packages-stable/amd64/firefox-106.0.tgz
+              0   0%    0.00kB/s    0:00:00            9,208   0%    6.14kB/s    3:50:14       84,805,672 100%   53.53MB/s    0:00:01 (xfr#558, ir-chk=10806/33861)
+7.2/packages-stable/amd64/firefox-107.0.1.tgz
+              0   0%    0.00kB/s    0:00:00       85,049,890 100%  184.76MB/s    0:00:00 (xfr#559, ir-chk=10805/33861)
+7.2/packages-stable/amd64/firefox-107.0.tgz
+              0   0%    0.00kB/s    0:00:00       85,023,042 100%   93.74MB/s    0:00:00 (xfr#560, ir-chk=10804/33861)
+7.2/packages-stable/amd64/firefox-107.0p0.tgz
+              0   0%    0.00kB/s    0:00:00        7,308,288   8%    6.97MB/s    0:00:10       85,030,219 100%   78.05MB/s    0:00:01 (xfr#561, ir-chk=10803/33861)
+7.2/packages-stable/amd64/firefox-108.0.1.tgz
+              0   0%    0.00kB/s    0:00:00       85,131,916 100%  208.17MB/s    0:00:00 (xfr#562, ir-chk=10802/33861)
+7.2/packages-stable/amd64/firefox-108.0.tgz
+              0   0%    0.00kB/s    0:00:00       85,167,619 100%   90.25MB/s    0:00:00 (xfr#563, ir-chk=10801/33861)
+7.2/packages-stable/amd64/firefox-esr-102.4.0.tgz
+              0   0%    0.00kB/s    0:00:00            9,064   0%    6.16kB/s    3:42:34       82,211,563 100%   52.73MB/s    0:00:01 (xfr#564, ir-chk=10800/33861)
+7.2/packages-stable/amd64/firefox-esr-102.5.0.tgz
+              0   0%    0.00kB/s    0:00:00       82,208,837 100%  104.39MB/s    0:00:00 (xfr#565, ir-chk=10799/33861)
+7.2/packages-stable/amd64/firefox-esr-102.6.0.tgz
+              0   0%    0.00kB/s    0:00:00       82,281,751 100%    1.67GB/s    0:00:00 (xfr#566, ir-chk=10798/33861)
+7.2/packages-stable/amd64/freerdp-2.8.1.tgz
+              0   0%    0.00kB/s    0:00:00        1,950,355 100%   37.20MB/s    0:00:00 (xfr#567, ir-chk=10797/33861)
+7.2/packages-stable/amd64/gdk-pixbuf-2.42.9p0.tgz
+              0   0%    0.00kB/s    0:00:00          815,938 100%    5.76MB/s    0:00:00 (xfr#568, ir-chk=10796/33861)
+7.2/packages-stable/amd64/glib2-2.72.4p0.tgz
+              0   0%    0.00kB/s    0:00:00        5,227,917 100%   36.13MB/s    0:00:00 (xfr#569, ir-chk=10795/33861)
+7.2/packages-stable/amd64/glib2-2.72.4p1.tgz
+              0   0%    0.00kB/s    0:00:00        5,226,626 100%   35.35MB/s    0:00:00 (xfr#570, ir-chk=10794/33861)
+7.2/packages-stable/amd64/glib2-2.72.4p2.tgz
+              0   0%    0.00kB/s    0:00:00        5,229,394 100%   20.44MB/s    0:00:00 (xfr#571, ir-chk=10793/33861)
+7.2/packages-stable/amd64/gmid-1.8.6.tgz
+              0   0%    0.00kB/s    0:00:00           65,440 100%  261.91kB/s    0:00:00 (xfr#572, ir-chk=10792/33861)
+7.2/packages-stable/amd64/gnome-control-center-42.4.tgz
+              0   0%    0.00kB/s    0:00:00        8,464,863 100%   32.55MB/s    0:00:00 (xfr#573, ir-chk=10791/33861)
+7.2/packages-stable/amd64/heimdal-7.7.1.tgz
+              0   0%    0.00kB/s    0:00:00          378,304 100%  845.39kB/s    0:00:00 (xfr#574, ir-chk=10790/33861)
+7.2/packages-stable/amd64/heimdal-devel-docs-7.7.1.tgz
+              0   0%    0.00kB/s    0:00:00          199,231 100%  445.22kB/s    0:00:00 (xfr#575, ir-chk=10789/33861)
+7.2/packages-stable/amd64/heimdal-libs-7.7.1.tgz
+              0   0%    0.00kB/s    0:00:00        4,728,494 100%   10.25MB/s    0:00:00 (xfr#576, ir-chk=10788/33861)
+7.2/packages-stable/amd64/icinga-web2-2.11.3.tgz
+              0   0%    0.00kB/s    0:00:00       11,663,567 100%   19.11MB/s    0:00:00 (xfr#577, ir-chk=10787/33861)
+7.2/packages-stable/amd64/index.txt
+              0   0%    0.00kB/s    0:00:00           61,609 100%  103.20kB/s    0:00:00 (xfr#578, ir-chk=10786/33861)
+7.2/packages-stable/amd64/influxdb-1.8.10p0.tgz
+              0   0%    0.00kB/s    0:00:00       69,257,163 100%   69.82MB/s    0:00:00 (xfr#579, ir-chk=10785/33861)
+7.2/packages-stable/amd64/isc-bind-9.18.10v3-geoip.tgz
+              0   0%    0.00kB/s    0:00:00            1,640   0%    1.28kB/s    0:35:03        2,696,415 100%    2.05MB/s    0:00:01 (xfr#580, ir-chk=10784/33861)
+7.2/packages-stable/amd64/isc-bind-9.18.10v3.tgz
+              0   0%    0.00kB/s    0:00:00        2,689,700 100%   61.07MB/s    0:00:00 (xfr#581, ir-chk=10783/33861)
+7.2/packages-stable/amd64/isc-dhcp-client-4.4.3pl1.tgz
+              0   0%    0.00kB/s    0:00:00        1,293,351 100%   28.68MB/s    0:00:00 (xfr#582, ir-chk=10782/33861)
+7.2/packages-stable/amd64/isc-dhcp-omapi-4.4.3pl1.tgz
+              0   0%    0.00kB/s    0:00:00        1,537,064 100%   33.31MB/s    0:00:00 (xfr#583, ir-chk=10781/33861)
+7.2/packages-stable/amd64/isc-dhcp-server-4.4.3pl1.tgz
+              0   0%    0.00kB/s    0:00:00        2,799,692 100%   29.34MB/s    0:00:00 (xfr#584, ir-chk=10780/33861)
+7.2/packages-stable/amd64/jenkins-2.361.2.tgz
+              0   0%    0.00kB/s    0:00:00       93,351,721 100%  137.39MB/s    0:00:00 (xfr#585, ir-chk=10779/33861)
+7.2/packages-stable/amd64/jenkins-2.375.1.tgz
+              0   0%    0.00kB/s    0:00:00            9,664   0%    8.68kB/s    2:59:18       93,414,665 100%   78.42MB/s    0:00:01 (xfr#586, ir-chk=10778/33861)
+7.2/packages-stable/amd64/jenkins-2.375.tgz
+              0   0%    0.00kB/s    0:00:00       93,412,010 100%  101.35MB/s    0:00:00 (xfr#587, ir-chk=10777/33861)
+7.2/packages-stable/amd64/jenkins-2.382.tgz
+              0   0%    0.00kB/s    0:00:00            9,944   0%    7.53kB/s    3:39:11       99,012,786 100%   70.36MB/s    0:00:01 (xfr#588, ir-chk=10776/33861)
+7.2/packages-stable/amd64/libksba-1.6.2.tgz
+              0   0%    0.00kB/s    0:00:00          311,767 100%    5.41MB/s    0:00:00 (xfr#589, ir-chk=10775/33861)
+7.2/packages-stable/amd64/libksba-1.6.3.tgz
+              0   0%    0.00kB/s    0:00:00          311,880 100%    1.66MB/s    0:00:00 (xfr#590, ir-chk=10774/33861)
+7.2/packages-stable/amd64/libmilter-8.17.1.22.tgz
+              0   0%    0.00kB/s    0:00:00          174,124 100%  944.68kB/s    0:00:00 (xfr#591, ir-chk=10773/33861)
+7.2/packages-stable/amd64/libxml-2.10.3.tgz
+              0   0%    0.00kB/s    0:00:00        3,806,557 100%   19.95MB/s    0:00:00 (xfr#592, ir-chk=10772/33861)
+7.2/packages-stable/amd64/lightning-seamonkey-5.8.14v0.tgz
+              0   0%    0.00kB/s    0:00:00        1,247,774 100%    5.48MB/s    0:00:00 (xfr#593, ir-chk=10771/33861)
+7.2/packages-stable/amd64/lucee-5.3.9.166.tgz
+              0   0%    0.00kB/s    0:00:00       79,507,843 100%  104.59MB/s    0:00:00 (xfr#594, ir-chk=10770/33861)
+7.2/packages-stable/amd64/menulibre-2.3.0p1.tgz
+              0   0%    0.00kB/s    0:00:00          366,193 100%  491.22kB/s    0:00:00 (xfr#595, ir-chk=10769/33861)
+7.2/packages-stable/amd64/nextcloud-24.0.8.tgz
+              0   0%    0.00kB/s    0:00:00          208,491   0%  196.15kB/s    0:11:35        5,241,650   3%    2.39MB/s    0:00:53       10,474,657   7%    3.20MB/s    0:00:38       17,568,331  12%    4.07MB/s    0:00:28       25,453,521  18%    5.80MB/s    0:00:18       34,382,052  25%    6.64MB/s    0:00:15       42,950,166  31%    7.35MB/s    0:00:12       53,205,690  38%    8.03MB/s    0:00:10       62,735,465  45%    8.41MB/s    0:00:08       72,155,474  52%    8.69MB/s    0:00:07       79,969,985  58%    8.63MB/s    0:00:06       88,411,581  64%    8.23MB/s    0:00:05       97,517,568  71%    8.24MB/s    0:00:04      103,969,559  76%    7.50MB/s    0:00:04      112,767,029  82%    7.65MB/s    0:00:03      122,236,187  89%    7.91MB/s    0:00:01      130,319,761  95%    7.65MB/s    0:00:00      136,724,337 100%    7.12MB/s    0:00:18 (xfr#596, ir-chk=10768/33861)
+7.2/packages-stable/amd64/nheko-0.10.2.tgz
+              0   0%    0.00kB/s    0:00:00        3,347,994 100%    4.03MB/s    0:00:00 (xfr#597, ir-chk=10767/33861)
+7.2/packages-stable/amd64/nostromo-2.0.tgz
+              0   0%    0.00kB/s    0:00:00           51,831 100%   63.83kB/s    0:00:00 (xfr#598, ir-chk=10766/33861)
+7.2/packages-stable/amd64/obfs4proxy-0.0.14.tgz
+              0   0%    0.00kB/s    0:00:00        4,359,544 100%    5.22MB/s    0:00:00 (xfr#599, ir-chk=10765/33861)
+7.2/packages-stable/amd64/obsdfreqd-1.1.1.tgz
+              0   0%    0.00kB/s    0:00:00           10,038 100%   12.31kB/s    0:00:00 (xfr#600, ir-chk=10764/33861)
+7.2/packages-stable/amd64/openldap-client-2.6.3p0v0-gssapi.tgz
+              0   0%    0.00kB/s    0:00:00        1,607,667 100%    1.92MB/s    0:00:00 (xfr#601, ir-chk=10763/33861)
+7.2/packages-stable/amd64/openldap-client-2.6.3p0v0.tgz
+              0   0%    0.00kB/s    0:00:00        1,606,604 100%    1.92MB/s    0:00:00 (xfr#602, ir-chk=10762/33861)
+7.2/packages-stable/amd64/openldap-server-2.6.3v0-aci-gssapi.tgz
+              0   0%    0.00kB/s    0:00:00        1,647,872 100%    1.66MB/s    0:00:00 (xfr#603, ir-chk=10761/33861)
+7.2/packages-stable/amd64/openldap-server-2.6.3v0-aci.tgz
+              0   0%    0.00kB/s    0:00:00        1,646,249 100%    1.66MB/s    0:00:00 (xfr#604, ir-chk=10760/33861)
+7.2/packages-stable/amd64/openldap-server-2.6.3v0-gssapi.tgz
+              0   0%    0.00kB/s    0:00:00        1,635,024 100%    1.64MB/s    0:00:00 (xfr#605, ir-chk=10759/33861)
+7.2/packages-stable/amd64/openldap-server-2.6.3v0.tgz
+              0   0%    0.00kB/s    0:00:00        1,631,848 100%    1.64MB/s    0:00:00 (xfr#606, ir-chk=10758/33861)
+7.2/packages-stable/amd64/openssl-3.0.7.tgz
+              0   0%    0.00kB/s    0:00:00       13,598,183 100%   13.13MB/s    0:00:00 (xfr#607, ir-chk=10757/33861)
+7.2/packages-stable/amd64/openssl-3.0.7p0.tgz
+              0   0%    0.00kB/s    0:00:00            3,688   0%    3.16kB/s    1:11:44       13,603,871 100%   11.31MB/s    0:00:01 (xfr#608, ir-chk=10756/33861)
+7.2/packages-stable/amd64/php-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00        8,198,890 100%  558.51MB/s    0:00:00 (xfr#609, ir-chk=10755/33861)
+7.2/packages-stable/amd64/php-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00        8,199,198 100%   88.86MB/s    0:00:00 (xfr#610, ir-chk=10754/33861)
+7.2/packages-stable/amd64/php-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00        8,771,600 100%   89.95MB/s    0:00:00 (xfr#611, ir-chk=10753/33861)
+7.2/packages-stable/amd64/php-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00        8,773,195 100%   47.54MB/s    0:00:00 (xfr#612, ir-chk=10752/33861)
+7.2/packages-stable/amd64/php-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00        8,764,567 100%   45.93MB/s    0:00:00 (xfr#613, ir-chk=10751/33861)
+7.2/packages-stable/amd64/php-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00        9,011,860 100%   23.04MB/s    0:00:00 (xfr#614, ir-chk=10750/33861)
+7.2/packages-stable/amd64/php-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00        9,014,086 100%   22.68MB/s    0:00:00 (xfr#615, ir-chk=10749/33861)
+7.2/packages-stable/amd64/php-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00        9,016,690 100%   17.91MB/s    0:00:00 (xfr#616, ir-chk=10748/33861)
+7.2/packages-stable/amd64/php-apache-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,461,268 100%    6.83MB/s    0:00:00 (xfr#617, ir-chk=10747/33861)
+7.2/packages-stable/amd64/php-apache-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00        3,461,435 100%    5.21MB/s    0:00:00 (xfr#618, ir-chk=10746/33861)
+7.2/packages-stable/amd64/php-apache-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,547,942 100%    5.32MB/s    0:00:00 (xfr#619, ir-chk=10745/33861)
+7.2/packages-stable/amd64/php-apache-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00        3,548,200 100%    5.30MB/s    0:00:00 (xfr#620, ir-chk=10744/33861)
+7.2/packages-stable/amd64/php-apache-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00        3,544,541 100%    3.88MB/s    0:00:00 (xfr#621, ir-chk=10743/33861)
+7.2/packages-stable/amd64/php-apache-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,756,209 100%    4.09MB/s    0:00:00 (xfr#622, ir-chk=10742/33861)
+7.2/packages-stable/amd64/php-apache-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00        3,756,067 100%    4.08MB/s    0:00:00 (xfr#623, ir-chk=10741/33861)
+7.2/packages-stable/amd64/php-apache-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00            1,936   0%    1.64kB/s    0:38:03        3,756,877 100%    3.11MB/s    0:00:01 (xfr#624, ir-chk=10740/33861)
+7.2/packages-stable/amd64/php-bz2-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           11,571 100%    5.52MB/s    0:00:00 (xfr#625, ir-chk=10739/33861)
+7.2/packages-stable/amd64/php-bz2-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           11,562 100%    5.51MB/s    0:00:00 (xfr#626, ir-chk=10738/33861)
+7.2/packages-stable/amd64/php-bz2-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           11,896 100%    5.67MB/s    0:00:00 (xfr#627, ir-chk=10737/33861)
+7.2/packages-stable/amd64/php-bz2-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           11,894 100%    5.67MB/s    0:00:00 (xfr#628, ir-chk=10736/33861)
+7.2/packages-stable/amd64/php-bz2-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           11,899 100%    3.78MB/s    0:00:00 (xfr#629, ir-chk=10735/33861)
+7.2/packages-stable/amd64/php-bz2-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           11,899 100%    3.78MB/s    0:00:00 (xfr#630, ir-chk=10734/33861)
+7.2/packages-stable/amd64/php-bz2-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           11,897 100%    3.78MB/s    0:00:00 (xfr#631, ir-chk=10733/33861)
+7.2/packages-stable/amd64/php-bz2-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           11,893 100%    3.78MB/s    0:00:00 (xfr#632, ir-chk=10732/33861)
+7.2/packages-stable/amd64/php-cgi-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,464,948 100%  660.89MB/s    0:00:00 (xfr#633, ir-chk=10731/33861)
+7.2/packages-stable/amd64/php-cgi-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00        3,464,765 100%  472.04MB/s    0:00:00 (xfr#634, ir-chk=10730/33861)
+7.2/packages-stable/amd64/php-cgi-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,552,458 100%    9.46MB/s    0:00:00 (xfr#635, ir-chk=10729/33861)
+7.2/packages-stable/amd64/php-cgi-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00        3,552,498 100%    9.41MB/s    0:00:00 (xfr#636, ir-chk=10728/33861)
+7.2/packages-stable/amd64/php-cgi-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00        3,550,490 100%    9.33MB/s    0:00:00 (xfr#637, ir-chk=10727/33861)
+7.2/packages-stable/amd64/php-cgi-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,759,203 100%    9.80MB/s    0:00:00 (xfr#638, ir-chk=10726/33861)
+7.2/packages-stable/amd64/php-cgi-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00        3,759,702 100%    9.74MB/s    0:00:00 (xfr#639, ir-chk=10725/33861)
+7.2/packages-stable/amd64/php-cgi-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00        3,761,000 100%    6.63MB/s    0:00:00 (xfr#640, ir-chk=10724/33861)
+7.2/packages-stable/amd64/php-curl-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           39,648 100%   71.57kB/s    0:00:00 (xfr#641, ir-chk=10723/33861)
+7.2/packages-stable/amd64/php-curl-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           39,649 100%   71.57kB/s    0:00:00 (xfr#642, ir-chk=10722/33861)
+7.2/packages-stable/amd64/php-curl-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           43,418 100%   78.37kB/s    0:00:00 (xfr#643, ir-chk=10721/33861)
+7.2/packages-stable/amd64/php-curl-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           43,417 100%   78.37kB/s    0:00:00 (xfr#644, ir-chk=10720/33861)
+7.2/packages-stable/amd64/php-curl-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           43,428 100%   78.25kB/s    0:00:00 (xfr#645, ir-chk=10719/33861)
+7.2/packages-stable/amd64/php-curl-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           44,453 100%   80.09kB/s    0:00:00 (xfr#646, ir-chk=10718/33861)
+7.2/packages-stable/amd64/php-curl-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           44,455 100%   80.10kB/s    0:00:00 (xfr#647, ir-chk=10717/33861)
+7.2/packages-stable/amd64/php-curl-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           44,418 100%   80.03kB/s    0:00:00 (xfr#648, ir-chk=10716/33861)
+7.2/packages-stable/amd64/php-dba-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           26,854 100%   48.38kB/s    0:00:00 (xfr#649, ir-chk=10715/33861)
+7.2/packages-stable/amd64/php-dba-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           26,838 100%   48.36kB/s    0:00:00 (xfr#650, ir-chk=10714/33861)
+7.2/packages-stable/amd64/php-dba-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           26,831 100%   48.34kB/s    0:00:00 (xfr#651, ir-chk=10713/33861)
+7.2/packages-stable/amd64/php-dba-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           26,811 100%   48.22kB/s    0:00:00 (xfr#652, ir-chk=10712/33861)
+7.2/packages-stable/amd64/php-dba-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           26,808 100%   48.21kB/s    0:00:00 (xfr#653, ir-chk=10711/33861)
+7.2/packages-stable/amd64/php-dba-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           26,821 100%   48.24kB/s    0:00:00 (xfr#654, ir-chk=10710/33861)
+7.2/packages-stable/amd64/php-dba-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           26,812 100%   48.22kB/s    0:00:00 (xfr#655, ir-chk=10709/33861)
+7.2/packages-stable/amd64/php-dba-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           26,809 100%   48.21kB/s    0:00:00 (xfr#656, ir-chk=10708/33861)
+7.2/packages-stable/amd64/php-dbg-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,572,106 100%    6.23MB/s    0:00:00 (xfr#657, ir-chk=10707/33861)
+7.2/packages-stable/amd64/php-dbg-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00        3,572,251 100%    6.16MB/s    0:00:00 (xfr#658, ir-chk=10706/33861)
+7.2/packages-stable/amd64/php-dbg-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,654,920 100%    4.83MB/s    0:00:00 (xfr#659, ir-chk=10705/33861)
+7.2/packages-stable/amd64/php-dbg-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00        3,655,420 100%    4.82MB/s    0:00:00 (xfr#660, ir-chk=10704/33861)
+7.2/packages-stable/amd64/php-dbg-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00        3,654,419 100%    4.80MB/s    0:00:00 (xfr#661, ir-chk=10703/33861)
+7.2/packages-stable/amd64/php-dbg-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,835,258 100%    4.22MB/s    0:00:00 (xfr#662, ir-chk=10702/33861)
+7.2/packages-stable/amd64/php-dbg-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00        3,835,349 100%    4.21MB/s    0:00:00 (xfr#663, ir-chk=10701/33861)
+7.2/packages-stable/amd64/php-dbg-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00            1,952   0%    1.36kB/s    0:47:06        3,837,171 100%    2.60MB/s    0:00:01 (xfr#664, ir-chk=10700/33861)
+7.2/packages-stable/amd64/php-embed-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,451,792 100%  822.97MB/s    0:00:00 (xfr#665, ir-chk=10699/33861)
+7.2/packages-stable/amd64/php-embed-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00        3,451,568 100%  470.24MB/s    0:00:00 (xfr#666, ir-chk=10698/33861)
+7.2/packages-stable/amd64/php-embed-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,539,408 100%   18.34MB/s    0:00:00 (xfr#667, ir-chk=10697/33861)
+7.2/packages-stable/amd64/php-embed-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00        3,539,454 100%   18.15MB/s    0:00:00 (xfr#668, ir-chk=10696/33861)
+7.2/packages-stable/amd64/php-embed-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00        3,537,249 100%   17.85MB/s    0:00:00 (xfr#669, ir-chk=10695/33861)
+7.2/packages-stable/amd64/php-embed-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00        3,747,485 100%    7.05MB/s    0:00:00 (xfr#670, ir-chk=10694/33861)
+7.2/packages-stable/amd64/php-embed-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00        3,747,966 100%    7.01MB/s    0:00:00 (xfr#671, ir-chk=10693/33861)
+7.2/packages-stable/amd64/php-embed-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00        3,749,131 100%    6.97MB/s    0:00:00 (xfr#672, ir-chk=10692/33861)
+7.2/packages-stable/amd64/php-enchant-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           10,576 100%   20.09kB/s    0:00:00 (xfr#673, ir-chk=10691/33861)
+7.2/packages-stable/amd64/php-enchant-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           10,582 100%   20.11kB/s    0:00:00 (xfr#674, ir-chk=10690/33861)
+7.2/packages-stable/amd64/php-enchant-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           10,855 100%   20.62kB/s    0:00:00 (xfr#675, ir-chk=10689/33861)
+7.2/packages-stable/amd64/php-enchant-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           10,867 100%   20.65kB/s    0:00:00 (xfr#676, ir-chk=10688/33861)
+7.2/packages-stable/amd64/php-enchant-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           10,850 100%   20.61kB/s    0:00:00 (xfr#677, ir-chk=10687/33861)
+7.2/packages-stable/amd64/php-enchant-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           10,768 100%   20.46kB/s    0:00:00 (xfr#678, ir-chk=10686/33861)
+7.2/packages-stable/amd64/php-enchant-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           10,761 100%   20.45kB/s    0:00:00 (xfr#679, ir-chk=10685/33861)
+7.2/packages-stable/amd64/php-enchant-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           10,763 100%   20.45kB/s    0:00:00 (xfr#680, ir-chk=10684/33861)
+7.2/packages-stable/amd64/php-gd-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           43,013 100%   81.72kB/s    0:00:00 (xfr#681, ir-chk=10683/33861)
+7.2/packages-stable/amd64/php-gd-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           43,019 100%   81.57kB/s    0:00:00 (xfr#682, ir-chk=10682/33861)
+7.2/packages-stable/amd64/php-gd-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           45,254 100%   85.81kB/s    0:00:00 (xfr#683, ir-chk=10681/33861)
+7.2/packages-stable/amd64/php-gd-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           45,222 100%   85.75kB/s    0:00:00 (xfr#684, ir-chk=10680/33861)
+7.2/packages-stable/amd64/php-gd-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           45,235 100%   85.78kB/s    0:00:00 (xfr#685, ir-chk=10679/33861)
+7.2/packages-stable/amd64/php-gd-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           46,607 100%   88.38kB/s    0:00:00 (xfr#686, ir-chk=10678/33861)
+7.2/packages-stable/amd64/php-gd-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           46,580 100%   88.33kB/s    0:00:00 (xfr#687, ir-chk=10677/33861)
+7.2/packages-stable/amd64/php-gd-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           46,607 100%   88.38kB/s    0:00:00 (xfr#688, ir-chk=10676/33861)
+7.2/packages-stable/amd64/php-gmp-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           24,862 100%   47.14kB/s    0:00:00 (xfr#689, ir-chk=10675/33861)
+7.2/packages-stable/amd64/php-gmp-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           24,867 100%   47.15kB/s    0:00:00 (xfr#690, ir-chk=10674/33861)
+7.2/packages-stable/amd64/php-gmp-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           26,347 100%   49.86kB/s    0:00:00 (xfr#691, ir-chk=10673/33861)
+7.2/packages-stable/amd64/php-gmp-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00              700   2%    0.65kB/s    0:00:39           26,355 100%   24.51kB/s    0:00:01 (xfr#692, ir-chk=10672/33861)
+7.2/packages-stable/amd64/php-gmp-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           26,376 100%   25.15MB/s    0:00:00 (xfr#693, ir-chk=10671/33861)
+7.2/packages-stable/amd64/php-gmp-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           27,125 100%   25.87MB/s    0:00:00 (xfr#694, ir-chk=10670/33861)
+7.2/packages-stable/amd64/php-gmp-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           27,149 100%   25.89MB/s    0:00:00 (xfr#695, ir-chk=10669/33861)
+7.2/packages-stable/amd64/php-gmp-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           27,135 100%   25.88MB/s    0:00:00 (xfr#696, ir-chk=10668/33861)
+7.2/packages-stable/amd64/php-imap-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           40,126 100%   38.27MB/s    0:00:00 (xfr#697, ir-chk=10667/33861)
+7.2/packages-stable/amd64/php-imap-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           40,134 100%   38.27MB/s    0:00:00 (xfr#698, ir-chk=10666/33861)
+7.2/packages-stable/amd64/php-imap-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           40,436 100%   38.56MB/s    0:00:00 (xfr#699, ir-chk=10665/33861)
+7.2/packages-stable/amd64/php-imap-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           40,424 100%   38.55MB/s    0:00:00 (xfr#700, ir-chk=10664/33861)
+7.2/packages-stable/amd64/php-imap-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           40,443 100%   38.57MB/s    0:00:00 (xfr#701, ir-chk=10663/33861)
+7.2/packages-stable/amd64/php-imap-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           41,759 100%   39.82MB/s    0:00:00 (xfr#702, ir-chk=10662/33861)
+7.2/packages-stable/amd64/php-imap-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           41,763 100%   39.83MB/s    0:00:00 (xfr#703, ir-chk=10661/33861)
+7.2/packages-stable/amd64/php-imap-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           41,748 100%   19.91MB/s    0:00:00 (xfr#704, ir-chk=10660/33861)
+7.2/packages-stable/amd64/php-intl-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00          176,980 100%   84.39MB/s    0:00:00 (xfr#705, ir-chk=10659/33861)
+7.2/packages-stable/amd64/php-intl-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00          176,964 100%   84.38MB/s    0:00:00 (xfr#706, ir-chk=10658/33861)
+7.2/packages-stable/amd64/php-intl-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00          176,772 100%   84.29MB/s    0:00:00 (xfr#707, ir-chk=10657/33861)
+7.2/packages-stable/amd64/php-intl-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00          176,867 100%   56.22MB/s    0:00:00 (xfr#708, ir-chk=10656/33861)
+7.2/packages-stable/amd64/php-intl-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00          176,829 100%   56.21MB/s    0:00:00 (xfr#709, ir-chk=10655/33861)
+7.2/packages-stable/amd64/php-intl-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00          180,455 100%   57.37MB/s    0:00:00 (xfr#710, ir-chk=10654/33861)
+7.2/packages-stable/amd64/php-intl-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00          180,339 100%   57.33MB/s    0:00:00 (xfr#711, ir-chk=10653/33861)
+7.2/packages-stable/amd64/php-intl-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00          180,420 100%   43.02MB/s    0:00:00 (xfr#712, ir-chk=10652/33861)
+7.2/packages-stable/amd64/php-ldap-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           36,713 100%    8.75MB/s    0:00:00 (xfr#713, ir-chk=10651/33861)
+7.2/packages-stable/amd64/php-ldap-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           36,715 100%    8.75MB/s    0:00:00 (xfr#714, ir-chk=10650/33861)
+7.2/packages-stable/amd64/php-ldap-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           36,201 100%    8.63MB/s    0:00:00 (xfr#715, ir-chk=10649/33861)
+7.2/packages-stable/amd64/php-ldap-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           36,195 100%    8.63MB/s    0:00:00 (xfr#716, ir-chk=10648/33861)
+7.2/packages-stable/amd64/php-ldap-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           36,201 100%    8.63MB/s    0:00:00 (xfr#717, ir-chk=10647/33861)
+7.2/packages-stable/amd64/php-ldap-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           37,494 100%    7.15MB/s    0:00:00 (xfr#718, ir-chk=10646/33861)
+7.2/packages-stable/amd64/php-ldap-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           37,479 100%    7.15MB/s    0:00:00 (xfr#719, ir-chk=10645/33861)
+7.2/packages-stable/amd64/php-ldap-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           37,480 100%    7.15MB/s    0:00:00 (xfr#720, ir-chk=10644/33861)
+7.2/packages-stable/amd64/php-mysqli-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           54,023 100%   10.30MB/s    0:00:00 (xfr#721, ir-chk=10643/33861)
+7.2/packages-stable/amd64/php-mysqli-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           54,014 100%   10.30MB/s    0:00:00 (xfr#722, ir-chk=10642/33861)
+7.2/packages-stable/amd64/php-mysqli-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           54,117 100%   10.32MB/s    0:00:00 (xfr#723, ir-chk=10641/33861)
+7.2/packages-stable/amd64/php-mysqli-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           54,156 100%   10.33MB/s    0:00:00 (xfr#724, ir-chk=10640/33861)
+7.2/packages-stable/amd64/php-mysqli-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           54,188 100%   10.34MB/s    0:00:00 (xfr#725, ir-chk=10639/33861)
+7.2/packages-stable/amd64/php-mysqli-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           57,117 100%   10.89MB/s    0:00:00 (xfr#726, ir-chk=10638/33861)
+7.2/packages-stable/amd64/php-mysqli-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           57,114 100%    9.08MB/s    0:00:00 (xfr#727, ir-chk=10637/33861)
+7.2/packages-stable/amd64/php-mysqli-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           57,155 100%    9.08MB/s    0:00:00 (xfr#728, ir-chk=10636/33861)
+7.2/packages-stable/amd64/php-odbc-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           30,825 100%    4.90MB/s    0:00:00 (xfr#729, ir-chk=10635/33861)
+7.2/packages-stable/amd64/php-odbc-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           30,792 100%    4.89MB/s    0:00:00 (xfr#730, ir-chk=10634/33861)
+7.2/packages-stable/amd64/php-odbc-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           30,273 100%    4.81MB/s    0:00:00 (xfr#731, ir-chk=10633/33861)
+7.2/packages-stable/amd64/php-odbc-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           30,256 100%    4.81MB/s    0:00:00 (xfr#732, ir-chk=10632/33861)
+7.2/packages-stable/amd64/php-odbc-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           30,224 100%    4.80MB/s    0:00:00 (xfr#733, ir-chk=10631/33861)
+7.2/packages-stable/amd64/php-odbc-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           30,276 100%    4.81MB/s    0:00:00 (xfr#734, ir-chk=10630/33861)
+7.2/packages-stable/amd64/php-odbc-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           30,271 100%    4.81MB/s    0:00:00 (xfr#735, ir-chk=10629/33861)
+7.2/packages-stable/amd64/php-odbc-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           30,274 100%    4.81MB/s    0:00:00 (xfr#736, ir-chk=10628/33861)
+7.2/packages-stable/amd64/php-pcntl-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           13,255 100%    1.81MB/s    0:00:00 (xfr#737, ir-chk=10627/33861)
+7.2/packages-stable/amd64/php-pcntl-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           13,242 100%    1.80MB/s    0:00:00 (xfr#738, ir-chk=10626/33861)
+7.2/packages-stable/amd64/php-pcntl-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           13,953 100%    1.90MB/s    0:00:00 (xfr#739, ir-chk=10625/33861)
+7.2/packages-stable/amd64/php-pcntl-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           13,954 100%    1.90MB/s    0:00:00 (xfr#740, ir-chk=10624/33861)
+7.2/packages-stable/amd64/php-pcntl-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           13,958 100%    1.90MB/s    0:00:00 (xfr#741, ir-chk=10623/33861)
+7.2/packages-stable/amd64/php-pcntl-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           14,032 100%    1.91MB/s    0:00:00 (xfr#742, ir-chk=10622/33861)
+7.2/packages-stable/amd64/php-pcntl-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           14,020 100%    1.91MB/s    0:00:00 (xfr#743, ir-chk=10621/33861)
+7.2/packages-stable/amd64/php-pcntl-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           14,029 100%    1.91MB/s    0:00:00 (xfr#744, ir-chk=10620/33861)
+7.2/packages-stable/amd64/php-pdo_dblib-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           14,605 100%    1.99MB/s    0:00:00 (xfr#745, ir-chk=10619/33861)
+7.2/packages-stable/amd64/php-pdo_dblib-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           14,586 100%    1.99MB/s    0:00:00 (xfr#746, ir-chk=10618/33861)
+7.2/packages-stable/amd64/php-pdo_dblib-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           14,519 100%    1.98MB/s    0:00:00 (xfr#747, ir-chk=10617/33861)
+7.2/packages-stable/amd64/php-pdo_dblib-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           14,523 100%    1.73MB/s    0:00:00 (xfr#748, ir-chk=10616/33861)
+7.2/packages-stable/amd64/php-pdo_dblib-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           14,523 100%    1.73MB/s    0:00:00 (xfr#749, ir-chk=10615/33861)
+7.2/packages-stable/amd64/php-pdo_dblib-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           14,644 100%    1.75MB/s    0:00:00 (xfr#750, ir-chk=10614/33861)
+7.2/packages-stable/amd64/php-pdo_dblib-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           14,637 100%    1.74MB/s    0:00:00 (xfr#751, ir-chk=10613/33861)
+7.2/packages-stable/amd64/php-pdo_dblib-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           14,642 100%    1.75MB/s    0:00:00 (xfr#752, ir-chk=10612/33861)
+7.2/packages-stable/amd64/php-pdo_mysql-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           14,671 100%    1.75MB/s    0:00:00 (xfr#753, ir-chk=10611/33861)
+7.2/packages-stable/amd64/php-pdo_mysql-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           14,670 100%    1.75MB/s    0:00:00 (xfr#754, ir-chk=10610/33861)
+7.2/packages-stable/amd64/php-pdo_mysql-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           14,621 100%    1.74MB/s    0:00:00 (xfr#755, ir-chk=10609/33861)
+7.2/packages-stable/amd64/php-pdo_mysql-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           14,604 100%    1.74MB/s    0:00:00 (xfr#756, ir-chk=10608/33861)
+7.2/packages-stable/amd64/php-pdo_mysql-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           14,618 100%    1.74MB/s    0:00:00 (xfr#757, ir-chk=10607/33861)
+7.2/packages-stable/amd64/php-pdo_mysql-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           15,909 100%    1.69MB/s    0:00:00 (xfr#758, ir-chk=10606/33861)
+7.2/packages-stable/amd64/php-pdo_mysql-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           15,908 100%    1.69MB/s    0:00:00 (xfr#759, ir-chk=10605/33861)
+7.2/packages-stable/amd64/php-pdo_mysql-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           15,908 100%    1.69MB/s    0:00:00 (xfr#760, ir-chk=10604/33861)
+7.2/packages-stable/amd64/php-pdo_odbc-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           13,528 100%    1.43MB/s    0:00:00 (xfr#761, ir-chk=10603/33861)
+7.2/packages-stable/amd64/php-pdo_odbc-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           13,528 100%    1.43MB/s    0:00:00 (xfr#762, ir-chk=10602/33861)
+7.2/packages-stable/amd64/php-pdo_odbc-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           13,441 100%    1.42MB/s    0:00:00 (xfr#763, ir-chk=10601/33861)
+7.2/packages-stable/amd64/php-pdo_odbc-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           13,440 100%    1.42MB/s    0:00:00 (xfr#764, ir-chk=10600/33861)
+7.2/packages-stable/amd64/php-pdo_odbc-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           13,430 100%    1.28MB/s    0:00:00 (xfr#765, ir-chk=10599/33861)
+7.2/packages-stable/amd64/php-pdo_odbc-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           14,232 100%    1.36MB/s    0:00:00 (xfr#766, ir-chk=10598/33861)
+7.2/packages-stable/amd64/php-pdo_odbc-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           14,223 100%    1.36MB/s    0:00:00 (xfr#767, ir-chk=10597/33861)
+7.2/packages-stable/amd64/php-pdo_odbc-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           14,226 100%    1.36MB/s    0:00:00 (xfr#768, ir-chk=10596/33861)
+7.2/packages-stable/amd64/php-pdo_pgsql-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           21,851 100%    2.08MB/s    0:00:00 (xfr#769, ir-chk=10595/33861)
+7.2/packages-stable/amd64/php-pdo_pgsql-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           21,855 100%    2.08MB/s    0:00:00 (xfr#770, ir-chk=10594/33861)
+7.2/packages-stable/amd64/php-pdo_pgsql-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           23,370 100%    2.23MB/s    0:00:00 (xfr#771, ir-chk=10593/33861)
+7.2/packages-stable/amd64/php-pdo_pgsql-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           23,344 100%    2.23MB/s    0:00:00 (xfr#772, ir-chk=10592/33861)
+7.2/packages-stable/amd64/php-pdo_pgsql-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           23,359 100%    2.23MB/s    0:00:00 (xfr#773, ir-chk=10591/33861)
+7.2/packages-stable/amd64/php-pdo_pgsql-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           23,404 100%    2.23MB/s    0:00:00 (xfr#774, ir-chk=10590/33861)
+7.2/packages-stable/amd64/php-pdo_pgsql-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           23,407 100%    2.03MB/s    0:00:00 (xfr#775, ir-chk=10589/33861)
+7.2/packages-stable/amd64/php-pdo_pgsql-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           23,385 100%    2.03MB/s    0:00:00 (xfr#776, ir-chk=10588/33861)
+7.2/packages-stable/amd64/php-pdo_sqlite-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           15,429 100%    1.34MB/s    0:00:00 (xfr#777, ir-chk=10587/33861)
+7.2/packages-stable/amd64/php-pdo_sqlite-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           15,446 100%    1.34MB/s    0:00:00 (xfr#778, ir-chk=10586/33861)
+7.2/packages-stable/amd64/php-pdo_sqlite-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           15,573 100%    1.35MB/s    0:00:00 (xfr#779, ir-chk=10585/33861)
+7.2/packages-stable/amd64/php-pdo_sqlite-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           15,577 100%    1.35MB/s    0:00:00 (xfr#780, ir-chk=10584/33861)
+7.2/packages-stable/amd64/php-pdo_sqlite-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           15,572 100%    1.35MB/s    0:00:00 (xfr#781, ir-chk=10583/33861)
+7.2/packages-stable/amd64/php-pdo_sqlite-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           16,386 100%    1.42MB/s    0:00:00 (xfr#782, ir-chk=10582/33861)
+7.2/packages-stable/amd64/php-pdo_sqlite-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           16,388 100%   48.06kB/s    0:00:00 (xfr#783, ir-chk=10581/33861)
+7.2/packages-stable/amd64/php-pdo_sqlite-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           16,384 100%   48.05kB/s    0:00:00 (xfr#784, ir-chk=10580/33861)
+7.2/packages-stable/amd64/php-pgsql-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           53,178 100%  155.95kB/s    0:00:00 (xfr#785, ir-chk=10579/33861)
+7.2/packages-stable/amd64/php-pgsql-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           53,174 100%  155.94kB/s    0:00:00 (xfr#786, ir-chk=10578/33861)
+7.2/packages-stable/amd64/php-pgsql-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           52,115 100%  152.83kB/s    0:00:00 (xfr#787, ir-chk=10577/33861)
+7.2/packages-stable/amd64/php-pgsql-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           52,079 100%  152.73kB/s    0:00:00 (xfr#788, ir-chk=10576/33861)
+7.2/packages-stable/amd64/php-pgsql-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           52,104 100%  152.80kB/s    0:00:00 (xfr#789, ir-chk=10575/33861)
+7.2/packages-stable/amd64/php-pgsql-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           53,693 100%  157.46kB/s    0:00:00 (xfr#790, ir-chk=10574/33861)
+7.2/packages-stable/amd64/php-pgsql-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           53,694 100%  157.46kB/s    0:00:00 (xfr#791, ir-chk=10573/33861)
+7.2/packages-stable/amd64/php-pgsql-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           53,673 100%  156.93kB/s    0:00:00 (xfr#792, ir-chk=10572/33861)
+7.2/packages-stable/amd64/php-pspell-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00            9,285 100%   27.15kB/s    0:00:00 (xfr#793, ir-chk=10571/33861)
+7.2/packages-stable/amd64/php-pspell-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00            9,279 100%   27.13kB/s    0:00:00 (xfr#794, ir-chk=10570/33861)
+7.2/packages-stable/amd64/php-pspell-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00            9,418 100%   27.45kB/s    0:00:00 (xfr#795, ir-chk=10569/33861)
+7.2/packages-stable/amd64/php-pspell-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00            9,404 100%   27.41kB/s    0:00:00 (xfr#796, ir-chk=10568/33861)
+7.2/packages-stable/amd64/php-pspell-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00            9,406 100%   27.42kB/s    0:00:00 (xfr#797, ir-chk=10567/33861)
+7.2/packages-stable/amd64/php-pspell-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00            9,656 100%   28.15kB/s    0:00:00 (xfr#798, ir-chk=10566/33861)
+7.2/packages-stable/amd64/php-pspell-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00            9,642 100%   28.11kB/s    0:00:00 (xfr#799, ir-chk=10565/33861)
+7.2/packages-stable/amd64/php-pspell-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00            9,651 100%   28.13kB/s    0:00:00 (xfr#800, ir-chk=10564/33861)
+7.2/packages-stable/amd64/php-shmop-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00            6,026 100%   17.51kB/s    0:00:00 (xfr#801, ir-chk=10563/33861)
+7.2/packages-stable/amd64/php-shmop-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00            6,021 100%   17.45kB/s    0:00:00 (xfr#802, ir-chk=10562/33861)
+7.2/packages-stable/amd64/php-shmop-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00            6,637 100%   19.23kB/s    0:00:00 (xfr#803, ir-chk=10561/33861)
+7.2/packages-stable/amd64/php-shmop-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00            6,642 100%   19.25kB/s    0:00:00 (xfr#804, ir-chk=10560/33861)
+7.2/packages-stable/amd64/php-shmop-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00            6,636 100%   19.23kB/s    0:00:00 (xfr#805, ir-chk=10559/33861)
+7.2/packages-stable/amd64/php-shmop-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00            6,579 100%   19.06kB/s    0:00:00 (xfr#806, ir-chk=10558/33861)
+7.2/packages-stable/amd64/php-shmop-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00            6,572 100%   19.04kB/s    0:00:00 (xfr#807, ir-chk=10557/33861)
+7.2/packages-stable/amd64/php-shmop-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00            6,572 100%   19.04kB/s    0:00:00 (xfr#808, ir-chk=10556/33861)
+7.2/packages-stable/amd64/php-snmp-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           23,214 100%   67.27kB/s    0:00:00 (xfr#809, ir-chk=10555/33861)
+7.2/packages-stable/amd64/php-snmp-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           23,211 100%   67.26kB/s    0:00:00 (xfr#810, ir-chk=10554/33861)
+7.2/packages-stable/amd64/php-snmp-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           24,919 100%   72.21kB/s    0:00:00 (xfr#811, ir-chk=10553/33861)
+7.2/packages-stable/amd64/php-snmp-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           24,916 100%   71.99kB/s    0:00:00 (xfr#812, ir-chk=10552/33861)
+7.2/packages-stable/amd64/php-snmp-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           24,934 100%   72.04kB/s    0:00:00 (xfr#813, ir-chk=10551/33861)
+7.2/packages-stable/amd64/php-snmp-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           26,293 100%   75.97kB/s    0:00:00 (xfr#814, ir-chk=10550/33861)
+7.2/packages-stable/amd64/php-snmp-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           26,297 100%   75.98kB/s    0:00:00 (xfr#815, ir-chk=10549/33861)
+7.2/packages-stable/amd64/php-snmp-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           26,302 100%   75.99kB/s    0:00:00 (xfr#816, ir-chk=10548/33861)
+7.2/packages-stable/amd64/php-soap-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00          135,055 100%  390.21kB/s    0:00:00 (xfr#817, ir-chk=10547/33861)
+7.2/packages-stable/amd64/php-soap-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00          135,077 100%  390.27kB/s    0:00:00 (xfr#818, ir-chk=10546/33861)
+7.2/packages-stable/amd64/php-soap-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00          136,001 100%  391.78kB/s    0:00:00 (xfr#819, ir-chk=10545/33861)
+7.2/packages-stable/amd64/php-soap-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00          135,978 100%  391.71kB/s    0:00:00 (xfr#820, ir-chk=10544/33861)
+7.2/packages-stable/amd64/php-soap-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00          136,034 100%  391.88kB/s    0:00:00 (xfr#821, ir-chk=10543/33861)
+7.2/packages-stable/amd64/php-soap-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00          139,984 100%  403.25kB/s    0:00:00 (xfr#822, ir-chk=10542/33861)
+7.2/packages-stable/amd64/php-soap-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00          140,013 100%  403.34kB/s    0:00:00 (xfr#823, ir-chk=10541/33861)
+7.2/packages-stable/amd64/php-soap-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00          140,052 100%  402.26kB/s    0:00:00 (xfr#824, ir-chk=10540/33861)
+7.2/packages-stable/amd64/php-sqlite3-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           24,475 100%   70.30kB/s    0:00:00 (xfr#825, ir-chk=10539/33861)
+7.2/packages-stable/amd64/php-sqlite3-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           24,478 100%   70.31kB/s    0:00:00 (xfr#826, ir-chk=10538/33861)
+7.2/packages-stable/amd64/php-sqlite3-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           26,341 100%   75.66kB/s    0:00:00 (xfr#827, ir-chk=10537/33861)
+7.2/packages-stable/amd64/php-sqlite3-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           26,344 100%   75.67kB/s    0:00:00 (xfr#828, ir-chk=10536/33861)
+7.2/packages-stable/amd64/php-sqlite3-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           26,366 100%   75.73kB/s    0:00:00 (xfr#829, ir-chk=10535/33861)
+7.2/packages-stable/amd64/php-sqlite3-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           26,734 100%   76.56kB/s    0:00:00 (xfr#830, ir-chk=10534/33861)
+7.2/packages-stable/amd64/php-sqlite3-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           26,721 100%   76.52kB/s    0:00:00 (xfr#831, ir-chk=10533/33861)
+7.2/packages-stable/amd64/php-sqlite3-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           26,726 100%   76.54kB/s    0:00:00 (xfr#832, ir-chk=10532/33861)
+7.2/packages-stable/amd64/php-tidy-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           21,937 100%   62.82kB/s    0:00:00 (xfr#833, ir-chk=10531/33861)
+7.2/packages-stable/amd64/php-tidy-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           21,933 100%   62.63kB/s    0:00:00 (xfr#834, ir-chk=10530/33861)
+7.2/packages-stable/amd64/php-tidy-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           23,770 100%   67.87kB/s    0:00:00 (xfr#835, ir-chk=10529/33861)
+7.2/packages-stable/amd64/php-tidy-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           23,757 100%   67.84kB/s    0:00:00 (xfr#836, ir-chk=10528/33861)
+7.2/packages-stable/amd64/php-tidy-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           23,745 100%   67.80kB/s    0:00:00 (xfr#837, ir-chk=10527/33861)
+7.2/packages-stable/amd64/php-tidy-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           23,905 100%   68.26kB/s    0:00:00 (xfr#838, ir-chk=10526/33861)
+7.2/packages-stable/amd64/php-tidy-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           23,898 100%   68.24kB/s    0:00:00 (xfr#839, ir-chk=10525/33861)
+7.2/packages-stable/amd64/php-tidy-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           23,898 100%   68.04kB/s    0:00:00 (xfr#840, ir-chk=10524/33861)
+7.2/packages-stable/amd64/php-xmlrpc-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           43,570 100%  124.05kB/s    0:00:00 (xfr#841, ir-chk=10523/33861)
+7.2/packages-stable/amd64/php-xmlrpc-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           43,551 100%  123.99kB/s    0:00:00 (xfr#842, ir-chk=10522/33861)
+7.2/packages-stable/amd64/php-xsl-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           15,799 100%   44.98kB/s    0:00:00 (xfr#843, ir-chk=10521/33861)
+7.2/packages-stable/amd64/php-xsl-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           15,794 100%   44.97kB/s    0:00:00 (xfr#844, ir-chk=10520/33861)
+7.2/packages-stable/amd64/php-xsl-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           16,446 100%   46.82kB/s    0:00:00 (xfr#845, ir-chk=10519/33861)
+7.2/packages-stable/amd64/php-xsl-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           16,470 100%   46.89kB/s    0:00:00 (xfr#846, ir-chk=10518/33861)
+7.2/packages-stable/amd64/php-xsl-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           16,462 100%   46.87kB/s    0:00:00 (xfr#847, ir-chk=10517/33861)
+7.2/packages-stable/amd64/php-xsl-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           16,541 100%   47.09kB/s    0:00:00 (xfr#848, ir-chk=10516/33861)
+7.2/packages-stable/amd64/php-xsl-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           16,540 100%   46.95kB/s    0:00:00 (xfr#849, ir-chk=10515/33861)
+7.2/packages-stable/amd64/php-xsl-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           16,539 100%   46.95kB/s    0:00:00 (xfr#850, ir-chk=10514/33861)
+7.2/packages-stable/amd64/php-zip-7.4.32p0.tgz
+              0   0%    0.00kB/s    0:00:00           27,783 100%   78.87kB/s    0:00:00 (xfr#851, ir-chk=10513/33861)
+7.2/packages-stable/amd64/php-zip-7.4.33.tgz
+              0   0%    0.00kB/s    0:00:00           27,804 100%   78.93kB/s    0:00:00 (xfr#852, ir-chk=10512/33861)
+7.2/packages-stable/amd64/php-zip-8.0.24p0.tgz
+              0   0%    0.00kB/s    0:00:00           31,232 100%   88.66kB/s    0:00:00 (xfr#853, ir-chk=10511/33861)
+7.2/packages-stable/amd64/php-zip-8.0.25.tgz
+              0   0%    0.00kB/s    0:00:00           31,239 100%   88.68kB/s    0:00:00 (xfr#854, ir-chk=10510/33861)
+7.2/packages-stable/amd64/php-zip-8.0.26.tgz
+              0   0%    0.00kB/s    0:00:00           31,240 100%   88.69kB/s    0:00:00 (xfr#855, ir-chk=10509/33861)
+7.2/packages-stable/amd64/php-zip-8.1.11p0.tgz
+              0   0%    0.00kB/s    0:00:00           31,908 100%   90.32kB/s    0:00:00 (xfr#856, ir-chk=10508/33861)
+7.2/packages-stable/amd64/php-zip-8.1.12.tgz
+              0   0%    0.00kB/s    0:00:00           31,936 100%   90.40kB/s    0:00:00 (xfr#857, ir-chk=10507/33861)
+7.2/packages-stable/amd64/php-zip-8.1.13.tgz
+              0   0%    0.00kB/s    0:00:00           31,925 100%   90.37kB/s    0:00:00 (xfr#858, ir-chk=10506/33861)
+7.2/packages-stable/amd64/pjsip-2.13.tgz
+              0   0%    0.00kB/s    0:00:00        2,048,382 100%    3.82MB/s    0:00:00 (xfr#859, ir-chk=10505/33861)
+7.2/packages-stable/amd64/pjsua-2.13.tgz
+              0   0%    0.00kB/s    0:00:00           56,718 100%  107.97kB/s    0:00:00 (xfr#860, ir-chk=10504/33861)
+7.2/packages-stable/amd64/postfix-3.5.17p0-ldap.tgz
+              0   0%    0.00kB/s    0:00:00        8,281,762 100%   15.25MB/s    0:00:00 (xfr#861, ir-chk=10503/33861)
+7.2/packages-stable/amd64/postfix-3.5.17p0-mysql.tgz
+              0   0%    0.00kB/s    0:00:00        8,067,779 100%   11.01MB/s    0:00:00 (xfr#862, ir-chk=10502/33861)
+7.2/packages-stable/amd64/postfix-3.5.17p0-pgsql.tgz
+              0   0%    0.00kB/s    0:00:00        8,041,484 100%   10.73MB/s    0:00:00 (xfr#863, ir-chk=10501/33861)
+7.2/packages-stable/amd64/postfix-3.5.17p0-sasl2-ldap.tgz
+              0   0%    0.00kB/s    0:00:00        8,294,437 100%   10.97MB/s    0:00:00 (xfr#864, ir-chk=10500/33861)
+7.2/packages-stable/amd64/postfix-3.5.17p0-sasl2-mysql.tgz
+              0   0%    0.00kB/s    0:00:00        8,079,939 100%   10.38MB/s    0:00:00 (xfr#865, ir-chk=10499/33861)
+7.2/packages-stable/amd64/postfix-3.5.17p0-sasl2-pgsql.tgz
+              0   0%    0.00kB/s    0:00:00        8,052,921 100%    8.20MB/s    0:00:00 (xfr#866, ir-chk=10498/33861)
+7.2/packages-stable/amd64/postfix-3.5.17p0-sasl2.tgz
+              0   0%    0.00kB/s    0:00:00        7,941,623 100%    8.04MB/s    0:00:00 (xfr#867, ir-chk=10497/33861)
+7.2/packages-stable/amd64/postfix-3.5.17p0.tgz
+              0   0%    0.00kB/s    0:00:00        7,931,578 100%    7.56MB/s    0:00:01 (xfr#868, ir-chk=10496/33861)
+7.2/packages-stable/amd64/postfix-3.7.2p2-ldap.tgz
+              0   0%    0.00kB/s    0:00:00      209,765,768 100%    1.79GB/s    0:00:00 (xfr#869, ir-chk=10495/33861)
+7.2/packages-stable/amd64/postfix-3.7.2p2-mysql.tgz
+              0   0%    0.00kB/s    0:00:00           14,464   0%   13.59kB/s    4:16:40      209,385,354 100%  170.96MB/s    0:00:01 (xfr#870, ir-chk=10494/33861)
+7.2/packages-stable/amd64/postfix-3.7.2p2-pgsql.tgz
+              0   0%    0.00kB/s    0:00:00      209,420,968 100%  215.91MB/s    0:00:00 (xfr#871, ir-chk=10493/33861)
+7.2/packages-stable/amd64/postfix-3.7.2p2-sasl2-ldap.tgz
+              0   0%    0.00kB/s    0:00:00      209,773,527 100%    1.33GB/s    0:00:00 (xfr#872, ir-chk=10492/33861)
+7.2/packages-stable/amd64/postfix-3.7.2p2-sasl2-mysql.tgz
+              0   0%    0.00kB/s    0:00:00           14,464   0%   11.64kB/s    4:59:56      209,400,323 100%  150.83MB/s    0:00:01 (xfr#873, ir-chk=10491/33861)
+7.2/packages-stable/amd64/postfix-3.7.2p2-sasl2-pgsql.tgz
+              0   0%    0.00kB/s    0:00:00      161,316,992  77%  153.84MB/s    0:00:00      209,427,888 100%  195.43MB/s    0:00:01 (xfr#874, ir-chk=10490/33861)
+7.2/packages-stable/amd64/postfix-3.7.2p2-sasl2.tgz
+              0   0%    0.00kB/s    0:00:00       34,762,061 100%  705.35MB/s    0:00:00 (xfr#875, ir-chk=10489/33861)
+7.2/packages-stable/amd64/postfix-3.7.2p2.tgz
+              0   0%    0.00kB/s    0:00:00       34,748,335 100%  136.37MB/s    0:00:00 (xfr#876, ir-chk=10488/33861)
+7.2/packages-stable/amd64/postfix-3.8.20220816p0-ldap.tgz
+              0   0%    0.00kB/s    0:00:00           14,480   0%   11.91kB/s    4:53:30      209,806,925 100%  154.87MB/s    0:00:01 (xfr#877, ir-chk=10487/33861)
+7.2/packages-stable/amd64/postfix-3.8.20220816p0-mysql.tgz
+              0   0%    0.00kB/s    0:00:00      209,450,436 100%  281.73MB/s    0:00:00 (xfr#878, ir-chk=10486/33861)
+7.2/packages-stable/amd64/postfix-3.8.20220816p0-pgsql.tgz
+              0   0%    0.00kB/s    0:00:00      209,450,244 100%  920.49MB/s    0:00:00 (xfr#879, ir-chk=10485/33861)
+7.2/packages-stable/amd64/postfix-3.8.20220816p0-sasl2-ldap.tgz
+              0   0%    0.00kB/s    0:00:00      209,824,839 100%    1.78GB/s    0:00:00 (xfr#880, ir-chk=10484/33861)
+7.2/packages-stable/amd64/postfix-3.8.20220816p0-sasl2-mysql.tgz
+              0   0%    0.00kB/s    0:00:00      209,470,768 100%    1.74GB/s    0:00:00 (xfr#881, ir-chk=10483/33861)
+7.2/packages-stable/amd64/postfix-3.8.20220816p0-sasl2-pgsql.tgz
+              0   0%    0.00kB/s    0:00:00           14,472   0%   13.52kB/s    4:18:07      209,467,727 100%  173.11MB/s    0:00:01 (xfr#882, ir-chk=10482/33861)
+7.2/packages-stable/amd64/postfix-3.8.20220816p0-sasl2.tgz
+              0   0%    0.00kB/s    0:00:00       34,805,984 100%   46.49MB/s    0:00:00 (xfr#883, ir-chk=10481/33861)
+7.2/packages-stable/amd64/postfix-3.8.20220816p0.tgz
+              0   0%    0.00kB/s    0:00:00       34,792,756 100%   41.95MB/s    0:00:00 (xfr#884, ir-chk=10480/33861)
+7.2/packages-stable/amd64/pounce-3.0p0.tgz
+              0   0%    0.00kB/s    0:00:00           46,315 100%   57.11kB/s    0:00:00 (xfr#885, ir-chk=10479/33861)
+7.2/packages-stable/amd64/prosody-0.12.2.tgz
+              0   0%    0.00kB/s    0:00:00          497,929 100%  613.19kB/s    0:00:00 (xfr#886, ir-chk=10478/33861)
+7.2/packages-stable/amd64/protobuf-3.21.6.tgz
+              0   0%    0.00kB/s    0:00:00        6,968,247 100%    7.05MB/s    0:00:00 (xfr#887, ir-chk=10477/33861)
+7.2/packages-stable/amd64/py3-libxml-2.10.3.tgz
+              0   0%    0.00kB/s    0:00:00          798,156 100%  827.44kB/s    0:00:00 (xfr#888, ir-chk=10476/33861)
+7.2/packages-stable/amd64/py3-msgpack-1.0.4p1v0.tgz
+              0   0%    0.00kB/s    0:00:00          223,155 100%  231.10kB/s    0:00:00 (xfr#889, ir-chk=10475/33861)
+7.2/packages-stable/amd64/py3-protobuf-4.21.6.tgz
+              0   0%    0.00kB/s    0:00:00          289,765 100%  300.08kB/s    0:00:00 (xfr#890, ir-chk=10474/33861)
+7.2/packages-stable/amd64/python-3.10.8p0.tgz
+              0   0%    0.00kB/s    0:00:00            5,816   0%    4.79kB/s    1:57:54       33,886,015 100%   26.86MB/s    0:00:01 (xfr#891, ir-chk=10473/33861)
+7.2/packages-stable/amd64/python-3.10.9.tgz
+              0   0%    0.00kB/s    0:00:00       33,930,003 100%  170.31MB/s    0:00:00 (xfr#892, ir-chk=10472/33861)
+7.2/packages-stable/amd64/python-3.10.9p0.tgz
+              0   0%    0.00kB/s    0:00:00       33,893,495 100%  103.27MB/s    0:00:00 (xfr#893, ir-chk=10471/33861)
+7.2/packages-stable/amd64/python-3.9.15.tgz
+              0   0%    0.00kB/s    0:00:00       26,869,029 100%   62.50MB/s    0:00:00 (xfr#894, ir-chk=10470/33861)
+7.2/packages-stable/amd64/python-3.9.15p0.tgz
+              0   0%    0.00kB/s    0:00:00       26,948,422 100%   42.20MB/s    0:00:00 (xfr#895, ir-chk=10469/33861)
+7.2/packages-stable/amd64/python-3.9.16.tgz
+              0   0%    0.00kB/s    0:00:00       26,911,272 100%   36.51MB/s    0:00:00 (xfr#896, ir-chk=10468/33861)
+7.2/packages-stable/amd64/python-gdbm-3.10.8.tgz
+              0   0%    0.00kB/s    0:00:00           11,946 100%   14.71kB/s    0:00:00 (xfr#897, ir-chk=10467/33861)
+7.2/packages-stable/amd64/python-gdbm-3.10.9.tgz
+              0   0%    0.00kB/s    0:00:00           11,945 100%   14.71kB/s    0:00:00 (xfr#898, ir-chk=10466/33861)
+7.2/packages-stable/amd64/python-gdbm-3.9.15.tgz
+              0   0%    0.00kB/s    0:00:00           11,248 100%   13.44kB/s    0:00:00 (xfr#899, ir-chk=10465/33861)
+7.2/packages-stable/amd64/python-gdbm-3.9.16.tgz
+              0   0%    0.00kB/s    0:00:00           11,250 100%   13.45kB/s    0:00:00 (xfr#900, ir-chk=10464/33861)
+7.2/packages-stable/amd64/python-idle-3.10.8.tgz
+              0   0%    0.00kB/s    0:00:00        1,256,927 100%    1.47MB/s    0:00:00 (xfr#901, ir-chk=10463/33861)
+7.2/packages-stable/amd64/python-idle-3.10.9.tgz
+              0   0%    0.00kB/s    0:00:00        1,248,550 100%    1.35MB/s    0:00:00 (xfr#902, ir-chk=10462/33861)
+7.2/packages-stable/amd64/python-idle-3.9.15.tgz
+              0   0%    0.00kB/s    0:00:00        1,182,386 100%    1.28MB/s    0:00:00 (xfr#903, ir-chk=10461/33861)
+7.2/packages-stable/amd64/python-idle-3.9.16.tgz
+              0   0%    0.00kB/s    0:00:00        1,187,816 100%    1.25MB/s    0:00:00 (xfr#904, ir-chk=10460/33861)
+7.2/packages-stable/amd64/python-tests-3.10.8.tgz
+              0   0%    0.00kB/s    0:00:00       17,021,194 100%   16.84MB/s    0:00:00 (xfr#905, ir-chk=10459/33861)
+7.2/packages-stable/amd64/python-tests-3.10.9.tgz
+              0   0%    0.00kB/s    0:00:00       16,956,757 100%   16.32MB/s    0:00:00 (xfr#906, ir-chk=10458/33861)
+7.2/packages-stable/amd64/python-tests-3.9.15.tgz
+              0   0%    0.00kB/s    0:00:00            4,032   0%    3.70kB/s    1:13:15       16,284,197 100%   14.50MB/s    0:00:01 (xfr#907, ir-chk=10457/33861)
+7.2/packages-stable/amd64/python-tests-3.9.16.tgz
+              0   0%    0.00kB/s    0:00:00       16,271,511 100%  165.08MB/s    0:00:00 (xfr#908, ir-chk=10456/33861)
+7.2/packages-stable/amd64/python-tkinter-3.10.8p0.tgz
+              0   0%    0.00kB/s    0:00:00          509,861 100%    5.12MB/s    0:00:00 (xfr#909, ir-chk=10455/33861)
+7.2/packages-stable/amd64/python-tkinter-3.10.9.tgz
+              0   0%    0.00kB/s    0:00:00          509,541 100%    4.67MB/s    0:00:00 (xfr#910, ir-chk=10454/33861)
+7.2/packages-stable/amd64/python-tkinter-3.9.15.tgz
+              0   0%    0.00kB/s    0:00:00          501,814 100%    4.56MB/s    0:00:00 (xfr#911, ir-chk=10453/33861)
+7.2/packages-stable/amd64/python-tkinter-3.9.15p0.tgz
+              0   0%    0.00kB/s    0:00:00          493,153 100%    4.48MB/s    0:00:00 (xfr#912, ir-chk=10452/33861)
+7.2/packages-stable/amd64/python-tkinter-3.9.16.tgz
+              0   0%    0.00kB/s    0:00:00          500,066 100%    3.53MB/s    0:00:00 (xfr#913, ir-chk=10451/33861)
+7.2/packages-stable/amd64/quirks-6.42.tgz
+              0   0%    0.00kB/s    0:00:00          114,678  13%   97.55kB/s    0:00:07          385,737  46%  170.91kB/s    0:00:02          697,008  83%  209.44kB/s    0:00:00          838,232 100%  226.57kB/s    0:00:03 (xfr#914, ir-chk=10450/33861)
+7.2/packages-stable/amd64/rt-5.0.3.tgz
+              0   0%    0.00kB/s    0:00:00       17,881,244 100%   45.60MB/s    0:00:00 (xfr#915, ir-chk=10449/33861)
+7.2/packages-stable/amd64/ruby-2.7.7.tgz
+              0   0%    0.00kB/s    0:00:00        7,095,082 100%   17.90MB/s    0:00:00 (xfr#916, ir-chk=10448/33861)
+7.2/packages-stable/amd64/ruby-3.0.5.tgz
+              0   0%    0.00kB/s    0:00:00        9,668,813 100%   24.08MB/s    0:00:00 (xfr#917, ir-chk=10447/33861)
+7.2/packages-stable/amd64/ruby-3.1.3.tgz
+              0   0%    0.00kB/s    0:00:00       10,305,541 100%   25.27MB/s    0:00:00 (xfr#918, ir-chk=10446/33861)
+7.2/packages-stable/amd64/ruby27-gdbm-2.7.7.tgz
+              0   0%    0.00kB/s    0:00:00           30,776 100%   77.26kB/s    0:00:00 (xfr#919, ir-chk=10445/33861)
+7.2/packages-stable/amd64/ruby27-ri_docs-2.7.7.tgz
+              0   0%    0.00kB/s    0:00:00        3,885,509 100%    9.45MB/s    0:00:00 (xfr#920, ir-chk=10444/33861)
+7.2/packages-stable/amd64/ruby30-gdbm-3.0.5.tgz
+              0   0%    0.00kB/s    0:00:00           35,969 100%   89.61kB/s    0:00:00 (xfr#921, ir-chk=10443/33861)
+7.2/packages-stable/amd64/ruby30-ri_docs-3.0.5.tgz
+              0   0%    0.00kB/s    0:00:00        3,164,101 100%    7.66MB/s    0:00:00 (xfr#922, ir-chk=10442/33861)
+7.2/packages-stable/amd64/ruby31-ri_docs-3.1.3.tgz
+              0   0%    0.00kB/s    0:00:00        3,195,495 100%    7.70MB/s    0:00:00 (xfr#923, ir-chk=10441/33861)
+7.2/packages-stable/amd64/samba-4.16.4p1v0.tgz
+              0   0%    0.00kB/s    0:00:00       23,495,879 100%   54.26MB/s    0:00:00 (xfr#924, ir-chk=10440/33861)
+7.2/packages-stable/amd64/samba-4.16.6v0.tgz
+              0   0%    0.00kB/s    0:00:00       23,507,897 100%   52.63MB/s    0:00:00 (xfr#925, ir-chk=10439/33861)
+7.2/packages-stable/amd64/samba-4.16.7v0.tgz
+              0   0%    0.00kB/s    0:00:00       23,508,480 100%   51.07MB/s    0:00:00 (xfr#926, ir-chk=10438/33861)
+7.2/packages-stable/amd64/samba-4.16.8v0.tgz
+              0   0%    0.00kB/s    0:00:00       23,558,324 100%   49.71MB/s    0:00:00 (xfr#927, ir-chk=10437/33861)
+7.2/packages-stable/amd64/samba-docs-4.16.4v0.tgz
+              0   0%    0.00kB/s    0:00:00          207,936 100%  448.26kB/s    0:00:00 (xfr#928, ir-chk=10436/33861)
+7.2/packages-stable/amd64/samba-docs-4.16.6v0.tgz
+              0   0%    0.00kB/s    0:00:00          205,146 100%  442.25kB/s    0:00:00 (xfr#929, ir-chk=10435/33861)
+7.2/packages-stable/amd64/samba-docs-4.16.7v0.tgz
+              0   0%    0.00kB/s    0:00:00          206,001 100%  444.09kB/s    0:00:00 (xfr#930, ir-chk=10434/33861)
+7.2/packages-stable/amd64/samba-docs-4.16.8v0.tgz
+              0   0%    0.00kB/s    0:00:00          206,000 100%  444.09kB/s    0:00:00 (xfr#931, ir-chk=10433/33861)
+7.2/packages-stable/amd64/seamonkey-2.53.14.tgz
+              0   0%    0.00kB/s    0:00:00       56,551,267 100%  109.39MB/s    0:00:00 (xfr#932, ir-chk=10432/33861)
+7.2/packages-stable/amd64/sendmail-8.17.1.22-ldap-sasl.tgz
+              0   0%    0.00kB/s    0:00:00        2,015,061 100%    3.87MB/s    0:00:00 (xfr#933, ir-chk=10431/33861)
+7.2/packages-stable/amd64/sendmail-8.17.1.22-ldap.tgz
+              0   0%    0.00kB/s    0:00:00        2,001,109 100%    3.79MB/s    0:00:00 (xfr#934, ir-chk=10430/33861)
+7.2/packages-stable/amd64/sendmail-8.17.1.22-sasl.tgz
+              0   0%    0.00kB/s    0:00:00        1,998,833 100%    3.73MB/s    0:00:00 (xfr#935, ir-chk=10429/33861)
+7.2/packages-stable/amd64/sendmail-8.17.1.22.tgz
+              0   0%    0.00kB/s    0:00:00        1,985,426 100%    3.63MB/s    0:00:00 (xfr#936, ir-chk=10428/33861)
+7.2/packages-stable/amd64/snowflake_proxy-2.3.1.tgz
+              0   0%    0.00kB/s    0:00:00        7,268,862 100%   12.98MB/s    0:00:00 (xfr#937, ir-chk=10427/33861)
+7.2/packages-stable/amd64/synapse-1.67.0p0.tgz
+              0   0%    0.00kB/s    0:00:00        4,150,648 100%    7.22MB/s    0:00:00 (xfr#938, ir-chk=10426/33861)
+7.2/packages-stable/amd64/tb-browser-11.5.4p0.tgz
+              0   0%    0.00kB/s    0:00:00      105,183,355 100%  109.75MB/s    0:00:00 (xfr#939, ir-chk=10425/33861)
+7.2/packages-stable/amd64/tb-browser-11.5.6.tgz
+              0   0%    0.00kB/s    0:00:00       21,828,240  20%   20.82MB/s    0:00:03      105,174,428 100%   77.63MB/s    0:00:01 (xfr#940, ir-chk=10424/33861)
+7.2/packages-stable/amd64/tb-browser-11.5.8.tgz
+              0   0%    0.00kB/s    0:00:00      105,185,635 100%  145.59MB/s    0:00:00 (xfr#941, ir-chk=10423/33861)
+7.2/packages-stable/amd64/tb-browser-12.0.1.tgz
+              0   0%    0.00kB/s    0:00:00           10,296   0%    8.47kB/s    3:28:37      106,045,971 100%   81.49MB/s    0:00:01 (xfr#942, ir-chk=10422/33861)
+7.2/packages-stable/amd64/tb-browser-12.0.tgz
+              0   0%    0.00kB/s    0:00:00           10,288   0%    7.30kB/s    4:02:06      106,001,919 100%   70.64MB/s    0:00:01 (xfr#943, ir-chk=10421/33861)
+7.2/packages-stable/amd64/tb-noscript-11.4.12.tgz
+              0   0%    0.00kB/s    0:00:00          926,397 100%    9.11MB/s    0:00:00 (xfr#944, ir-chk=10420/33861)
+7.2/packages-stable/amd64/tb-noscript-11.4.13.tgz
+              0   0%    0.00kB/s    0:00:00          931,669 100%    9.07MB/s    0:00:00 (xfr#945, ir-chk=10419/33861)
+7.2/packages-stable/amd64/telegraf-1.22.4p0.tgz
+              0   0%    0.00kB/s    0:00:00       73,750,983 100%  180.81MB/s    0:00:00 (xfr#946, ir-chk=10418/33861)
+7.2/packages-stable/amd64/thunderbird-102.4.0.tgz
+              0   0%    0.00kB/s    0:00:00       86,785,474 100%  100.57MB/s    0:00:00 (xfr#947, ir-chk=10417/33861)
+7.2/packages-stable/amd64/thunderbird-102.4.1.tgz
+              0   0%    0.00kB/s    0:00:00       86,767,950 100%    1.14GB/s    0:00:00 (xfr#948, ir-chk=10416/33861)
+7.2/packages-stable/amd64/thunderbird-102.4.2.tgz
+              0   0%    0.00kB/s    0:00:00       86,766,682 100%  233.09MB/s    0:00:00 (xfr#949, ir-chk=10415/33861)
+7.2/packages-stable/amd64/thunderbird-102.5.0.tgz
+              0   0%    0.00kB/s    0:00:00       86,791,038 100%  110.07MB/s    0:00:00 (xfr#950, ir-chk=10414/33861)
+7.2/packages-stable/amd64/thunderbird-102.5.1.tgz
+              0   0%    0.00kB/s    0:00:00       86,794,807 100%    1.80GB/s    0:00:00 (xfr#951, ir-chk=10413/33861)
+7.2/packages-stable/amd64/thunderbird-102.6.0.tgz
+              0   0%    0.00kB/s    0:00:00       86,850,519 100%  130.23MB/s    0:00:00 (xfr#952, ir-chk=10412/33861)
+7.2/packages-stable/amd64/thunderbird-102.6.1.tgz
+              0   0%    0.00kB/s    0:00:00            9,312   0%    8.85kB/s    2:43:36       86,847,438 100%   75.29MB/s    0:00:01 (xfr#953, ir-chk=10411/33861)
+7.2/packages-stable/amd64/tiff-4.4.0p2.tgz
+              0   0%    0.00kB/s    0:00:00        1,323,759 100%   13.87MB/s    0:00:00 (xfr#954, ir-chk=10410/33861)
+7.2/packages-stable/amd64/tomcat-10.0.27.tgz
+              0   0%    0.00kB/s    0:00:00       10,679,145 100%   94.30MB/s    0:00:00 (xfr#955, ir-chk=10409/33861)
+7.2/packages-stable/amd64/tomcat-8.5.83.tgz
+              0   0%    0.00kB/s    0:00:00        9,253,135 100%   76.07MB/s    0:00:00 (xfr#956, ir-chk=10408/33861)
+7.2/packages-stable/amd64/tomcat-9.0.68.tgz
+              0   0%    0.00kB/s    0:00:00       10,199,105 100%   46.54MB/s    0:00:00 (xfr#957, ir-chk=10407/33861)
+7.2/packages-stable/amd64/tomcat-examples-10.0.27.tgz
+              0   0%    0.00kB/s    0:00:00       10,163,458 100%   44.87MB/s    0:00:00 (xfr#958, ir-chk=10406/33861)
+7.2/packages-stable/amd64/tomcat-examples-8.5.83.tgz
+              0   0%    0.00kB/s    0:00:00       10,095,510 100%   21.21MB/s    0:00:00 (xfr#959, ir-chk=10405/33861)
+7.2/packages-stable/amd64/tomcat-examples-9.0.68.tgz
+              0   0%    0.00kB/s    0:00:00       10,336,193 100%   21.43MB/s    0:00:00 (xfr#960, ir-chk=10404/33861)
+7.2/packages-stable/amd64/tor-0.4.7.11.tgz
+              0   0%    0.00kB/s    0:00:00        4,116,963 100%    6.80MB/s    0:00:00 (xfr#961, ir-chk=10403/33861)
+7.2/packages-stable/amd64/tor-browser-11.5.4.tgz
+              0   0%    0.00kB/s    0:00:00            1,976 100%    3.34kB/s    0:00:00 (xfr#962, ir-chk=10402/33861)
+7.2/packages-stable/amd64/tor-browser-11.5.6.tgz
+              0   0%    0.00kB/s    0:00:00            1,975 100%    3.34kB/s    0:00:00 (xfr#963, ir-chk=10401/33861)
+7.2/packages-stable/amd64/tor-browser-11.5.8.tgz
+              0   0%    0.00kB/s    0:00:00            1,978 100%    3.34kB/s    0:00:00 (xfr#964, ir-chk=10400/33861)
+7.2/packages-stable/amd64/tor-browser-12.0.1.tgz
+              0   0%    0.00kB/s    0:00:00            1,974 100%    3.34kB/s    0:00:00 (xfr#965, ir-chk=10399/33861)
+7.2/packages-stable/amd64/tor-browser-12.0.tgz
+              0   0%    0.00kB/s    0:00:00            1,973 100%    3.33kB/s    0:00:00 (xfr#966, ir-chk=10398/33861)
+7.2/packages-stable/amd64/trac-1.5.4pre17604.tgz
+              0   0%    0.00kB/s    0:00:00        3,862,325 100%    6.35MB/s    0:00:00 (xfr#967, ir-chk=10397/33861)
+7.2/packages-stable/amd64/tshark-3.6.10.tgz
+              0   0%    0.00kB/s    0:00:00       32,971,004 100%   40.84MB/s    0:00:00 (xfr#968, ir-chk=10396/33861)
+7.2/packages-stable/amd64/tshark-3.6.9.tgz
+              0   0%    0.00kB/s    0:00:00       32,958,377 100%   31.59MB/s    0:00:00 (xfr#969, ir-chk=10395/33861)
+7.2/packages-stable/amd64/webkitgtk40-2.38.1.tgz
+              0   0%    0.00kB/s    0:00:00            6,584   0%    4.92kB/s    2:26:50       43,380,760 100%   31.13MB/s    0:00:01 (xfr#970, ir-chk=10394/33861)
+7.2/packages-stable/amd64/webkitgtk40-2.38.2.tgz
+              0   0%    0.00kB/s    0:00:00       42,598,674 100%  178.18MB/s    0:00:00 (xfr#971, ir-chk=10393/33861)
+7.2/packages-stable/amd64/webkitgtk40-2.38.3.tgz
+              0   0%    0.00kB/s    0:00:00       42,599,671 100%   81.25MB/s    0:00:00 (xfr#972, ir-chk=10392/33861)
+7.2/packages-stable/amd64/webkitgtk41-2.38.1.tgz
+              0   0%    0.00kB/s    0:00:00       43,385,357 100%    1.68GB/s    0:00:00 (xfr#973, ir-chk=10391/33861)
+7.2/packages-stable/amd64/webkitgtk41-2.38.2.tgz
+              0   0%    0.00kB/s    0:00:00       42,604,427 100%  211.62MB/s    0:00:00 (xfr#974, ir-chk=10390/33861)
+7.2/packages-stable/amd64/webkitgtk41-2.38.3.tgz
+              0   0%    0.00kB/s    0:00:00       42,603,581 100%   99.58MB/s    0:00:00 (xfr#975, ir-chk=10389/33861)
+7.2/packages-stable/amd64/webkitgtk50-2.38.1.tgz
+              0   0%    0.00kB/s    0:00:00       43,951,494 100%   68.04MB/s    0:00:00 (xfr#976, ir-chk=10388/33861)
+7.2/packages-stable/amd64/webkitgtk50-2.38.2.tgz
+              0   0%    0.00kB/s    0:00:00       43,165,082 100%   54.17MB/s    0:00:00 (xfr#977, ir-chk=10387/33861)
+7.2/packages-stable/amd64/webkitgtk50-2.38.3.tgz
+              0   0%    0.00kB/s    0:00:00            6,568   0%    6.34kB/s    1:53:29       43,165,981 100%   39.74MB/s    0:00:01 (xfr#978, ir-chk=10386/33861)
+7.2/packages-stable/amd64/wireshark-3.6.10.tgz
+              0   0%    0.00kB/s    0:00:00        5,189,014 100%  176.74MB/s    0:00:00 (xfr#979, ir-chk=10385/33861)
+7.2/packages-stable/amd64/wireshark-3.6.9.tgz
+              0   0%    0.00kB/s    0:00:00        5,188,120 100%   36.12MB/s    0:00:00 (xfr#980, ir-chk=10384/33861)
+7.2/packages-stable/amd64/xfce4-settings-4.16.4.tgz
+              0   0%    0.00kB/s    0:00:00        1,666,405 100%   11.43MB/s    0:00:00 (xfr#981, ir-chk=10383/33861)
+7.2/packages-stable/amd64/xfce4-settings-4.16.5.tgz
+              0   0%    0.00kB/s    0:00:00        1,665,888 100%   11.27MB/s    0:00:00 (xfr#982, ir-chk=10382/33861)
+7.2/packages-stable/amd64/zeek-5.0.3.tgz
+              0   0%    0.00kB/s    0:00:00       84,930,241 100%  145.94MB/s    0:00:00 (xfr#983, ir-chk=10381/33861)
+7.2/packages-stable/amd64/zeek-5.0.4.tgz
+              0   0%    0.00kB/s    0:00:00       84,779,332 100%   83.78MB/s    0:00:00 (xfr#984, ir-chk=10380/33861)
+Changelogs/
+Changelogs/ChangeLog
+              0   0%    0.00kB/s    0:00:00        2,251,339 100%  268.38MB/s    0:00:00 (xfr#985, ir-chk=1107/45533)
+patches/7.1.tar.gz
+              0   0%    0.00kB/s    0:00:00           30,954 100%  125.95kB/s    0:00:00 (xfr#986, to-chk=259/45799)
+patches/7.2.tar.gz
+              0   0%    0.00kB/s    0:00:00           14,728 100%   59.93kB/s    0:00:00 (xfr#987, to-chk=258/45799)
+patches/timestamp
+              0   0%    0.00kB/s    0:00:00               11 100%    0.04kB/s    0:00:00 (xfr#988, to-chk=257/45799)
+
+sent 11,673,619 bytes  received 278,509,291 bytes  2,190,059.70 bytes/sec
+total size is 224,596,683,697  speedup is 773.98
+Sat Dec 31 03:32:23 AM MST 2022
+flock: getting lock took 0.000002 seconds
+flock: executing /home/chris/syncscripts/scripts/sync-openbsd.sh

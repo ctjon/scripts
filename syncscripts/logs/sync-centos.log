@@ -1,0 +1,38 @@
+********************************************************************************
+* UPDATING CENTOS BINARIES                                                     *
+********************************************************************************
+/home/chris/syncscripts/scripts/sync-centos.sh: line 14: 0: command not found
+Mon Jan  2 01:30:11 AM MST 2023
+MOTD:
+MOTD:   Welcome to the Linux Kernel Archive.
+MOTD:
+MOTD:   Due to U.S. Exports Regulations, all cryptographic software on this
+MOTD:   site is subject to the following legal notice:
+MOTD:
+MOTD:   This site includes publicly available encryption source code
+MOTD:   which, together with object code resulting from the compiling of
+MOTD:   publicly available source code, may be exported from the United
+MOTD:   States under License Exception "TSU" pursuant to 15 C.F.R. Section
+MOTD:   740.13(e).
+MOTD:
+MOTD:   This legal notice applies to cryptographic software only.
+MOTD:   Please see the Bureau of Industry and Security,
+MOTD:   http://www.bis.doc.gov/ for more information about current
+MOTD:   U.S. regulations.
+MOTD:
+
+receiving incremental file list
+TIME
+              0   0%    0.00kB/s    0:00:00               11 100%   10.74kB/s    0:00:00 (xfr#1, ir-chk=1102/1116)
+dir_sizes
+              0   0%    0.00kB/s    0:00:00            1,140 100%    1.09MB/s    0:00:00 (xfr#2, ir-chk=1101/1116)
+filelist.gz
+              0   0%    0.00kB/s    0:00:00        7,506,200 100%   36.71MB/s    0:00:00 (xfr#3, ir-chk=1100/1116)
+timestamp.txt
+              0   0%    0.00kB/s    0:00:00               29 100%    0.14kB/s    0:00:00 (xfr#4, ir-chk=1099/1116)
+
+sent 21,355 bytes  received 20,029,181 bytes  460,931.86 bytes/sec
+total size is 421,597,067,129  speedup is 21,026.72
+Mon Jan  2 01:30:54 AM MST 2023
+flock: getting lock took 0.000002 seconds
+flock: executing /home/chris/syncscripts/scripts/sync-centos.sh
