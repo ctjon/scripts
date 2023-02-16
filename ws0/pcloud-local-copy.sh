@@ -5,7 +5,7 @@ export TGTPATH=/export/rbackup/chris/pCloudDrive.local
 
 echo "syncing Home Directory to USB"
 
-mkdir -p $TGTPATH/pCloudDrive.local
+mkdir -p $TGTPATH
 
 if mount | grep /home/chris/pCloudDrive > /dev/null; then
     echo "pCloudDrive Mounted"
