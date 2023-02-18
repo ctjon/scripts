@@ -5,17 +5,10 @@ CryptoFolder Open
 sending incremental file list
 timestamp
               0 100%    0.00kB/s    0:00:00 (xfr#1, ir-chk=2448/2463)
-Automatic Upload/Samsung SM-S908U1/20230217_062638.jpg
-         32,768   1%    0.00kB/s    0:00:00        2,323,860 100%    5.00MB/s    0:00:00 (xfr#2, ir-chk=15696/18149)
-deleting Crypto Folder/MyDocuments/Finance/Financial Planning/.~lock.Budget.xlsx#
 Crypto Folder/timestamp
-              0 100%    0.00kB/s    0:00:00 (xfr#3, ir-chk=1012/20517)
-Crypto Folder/MyDocuments/Finance/Financial Planning/Budget.xlsx
-         32,768  25%    0.00kB/s    0:00:00          126,537 100%   89.43MB/s    0:00:00 (xfr#4, ir-chk=1011/20530)
-QuickenBackup/QDATA-2020.QDF-backup
-         32,768   0%    0.00kB/s    0:00:00       13,664,256   8%   12.10MB/s    0:00:11       26,771,456  17%   11.87MB/s    0:00:10       29,130,752  18%    8.72MB/s    0:00:13       35,422,208  23%    7.97MB/s    0:00:14       38,043,648  24%    5.47MB/s    0:00:20       40,665,088  26%    3.09MB/s    0:00:35       43,548,672  28%    3.22MB/s    0:00:33       63,471,616  41%    6.31MB/s    0:00:13       66,355,200  43%    6.49MB/s    0:00:13       98,598,912  64%   13.62MB/s    0:00:03      101,744,640  66%   13.69MB/s    0:00:03      105,152,512  68%    9.81MB/s    0:00:04      107,773,952  70%    9.76MB/s    0:00:04      131,629,056  85%    7.68MB/s    0:00:02      153,878,528 100%    9.51MB/s    0:00:15 (xfr#5, ir-chk=1003/74403)
+              0 100%    0.00kB/s    0:00:00 (xfr#2, ir-chk=1012/20517)
 
-sent 144,518,214 bytes  received 3,454 bytes  2,049,952.74 bytes/sec
-total size is 162,171,111,138  speedup is 1,122.12
-flock: getting lock took 0.000004 seconds
+sent 3,223,448 bytes  received 3,339 bytes  59,207.10 bytes/sec
+total size is 162,171,111,138  speedup is 50,257.77
+flock: getting lock took 0.000002 seconds
 flock: executing /home/chris/scripts/ws0/pcloud-local-copy.sh
