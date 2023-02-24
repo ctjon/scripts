@@ -22,4 +22,7 @@ rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 /Volumes/Media/Music/ $USBPATH/Music
 
+rsync -aHKvz --delete --delete-excluded --delete-during --progress \
+/Volumes/Media/HomeVideos/ $USBPATH/HomeVideos
+
 touch $USBPATH/homedir/timestamp
