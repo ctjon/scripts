@@ -3,7 +3,7 @@ echo "**************************************************************************
 export USBPATH=/Volumes/MyBackupUSB
 echo "syncing Home Directory to USB"
 mkdir  $USBPATH/homedir
-touch $USBPATH/homedir/timestamp
+
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 ~chris/MyDocuments/ $USBPATH/homedir/MyDocuments
 
@@ -14,10 +14,15 @@ rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 ~chris/scripts/ $USBPATH/homedir/scripts
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/scripts.old/ $USBPATH/homedir/scripts.old
-
-rsync -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/Books.backup/ $USBPATH/homedir/Books.backup
+~chris/Books/ $USBPATH/homedir/Books
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 ~chris/Pictures/ $USBPATH/homedir/Pictures
+
+rsync -aHKvz --delete --delete-excluded --delete-during --progress \
+/Volumes/Media/Music/ $USBPATH/Music
+
+rsync -aHKvz --delete --delete-excluded --delete-during --progress \
+/Volumes/Media/HomeVideos/ $USBPATH/HomeVideos
+
+touch $USBPATH/homedir/timestamp
