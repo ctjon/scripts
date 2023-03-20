@@ -1,6 +1,6 @@
 #!/bin/sh
-SRCDIR=/Volumes/4TB-NVMe/Archive/MacOSX/Apple/13.1.0-macOS-Ventura
-#SRCDIR=/Applications
+#SRCDIR=/Volumes/Archive/MacOSX/Apple/13.2.1-macOS-Ventura
+SRCDIR=/Applications
 #SRCDIR=/Users/chris/Downloads
 DEST=/Volumes/Untitled
 
