@@ -1,23 +1,23 @@
 #!/bin/bash
 echo "********************************************************************************"
-export TGTPATH=chris@server0:~/chris-mbp/MyBackup-mbp
+export TGTPATH=chris@server0:/home/chris-mbp/MyBackup-mbp
 echo "syncing Home Directory to Server0"
 ssh chris@server0 "mkdir $TGTPATH"
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/MyDocuments/ $TGTPATH/homedir/MyDocuments
+~chris/MyDocuments/ $TGTPATH/MyDocuments
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/playbooks/ $TGTPATH/homedir/playbooks
+~chris/playbooks/ $TGTPATH/playbooks
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/scripts/ $TGTPATH/homedir/scripts
+~chris/scripts/ $TGTPATH/scripts
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/Books/ $TGTPATH/homedir/Books
+~chris/Books/ $TGTPATH/Books
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/Pictures/ $TGTPATH/homedir/Pictures
+~chris/Pictures/ $TGTPATH/Pictures
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 /Volumes/Media/Music/ $TGTPATH/Music
@@ -25,4 +25,4 @@ rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 /Volumes/Media/HomeVideos/ $TGTPATH/HomeVideos
 
-touch $TGTPATH/homedir/timestamp
+touch $TGTPATH/timestamp
