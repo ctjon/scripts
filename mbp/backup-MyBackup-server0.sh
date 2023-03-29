@@ -1,6 +1,6 @@
 #!/bin/bash
 echo "********************************************************************************"
-export TGTPATH=chris@server0:/home/chris-mbp/MyBackup-mbp
+export TGTPATH=chris@server0:/home/chris/chris-mbp
 echo "syncing Home Directory to Server0"
 ssh chris@server0 "mkdir $TGTPATH"
 
