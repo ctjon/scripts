@@ -1,28 +1,30 @@
 #!/bin/bash
 echo "********************************************************************************"
-export TGTPATH=chris@server0:/home/chris/chris-mbp
+export SSH_USER=chris@server0
+export TGTPATH=/home/chris/chris-mbp
 echo "syncing Home Directory to Server0"
-ssh chris@server0 "mkdir $TGTPATH"
+
+ssh $SSH_USER mkdir $TGTPATH
 
 rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/MyDocuments/ $TGTPATH/MyDocuments
+~chris/MyDocuments/ $SSH_USER:$TGTPATH/MyDocuments
 
 rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/playbooks/ $TGTPATH/playbooks
+~chris/playbooks/ $SSH_USER:$TGTPATH/playbooks
 
 rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/scripts/ $TGTPATH/scripts
+~chris/scripts/ $SSH_USER:$TGTPATH/scripts
 
 rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/Books/ $TGTPATH/Books
+~chris/Books/ $SSH_USER:$TGTPATH/Books
 
 rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
-~chris/Pictures/ $TGTPATH/Pictures
+~chris/Pictures/ $SSH_USER:$TGTPATH/Pictures
 
 rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
-/Volumes/Media/Music/ $TGTPATH/Music
+/Volumes/Media/Music/ $SSH_USER:$TGTPATH/Music
 
 rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
-/Volumes/Media/HomeVideos/ $TGTPATH/HomeVideos
+/Volumes/Media/HomeVideos/ $SSH_USER:$TGTPATH/HomeVideos
 
-touch $TGTPATH/timestamp
+ssh $SSH_USER touch $TGTPATH/timestamp
