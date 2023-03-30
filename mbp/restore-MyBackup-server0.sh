@@ -1,32 +1,32 @@
 #!/bin/bash
 echo "********************************************************************************"
 export SSH_USER=chris@server0
-export TGTPATH=/home/chris/chris-mbp
+export SRCPATH=/home/chris/chris-mbp
 echo "syncing Home Directory to Server0"
 
-ssh $SSH_USER mkdir $TGTPATH
+rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
+$SSH_USER:$SRCPATH/MyDocuments/ ~/MyDocuments
 
 rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
-~/MyDocuments/ $SSH_USER:$TGTPATH/MyDocuments
+$SSH_USER:$SRCPATH/playbooks/ ~/playbooks
 
 rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
-~/playbooks/ $SSH_USER:$TGTPATH/playbooks
+$SSH_USER:$SRCPATH/scripts/ ~/scripts
 
 rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
-~/scripts/ $SSH_USER:$TGTPATH/scripts
+$SSH_USER:$SRCPATH/Books/ ~/Books 
 
-rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
-~/Books/ $SSH_USER:$TGTPATH/Books
-
-export TGTPATH=/export/backup/chris-mbp
-
-rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
-~/Pictures/ $SSH_USER:$TGTPATH/Pictures
+export SRCPATH=/export/backup/chris-mbp
 
 #rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
-#~/Music/ $SSH_USER:$TGTPATH/Music
+#$SSH_USER:$SRCPATH/Music/ ~/Music.localized
 
 #rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
-#~/Movies/TV/Media.localized/Home\ Videos/ $SSH_USER:$TGTPATH/HomeVideos
+#$SSH_USER:$SRCPATH/HomeVideos/ ~/Movies/TV/Media.localized/Home\ Videos
 
-ssh $SSH_USER touch $TGTPATH/timestamp
+#
+# RESTORING PHOTOS THIS WAY DOESN'T WORK UNLESS YOU DELETE EXISTING PHOTOS FIRST
+#
+rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
+$SSH_USER:$SRCPATH/Pictures/ ~/Pictures
+
