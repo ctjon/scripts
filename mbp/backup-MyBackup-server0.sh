@@ -18,6 +18,8 @@ rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
 rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
 ~/Books/ $SSH_USER:$TGTPATH/Books
 
+export TGTPATH=/export/backup/chris-mbp
+
 rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
 ~/Pictures/ $SSH_USER:$TGTPATH/Pictures
 
