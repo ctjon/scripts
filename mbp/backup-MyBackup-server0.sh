@@ -27,6 +27,6 @@ rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
 ~/Music/ $SSH_USER:$TGTPATH/Music
 
 rsync -e ssh -aHKvz --delete --delete-excluded --delete-during --progress \
-~/Movies/TV/Home\ Videos/ $SSH_USER:$TGTPATH/HomeVideos
+~/Movies/TV/Media.localized/Home\ Videos/ $SSH_USER:$TGTPATH/HomeVideos
 
 ssh $SSH_USER touch $TGTPATH/timestamp
