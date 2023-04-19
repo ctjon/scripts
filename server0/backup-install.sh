@@ -32,7 +32,6 @@ DESTDIR=/export/backup/server0/install
 
 mkdir -p $DESTDIR
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
---exclude=.* \
 --delete-excluded \
 $SRCDIR/ $DESTDIR
 
