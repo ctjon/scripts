@@ -20,9 +20,9 @@ rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 ~/Pictures/ $USBPATH/homedir/Pictures
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
-~/Music/ $USBPATH/Music
+/Volumes/mbp-media/Music/ $USBPATH/Music
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
-~/Movies/TV/Media.localized/Home\ Videos/ $USBPATH/HomeVideos
+/Volumes/mbp-media/Movies/TV/Home\ Videos/ $USBPATH/HomeVideos
 
 touch $USBPATH/homedir/timestamp
