@@ -14,13 +14,13 @@ rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 ~/scripts/ $USBPATH/homedir/scripts
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
+~/Music/ $USBPATH/homedir/Music
+
+rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 ~/Books/ $USBPATH/homedir/Books
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 ~/Pictures/ $USBPATH/homedir/Pictures
-
-rsync -aHKvz --delete --delete-excluded --delete-during --progress \
-/Volumes/mbp-media/Music/ $USBPATH/Music
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 /Volumes/mbp-media/Movies/TV/Home\ Videos/ $USBPATH/HomeVideos
