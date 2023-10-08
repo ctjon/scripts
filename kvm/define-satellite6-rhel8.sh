@@ -3,8 +3,7 @@ sudo virt-install --name satellite6 \
 --description 'Satellite6-RHEL8' \
 --ram 24576 \
 --vcpus 4 \
---disk path=/var/lib/libvirt/images/satellite6/sat6-root.qcow2,size=20 \
---disk path=/var/lib/libvirt/images/satellite6/sat6-var.qcow2,size=400 \
+--disk path=/var/lib/libvirt/images/satellite6.qcow2,size=512 \
 --disk path=/export/archive/Linux/RedHat/Satellite/Satellite-6.13.4-rhel-8-x86_64.dvd.iso,device=cdrom \
 --os-variant rhel8.8 \
 --graphics spice \
