@@ -3,13 +3,13 @@ sudo virt-install --name VirtualPC \
 --description 'Windows 11 VirtualPC' \
 --ram 4096 \
 --vcpus 4 \
---disk path=/home/chris/VirtualMachines/VirtualPC.qcow2 \
+--disk path=/var/lib/libvirt/images/VirtualPC.qcow2 \
 --disk path=/usr/share/virtio-win/virtio-win.iso,device=cdrom,bus=sata \
 --os-type windows \
 --os-variant win10 \
---graphics spice \
+--graphics vnc \
 --boot uefi \
---network default,model=virtio \
+--network default,model=e1000e \
 --sound ich9 \
 --import --noautoconsole
 
