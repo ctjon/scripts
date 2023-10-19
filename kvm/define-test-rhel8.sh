@@ -21,6 +21,6 @@ sudo virt-install --name test-rhel8 \
 --disk path=/var/lib/libvirt/images/test-rhel8.qcow2,size=512 \
 --os-variant rhel8.8 \
 --graphics vnc \
---network bridge=br0,model=e1000e,mac=$MAC \
+--network network=macvtap-bridge,model=virtio,mac=$MAC \
 --boot hd,network,menu=on 
 

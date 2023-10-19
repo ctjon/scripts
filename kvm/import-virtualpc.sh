@@ -9,7 +9,7 @@ sudo virt-install --name VirtualPC \
 --os-variant win10 \
 --graphics vnc \
 --boot uefi \
---network default,model=e1000e \
+--network network:macvtap-bridge,model=virtio \
 --sound ich9 \
 --import --noautoconsole
 

@@ -8,6 +8,6 @@ sudo virt-install --name satellite6-rhel8 \
 --os-variant rhel8.8 \
 --graphics vnc \
 --boot hd,network,menu=on \
---network bridge=br0,model=e1000e \
+--network network=macvtap-bridge,model=virtio \
 --import --noautoconsole
 

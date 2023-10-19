@@ -11,13 +11,13 @@ sudo sudo virt-customize -a /var/lib/libvirt/images/test-fedora38.qcow2 \
 
 export LIBVIRT_DEFAULT_URI=qemu:///system
 sudo virt-install --name test-fedora38 \
---description 'TestVM-RHEL8' \
+--description 'Test-Fedora38' \
 --ram 2048 \
 --vcpus 1 \
 --disk path=/var/lib/libvirt/images/test-fedora38.qcow2,size=512 \
 --os-variant fedora37 \
 --graphics vnc \
---network network:macvtap-net,model=virtio \
+--network network:macvtap-bridge,model=virtio \
 --boot hd,network,menu=on 
 
-#--network bridge=br0,model=e1000e,mac='52:54:00:00:00:38' \
+#--network bridge=br0,model=virtio,mac='52:54:00:00:00:38' \
