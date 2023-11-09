@@ -25,11 +25,10 @@
 ################################################################################
 # Backup /export/install                                                       #
 ################################################################################
-DESTDIR=/export/backup/server0/install
+SRCDIR=/export/backup/server0/install
 DESTDIR=/export/install
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
---exclude=.* \
 --delete-excluded \
 $SRCDIR/ $DESTDIR
 
