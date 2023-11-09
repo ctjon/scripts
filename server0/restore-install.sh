@@ -25,8 +25,7 @@
 ################################################################################
 # Backup /export/install                                                       #
 ################################################################################
-SRCDIR=/export/rinstall
-#DESTDIR=/export/backup/server0/install
+DESTDIR=/export/backup/server0/install
 DESTDIR=/export/install
 
 rsync -aHKv --no-o --no-g --keep-dirlinks --progress --delete \
