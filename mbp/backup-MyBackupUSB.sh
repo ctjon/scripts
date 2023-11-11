@@ -22,7 +22,8 @@ rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 --exclude=.DS_Store \
-~/Library/Mobile\ Documents/com~apple~CloudDocs/Books/ $USBPATH/homedir/Books
+~/pCloud\ Drive/Books/ $USBPATH/homedir/Books
+#~/Library/Mobile\ Documents/com~apple~CloudDocs/Books/ $USBPATH/homedir/Books
 
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 --exclude=.DS_Store \

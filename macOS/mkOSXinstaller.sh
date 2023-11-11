@@ -4,4 +4,4 @@ SRCDIR=/Applications
 #SRCDIR=/Users/chris/Downloads
 DEST=/Volumes/Untitled
 
-sudo $SRCDIR/Install\ macOS\ Ventura.app/Contents/Resources/createinstallmedia --volume $DEST --nointeraction
+sudo $SRCDIR/Install\ macOS\ Sonoma.app/Contents/Resources/createinstallmedia --volume $DEST --nointeraction
