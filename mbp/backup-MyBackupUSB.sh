@@ -38,6 +38,6 @@ rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 echo "Backing up HomeVideos"
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 --exclude=.DS_Store \
-~/Movies/TV/Media.localized/Home\ Videos/ $USBPATH/HomeVideos
+~/HomeVideos/ $USBPATH/HomeVideos
 
 touch $USBPATH/homedir/timestamp
