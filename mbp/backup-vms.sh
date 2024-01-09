@@ -1,2 +1,2 @@
 #!/bin/bash
-rsync -aHKv --keep-dirlinks --progress --delete --exclude=".*" --delete-excluded /Volumes/8TB-RAID0/VirtualMachines/ /Volumes/Backup/VirtualMachineImages/vmware-vms
+rsync -aHKv --keep-dirlinks --progress --delete --exclude=".*" --delete-excluded /Volumes/mbp-data/VirtualMachines/ /Volumes/Media/VirtualMachines
