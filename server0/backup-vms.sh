@@ -1,7 +1,6 @@
 #!/bin/bash
 
-SRCDIR=/export/oimages
-#SRCDIR=/var/lib/libvirt/images
+SRCDIR=/var/lib/libvirt/images
 TGTDIR=/export/backup/server0/kvm-vms
 
 mkdir -p $TGTDIR
