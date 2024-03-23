@@ -17,6 +17,10 @@ rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 --exclude=.zsh_sessions \
 ~/.[^.]*  $USBPATH/homedir/dotfiles
 
+echo "Backing up ThinkOrSwim"
+rsync -aHKvz --delete --delete-excluded --delete-during --progress \
+~/.[^.]*  $USBPATH/homedir/thinkorswim
+
 echo "Backing up playbooks"
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 --exclude=.DS_Store \
