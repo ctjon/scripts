@@ -19,7 +19,7 @@ rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 
 echo "Backing up ThinkOrSwim"
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
-~/.[^.]*  $USBPATH/homedir/thinkorswim
+~/thinkorswim  $USBPATH/homedir/thinkorswim
 
 echo "Backing up playbooks"
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
