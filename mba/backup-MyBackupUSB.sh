@@ -4,12 +4,6 @@ export USBPATH=/Volumes/MyBackupUSB
 echo "syncing Home Directory to USB"
 mkdir  $USBPATH/homedir
 
-echo "Backing up iCloudDrive"
-rsync -aHKvz --delete --delete-excluded --delete-during --progress \
---exclude=.DS_Store \
---exclude=.Trash \
-~/Library/Mobile\ Documents/com~apple~CloudDocs/ $USBPATH/homedir/iCloudDrive
-
 echo "Backing up ProtonDrive"
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 --exclude=.DS_Store \
