@@ -21,7 +21,6 @@ do
 	rsync -aHKvz --keep-dirlinks --delete --delete-during --delete-excluded --progress \
 	--exclude='8.[0-9]/' \
 	--exclude='9.[0-3]/' \
-	--exclude='i686' \
 	--exclude='s390x' \
 	--exclude='ppc64le' \
 	--exclude='debug' \
@@ -29,3 +28,4 @@ do
  	$SRCDIR $TGTDIR
 done
 
+#	--exclude='i686' \
