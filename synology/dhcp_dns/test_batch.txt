@@ -1,0 +1,6 @@
+server 127.0.0.1
+update add test.internal.tjon.net 300 A 172.16.1.99
+send
+update add 99.1.16.172.in-addr.arpa 300 PTR test.internal.tjon.net.
+send
+quit
