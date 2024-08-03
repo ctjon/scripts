@@ -4,7 +4,7 @@
 # Ansible managed
 #
 
-export SRCDIR=rsync://mirrors.rit.edu/rocky/
+export SRCDIR=rsync://mirror.chpc.utah.edu/pub/rocky/
 export TGTDIR=/volume1/Install/Linux/rocky/
 echo "********************************************************************************"
 echo "* Syncing Rocky Linux Repos                                                    *"
@@ -24,6 +24,7 @@ do
 	--exclude='s390x' \
 	--exclude='ppc64le' \
 	--exclude='debug' \
+	--exclude='sssd-krb5-common-2.9.4-3.el8_10.x86_64.rpm' \
  	$SRCDIR $TGTDIR
 done
 
