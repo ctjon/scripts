@@ -1,0 +1,9 @@
+Use the dhcp_dns.sh script as a scheduled job running once per minute.  It scans
+the DHCP leases file and looks for entries that have expired and/or new entries
+that are created.  When these events occur, the script parses them out an uses
+nsupdate to update the dns records.
+
+This is only necessary because synology's DHCP server does not automatically 
+update DNS as it should IMHO.  This solution solves the problem without actual
+modification of any system config files and thus won't inadvertenly break 
+anything during a DSM upgrade.  

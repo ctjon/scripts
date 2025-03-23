@@ -1,0 +1,7 @@
+[Adblock]
+http://img-cdn.mediaplex.com/ads/*
+http://view.atdmt.com/*
+http://ad.doubleclick.net/*
+http://servedby.advertising.com/*
+https://a248.e.akamai.net/*
+http://us.a1.yimg.com/us.yimg.com/./../*

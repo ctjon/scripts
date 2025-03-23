@@ -1,0 +1,9 @@
+/home/chris/syncscripts/scripts/sync-virtio-win.sh: line 9: 0: command not found
+Sat Dec 31 04:45:11 AM MST 2022
+receiving incremental file list
+
+sent 352 bytes  received 73,773 bytes  21,178.57 bytes/sec
+total size is 44,991,391,856  speedup is 606,966.50
+Sat Dec 31 04:45:14 AM MST 2022
+flock: getting lock took 0.000002 seconds
+flock: executing /home/chris/syncscripts/scripts/sync-virtio-win.sh

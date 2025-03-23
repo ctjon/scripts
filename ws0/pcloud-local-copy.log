@@ -1,0 +1,14 @@
+********************************************************************************
+syncing Home Directory to USB
+pCloudDrive Mounted
+CryptoFolder Open
+sending incremental file list
+timestamp
+              0 100%    0.00kB/s    0:00:00 (xfr#1, ir-chk=2448/2463)
+Crypto Folder/timestamp
+              0 100%    0.00kB/s    0:00:00 (xfr#2, ir-chk=1012/20517)
+
+sent 3,223,448 bytes  received 3,339 bytes  59,207.10 bytes/sec
+total size is 162,171,111,138  speedup is 50,257.77
+flock: getting lock took 0.000002 seconds
+flock: executing /home/chris/scripts/ws0/pcloud-local-copy.sh

@@ -1,0 +1,1 @@
+rpmbuild -ba --target i686 /usr/src/redhat/SPECS/ddclient.spec
