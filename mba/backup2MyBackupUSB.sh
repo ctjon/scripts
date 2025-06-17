@@ -25,14 +25,6 @@ rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 #/Users/chris/Library/CloudStorage/ProtonDrive-chris.tjon@pm.me-folder/Books/ $USB_TGT
 #/Users/chris/Library/Mobile\ Documents/com~apple~CloudDocs/Books/ $USB_TGT
 
-#echo "********************************************************************************"
-#export USB_TGT=$USB_DISK/HomeVideos.backup
-#echo "Backup HomeVideos to $USB_TGT"
-#rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
-#--progress --exclude=.DS_Store \
-#/Users/chris/Library/CloudStorage/ProtonDrive-chris.tjon@pm.me-folder/HomeVideos/ $USB_TGT
-##/Users/chris/Library/Mobile\ Documents/com~apple~CloudDocs/HomeVideos/ $USB_TGT
-
 echo "********************************************************************************"
 export USB_TGT=$USB_DISK/Music.backup
 echo "Backup Music to $USB_TGT"
@@ -68,9 +60,11 @@ rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 --exclude=.DS_Store \
 --exclude=.Trash \
 --exclude=.zsh_sessions \
-~/.[^.]*  $USB_TGT
-#--exclude=.config/containers \
-#--exclude=.local/share/containers \
+--exclude=.thinkorswim \
+~/.??*  $USB_TGT
+#~/.[^.]*  $USB_TGT
+##--exclude=.config/containers \
+##--exclude=.local/share/containers \
 
 echo "********************************************************************************"
 export USB_TGT=$USB_DISK/Pictures.backup
