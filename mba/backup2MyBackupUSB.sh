@@ -3,34 +3,32 @@
 USB_DISK=/Volumes/MyBackupUSB
 
 echo "********************************************************************************"
-export USB_TGT=$USB_DISK/iCloud.backup
+export USB_TGT=$USB_DISK/MyDocuments.backup
 echo "Backup MyDocuments to $USB_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-/Users/chris/Library/Mobile\ Documents/com~apple~CloudDocs/ $USB_TGT
-#/Users/chris/MyDocuments/ $USB_TGT
-
-#echo "********************************************************************************"
-#export USB_TGT=$USB_DISK/MyDocuments.backup
-#echo "Backup MyDocuments to $USB_TGT"
-#rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
-#--progress --exclude=.DS_Store \
-#/Users/chris/MyDocuments/ $USB_TGT
-
-#echo "********************************************************************************"
-#export USB_TGT=$USB_DISK/Books.backup
-#echo "Backup Books to $USB_TGT"
-#rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
-#--progress --exclude=.DS_Store \
-#/Users/chris/Library/CloudStorage/ProtonDrive-chris.tjon@pm.me-folder/Books/ $USB_TGT
-#/Users/chris/Library/Mobile\ Documents/com~apple~CloudDocs/Books/ $USB_TGT
+/Users/chris/MyDocuments/ $USB_TGT
 
 echo "********************************************************************************"
-export USB_TGT=$USB_DISK/Music.backup
-echo "Backup Music to $USB_TGT"
+export USB_TGT=$USB_DISK/Books.backup
+echo "Backup Books to $USB_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-"/Users/chris/Music/" $USB_TGT
+/Users/chris/Library/CloudStorage/ProtonDrive-chris.tjon@pm.me-folder/Books/ $USB_TGT
+
+echo "********************************************************************************"
+export USB_TGT=$USB_DISK/HomeVideos.backup
+echo "Backup Books to $USB_TGT"
+rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
+--progress --exclude=.DS_Store \
+/Users/chris/Library/CloudStorage/ProtonDrive-chris.tjon@pm.me-folder/HomeVideos/ $USB_TGT
+
+#echo "********************************************************************************"
+#export USB_TGT=$USB_DISK/Music.backup
+#echo "Backup Music to $USB_TGT"
+#rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
+#--progress --exclude=.DS_Store \
+#"/Users/chris/Music/" $USB_TGT
 
 echo "********************************************************************************"
 export USB_TGT=$USB_DISK/scripts.backup
@@ -46,12 +44,12 @@ rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
 "/Users/chris/playbooks/" $USB_TGT
 
-echo "********************************************************************************"
-export USB_TGT=$USB_DISK/thinkorswim.backup
-echo "Backup thinkorswim to $USB_TGT"
-rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
---progress --exclude=.DS_Store \
-"/Users/chris/thinkorswim/" $USB_TGT
+#echo "********************************************************************************"
+#export USB_TGT=$USB_DISK/thinkorswim.backup
+#echo "Backup thinkorswim to $USB_TGT"
+#rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
+#--progress --exclude=.DS_Store \
+#"/Users/chris/thinkorswim/" $USB_TGT
 
 echo "********************************************************************************"
 export USB_TGT=$USB_DISK/dotfiles.backup
