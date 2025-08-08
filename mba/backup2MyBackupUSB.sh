@@ -14,14 +14,14 @@ export USB_TGT=$USB_DISK/Books.backup
 echo "Backup Books to $USB_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-/Users/chris/Library/CloudStorage/ProtonDrive-chris.tjon@pm.me-folder/Books/ $USB_TGT
+"/Users/chris/Library/Mobile Documents/com~apple~CloudDocs/Books/" $USB_TGT
 
 echo "********************************************************************************"
 export USB_TGT=$USB_DISK/HomeVideos.backup
 echo "Backup Books to $USB_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-/Users/chris/Library/CloudStorage/ProtonDrive-chris.tjon@pm.me-folder/HomeVideos/ $USB_TGT
+/Users/chris/HomeVideos/ $USB_TGT
 
 #echo "********************************************************************************"
 #export USB_TGT=$USB_DISK/Music.backup

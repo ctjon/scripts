@@ -5,5 +5,5 @@ rsync -aiHKvz -e ssh --progress --delete --delete-during --delete-excluded \
   --exclude="@*" \
   --exclude="#*" \
   --chmod=Du=rwx,Dgo=rx,Fu=rw,Fgo=r \
-/Volumes/Archive/ chris@server0:/export/archive
+/Volumes/Archive/ chris@server0.nd:/export/archive
 
