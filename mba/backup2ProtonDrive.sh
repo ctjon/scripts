@@ -1,73 +1,73 @@
 #!/bin/bash
 
-USB_DISK=/Volumes/MyBackupUSB
+BKUP_DISK=~/Library/CloudStorage/ProtonDrive-chris.tjon@pm.me-folder/Backup
 
 echo "********************************************************************************"
-export USB_TGT=$USB_DISK/MyDocuments.backup
-echo "Backup MyDocuments to $USB_TGT"
+export BKUP_TGT=$BKUP_DISK/MyDocuments.backup
+echo "Backup MyDocuments to $BKUP_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/MyDocuments/ $USB_TGT
+~/MyDocuments/ $BKUP_TGT
 
 echo "********************************************************************************"
-export USB_TGT=$USB_DISK/Books.backup
-echo "Backup Books to $USB_TGT"
+export BKUP_TGT=$BKUP_DISK/Books.backup
+echo "Backup Books to $BKUP_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/Books/ $USB_TGT
+~/Books/ $BKUP_TGT
 
 echo "********************************************************************************"
-export USB_TGT=$USB_DISK/HomeVideos.backup
-echo "Backup Books to $USB_TGT"
+export BKUP_TGT=$BKUP_DISK/HomeVideos.backup
+echo "Backup Books to $BKUP_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/HomeVideos/ $USB_TGT
+~/HomeVideos/ $BKUP_TGT
 
 echo "********************************************************************************"
-export USB_TGT=$USB_DISK/Music.backup
-echo "Backup Music to $USB_TGT"
+export BKUP_TGT=$BKUP_DISK/Music.backup
+echo "Backup Music to $BKUP_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/Music/ $USB_TGT
+~/Music/ $BKUP_TGT
 
 echo "********************************************************************************"
-export USB_TGT=$USB_DISK/scripts.backup
-echo "Backup scripts to $USB_TGT"
+export BKUP_TGT=$BKUP_DISK/scripts.backup
+echo "Backup scripts to $BKUP_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/scripts/ $USB_TGT
+~/scripts/ $BKUP_TGT
 
 echo "********************************************************************************"
-export USB_TGT=$USB_DISK/playbooks.backup
-echo "Backup playbooks to $USB_TGT"
+export BKUP_TGT=$BKUP_DISK/playbooks.backup
+echo "Backup playbooks to $BKUP_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/playbooks/ $USB_TGT
+~/playbooks/ $BKUP_TGT
 
 echo "********************************************************************************"
-export USB_TGT=$USB_DISK/thinkorswim.backup
-echo "Backup thinkorswim to $USB_TGT"
+export BKUP_TGT=$BKUP_DISK/thinkorswim.backup
+echo "Backup thinkorswim to $BKUP_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/thinkorswim/ $USB_TGT
+~/thinkorswim/ $BKUP_TGT
 
 echo "********************************************************************************"
-export USB_TGT=$USB_DISK/dotfiles.backup
-echo "Backup Config Files to $USB_TGT"
+export BKUP_TGT=$BKUP_DISK/dotfiles.backup
+echo "Backup Config Files to $BKUP_TGT"
 rsync -aHKvz --delete --delete-excluded --delete-during --progress \
 --exclude=.DS_Store \
 --exclude=.Trash \
 --exclude=.zsh_sessions \
 --exclude=.thinkorswim \
-~/.??*  $USB_TGT
-#~/.[^.]*  $USB_TGT
+~/.??*  $BKUP_TGT
+#~/.[^.]*  $BKUP_TGT
 ##--exclude=.config/containers \
 ##--exclude=.local/share/containers \
 
 echo "********************************************************************************"
-export USB_TGT=$USB_DISK/Pictures.backup
-echo "Backup Pictures to $USB_TGT"
+export BKUP_TGT=$BKUP_DISK/Pictures.backup
+echo "Backup Pictures to $BKUP_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/Pictures/ $USB_TGT
+~/Pictures/ $BKUP_TGT
 

@@ -3,4 +3,4 @@
 SRCDIR=/Users/chris/Downloads
 DEST=/Volumes/Untitled
 
-sudo $SRCDIR/Install\ macOS\ Sequoia.app/Contents/Resources/createinstallmedia --volume $DEST --nointeraction
+sudo $SRCDIR/Install\ macOS\ Tahoe.app/Contents/Resources/createinstallmedia --volume $DEST --nointeraction
