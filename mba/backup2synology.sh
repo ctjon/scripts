@@ -15,24 +15,24 @@ BKUP_DISK=chris@$SYNOLOGY_HOST:/var/services/homes/chris/Backup
 echo "********************************************************************************"
 export BKUP_TGT=$BKUP_DISK/MyDocuments.backup
 echo "Backup MyDocuments to $BKUP_TGT"
-rsync -e ssh -aHKvzO --rsync-path=/usr/bin/rsync --rsync-path=/usr/bin/rsync \
+rsync -e ssh -aHKvzO --rsync-path=/usr/bin/rsync \
 --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/MyDocuments/ $BKUP_TGT
+~/Library/Mobile\ Documents/com~apple~CloudDocs/MyDocuments/ $BKUP_TGT
 
 echo "********************************************************************************"
 export BKUP_TGT=$BKUP_DISK/Books.backup
 echo "Backup Books to $BKUP_TGT"
 rsync -e ssh -aHKvzO --rsync-path=/usr/bin/rsync --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/Books/ $BKUP_TGT
+~/Library/Mobile\ Documents/com~apple~CloudDocs/Books/ $BKUP_TGT
 
 echo "********************************************************************************"
 export BKUP_TGT=$BKUP_DISK/HomeVideos.backup
 echo "Backup Books to $BKUP_TGT"
 rsync -e ssh -aHKvzO --rsync-path=/usr/bin/rsync --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/HomeVideos/ $BKUP_TGT
+~/Library/Mobile\ Documents/com~apple~CloudDocs/HomeVideos/ $BKUP_TGT
 
 echo "********************************************************************************"
 export BKUP_TGT=$BKUP_DISK/Music.backup
@@ -65,7 +65,7 @@ rsync -e ssh -aHKvzO --rsync-path=/usr/bin/rsync --delete --delete-excluded --de
 echo "********************************************************************************"
 export BKUP_TGT=$BKUP_DISK/dotfiles.backup
 echo "Backup Config Files to $BKUP_TGT"
-rsync -e ssh -aHKvz --rsync-path=/usr/bin/rsync --delete --delete-excluded --delete-during --progress \
+rsync -e ssh -aHKvzO --rsync-path=/usr/bin/rsync --delete --delete-excluded --delete-during --progress \
 --exclude=.DS_Store \
 --exclude=.Trash \
 --exclude=.zsh_sessions \

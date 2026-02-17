@@ -7,21 +7,21 @@ export USB_TGT=$USB_DISK/MyDocuments.backup
 echo "Backup MyDocuments to $USB_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/MyDocuments/ $USB_TGT
+~/Library/Mobile\ Documents/com~apple~CloudDocs/MyDocuments/ $USB_TGT
 
 echo "********************************************************************************"
 export USB_TGT=$USB_DISK/Books.backup
 echo "Backup Books to $USB_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/Books/ $USB_TGT
+~/Library/Mobile\ Documents/com~apple~CloudDocs/Books/ $USB_TGT
 
 echo "********************************************************************************"
 export USB_TGT=$USB_DISK/HomeVideos.backup
 echo "Backup Books to $USB_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/HomeVideos/ $USB_TGT
+~/Library/Mobile\ Documents/com~apple~CloudDocs/HomeVideos/ $USB_TGT
 
 echo "********************************************************************************"
 export USB_TGT=$USB_DISK/Music.backup

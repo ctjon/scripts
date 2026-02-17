@@ -7,21 +7,21 @@ export BKUP_TGT=$BKUP_DISK/MyDocuments.backup
 echo "Backup MyDocuments to $BKUP_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/MyDocuments/ $BKUP_TGT
+~/Library/Mobile\ Documents/com~apple~CloudDocs/MyDocuments/ $BKUP_TGT
 
 echo "********************************************************************************"
 export BKUP_TGT=$BKUP_DISK/Books.backup
 echo "Backup Books to $BKUP_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/Books/ $BKUP_TGT
+~/Library/Mobile\ Documents/com~apple~CloudDocs/Books/ $BKUP_TGT
 
 echo "********************************************************************************"
 export BKUP_TGT=$BKUP_DISK/HomeVideos.backup
 echo "Backup Books to $BKUP_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
-~/HomeVideos/ $BKUP_TGT
+~/Library/Mobile\ Documents/com~apple~CloudDocs/HomeVideos/ $BKUP_TGT
 
 echo "********************************************************************************"
 export BKUP_TGT=$BKUP_DISK/Music.backup
