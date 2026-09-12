@@ -1,0 +1,11 @@
+# Proton Drive backup trees: <local path> | <remote name>
+# Lines starting with '#' are comments. '~' expands to your home dir.
+/home/chris/MyDocuments | MyDocuments.backup
+/home/chris/playbooks | playbooks.backup
+/home/chris/scripts | scripts.backup
+/home/chris/HomeVideos | HomeVideos.backup
+/home/chris/Books | Books.backup
+/home/chris/Music | Music.backup
+/home/chris/Pictures | Pictures.backup
+/home/chris/ApplePhotos | ApplePhotos.backup
+/home/chris/AppleMusic | AppleMusic.backup

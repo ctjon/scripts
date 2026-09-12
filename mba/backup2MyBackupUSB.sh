@@ -3,21 +3,21 @@
 USB_DISK=/Volumes/MyBackupUSB
 
 echo "********************************************************************************"
-export USB_TGT=$USB_DISK/MyDocuments.backup
+export USB_TGT=$USB_DISK/MyDocuments-iCloud.backup
 echo "Backup MyDocuments to $USB_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
 ~/Library/Mobile\ Documents/com~apple~CloudDocs/MyDocuments/ $USB_TGT
 
 echo "********************************************************************************"
-export USB_TGT=$USB_DISK/Books.backup
+export USB_TGT=$USB_DISK/Books-iCloud.backup
 echo "Backup Books to $USB_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
 ~/Library/Mobile\ Documents/com~apple~CloudDocs/Books/ $USB_TGT
 
 echo "********************************************************************************"
-export USB_TGT=$USB_DISK/HomeVideos.backup
+export USB_TGT=$USB_DISK/HomeVideos-iCloud.backup
 echo "Backup Books to $USB_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
@@ -70,4 +70,25 @@ echo "Backup Pictures to $USB_TGT"
 rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
 --progress --exclude=.DS_Store \
 ~/Pictures/ $USB_TGT
+
+#echo "********************************************************************************"
+#export USB_TGT=$USB_DISK/MyDocuments-ProtonDrive.backup
+#echo "Backup MyDocuments to $USB_TGT"
+#rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
+#--progress --exclude=.DS_Store \
+#~/Library/CloudStorage/ProtonDrive-chris.tjon@pm.me-folder/MyDocuments/ $USB_TGT
+
+#echo "********************************************************************************"
+#export USB_TGT=$USB_DISK/Books-ProtonDrive.backup
+#echo "Backup Books to $USB_TGT"
+#rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
+#--progress --exclude=.DS_Store \
+#~/Library/CloudStorage/ProtonDrive-chris.tjon@pm.me-folder/Books/ $USB_TGT
+
+#echo "********************************************************************************"
+#export USB_TGT=$USB_DISK/HomeVideos-ProtonDrive.backup
+#echo "Backup Books to $USB_TGT"
+#rsync -aHKvzO --delete --delete-excluded --delete-during --no-o --no-g \
+#--progress --exclude=.DS_Store \
+#~/Library/CloudStorage/ProtonDrive-chris.tjon@pm.me-folder/HomeVideos/ $USB_TGT
 

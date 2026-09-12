@@ -1,0 +1,6 @@
+.pw
+*.bak
+*.tmp
+.DS_Store
+Thumbs.db
+*.sync-conflict-*
