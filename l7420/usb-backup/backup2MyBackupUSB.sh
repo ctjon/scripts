@@ -1,7 +1,7 @@
 #!/bin/bash
 
-USB_DISK=/var/run/media/chris/MyBackupUSB
-EXCLUDES=/home/chris/scripts/l7420/usb-backup/backup-excludes.txt
+USB_DISK=/var/run/media/`whoami`/MyBackupUSB
+EXCLUDES=$HOME/scripts/l7420/usb-backup/backup-excludes.txt
 
 echo "********************************************************************************"
 export USB_TGT=$USB_DISK/MyDocuments.backup
